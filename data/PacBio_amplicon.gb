@@ -1,0 +1,51 @@
+LOCUS       PacBio_amplicon        1647 bp    DNA     linear   SYN 03-DEC-2025
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+COMMENT     PacBio Amplicon for JUNV GPC Romero libraries
+FEATURES             Location/Qualifiers
+     termini5        1..47
+                     /label="termini 5' of gene"
+     variant_tag5    28
+                     /label="5' variant tag"
+     gene            48..1502
+                     /label="JUNV GPC gene"
+     barcode         1560..1575
+                     /label="16 nucleotide barcode"
+     termini3        1576..1647
+                     /label="termini 3' of gene"
+     variant_tag3    1602
+                     /label="3' variant tag"
+ORIGIN
+        1 ctagccattc agaggcagcc gagccacstc gctcaacgcg tgccaccatg ggccagttca
+       61 tcagcttcat gcaagagatc cccaccttcc tgcaagaggc cctgaatatt gccctggtgg
+      121 ccgtgtctct gatcgccatc atcaagggca tcgtgaacct gtacaagagc ggcctgttcc
+      181 agttcttcgt gtttctggcc ctggccggca gaagctgtac cgaggaagcc tttaagatcg
+      241 gcctgcacac cgagttccag accgtgtcct ttagcatggt cggactgttc agcaacaacc
+      301 ctcacgacct gcctctgctg tgcaccctga acaagagcca cctgtacatc aaaggcggca
+      361 acgcctcctt catgatcagc ttcgacgaca tcgaggtgct gctgccccag tacgacgtga
+      421 tcattcagca ccccgccgac atgagctggt gcagcaagtc cgatgatcag atctggctga
+      481 gccagtggtt catgaatgcc gtgggccacg actggcacct ggatcctcca tttctgtgcc
+      541 ggaaccggac caagaccgag ggcttcatct tccaagtgaa caccagcaag accggcgtga
+      601 acgagaacta cgccaagaaa ttcaagaccg ggatgcacca cctgtataga gagtaccccg
+      661 acagctgcct gaacggcaag ctgtgcctga tgaaggccca gcctacaagc tggcctctgc
+      721 agtgtcctct ggaccatgtg aacaccctgc actttctgac ccggggcaag aacatccagc
+      781 tgcctagaag aagcctgaag gccttcttca gctggtccct gaccgacagc agcggcaaag
+      841 atacacctgg cggctactgc ctggaagagt ggatgctggt ggctgccaag atgaagtgct
+      901 tcggcaatac cgccgtggcc aagtgcaacc tgaaccacga tagcgagttc tgcgacatgc
+      961 tgcggctgtt cgactacaac aagaacgcca tcaagaccct gaacgacgag acaaagaaac
+     1021 aagtgaatct gatgggccag accatcaacg ccctgatcag cgacaacctg ctgatgaaga
+     1081 acaagatccg cgagctgatg agcgtgccct actgcaacta caccaagttt tggtacgtga
+     1141 accacacact gagcggccag cacagcctgc ctagatgctg gctgatcaag aacaactcct
+     1201 acctgaacat cagcgacttc cggaacgact ggatcctgga atccgacttc ctgatctccg
+     1261 agatgctgag caaagagtac agcgaccggc agggcaagac ccctctgact ctggtggaca
+     1321 tctgcttttg gagcaccgtg ttctttaccg ccagcctgtt cctgcacctc gtgggcattc
+     1381 ctacacaccg gcacattaga ggcgaggcct gtcctctgcc tcacagactg aattctctcg
+     1441 gcggctgcag atgcggcaag taccccaacc tgaagaaacc cacagtgtgg cggagaaggc
+     1501 actaatgagg cgcgcctagt tggatcacac tctttcccta cacgacgctc ttccgatctn
+     1561 nnnnnnnnnn nnnnntctag attcgagaga gaaatgttcc tsgtggagtt ccgcgttaca
+     1621 taacttacgg ctcgtactgg ttgagcg
+//

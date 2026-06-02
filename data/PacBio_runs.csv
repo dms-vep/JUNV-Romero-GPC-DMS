@@ -1,0 +1,3 @@
+library,run,fastq
+LibA,LibA-VSVG-260316,/fh/fast/bloom_j/computational_notebooks/ccarr/2025/JUNV_Romero_GPC_DMS/data/ccs_fastq/LibA-VSVG.fastq.gz
+LibB,LibB-VSVG-260316,/fh/fast/bloom_j/computational_notebooks/ccarr/2025/JUNV_Romero_GPC_DMS/data/ccs_fastq/LibB-VSVG.fastq.gz
