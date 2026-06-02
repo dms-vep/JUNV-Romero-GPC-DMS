@@ -1,0 +1,8 @@
+name: bbtools_utils
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - bbmap

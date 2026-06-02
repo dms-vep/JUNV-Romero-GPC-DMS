@@ -211,24 +211,8 @@ avg_antibody_escape: null
 # define the pH stability selections to average
 avg_stability:
   stability:
-    # escape_plot_kwargs:
-    #   <<: *avg_escape_plot_kwargs_default
-    #   init_site_statistic: sum
-    #   init_floor_at_zero: false
-    #   addtl_slider_stats:
-    #     times_seen: 2
-    #     escape_std: 0.85
-    #   addtl_slider_stats_as_max: [escape_std]
-    #   slider_binding_range_kwargs:
-    #     times_seen:
-    #       min: 1
-    #       max: 10
-    #       step: 1
-    #   avg_type: median
-    #   per_model_tooltip: true
-    # plot_hide_stats: *plot_hide_stats_default
     <<: *avg_antibody_escape_default
-    title: Escape map for SCH23-y2021-s056
+    title: pH stability
     selections:
       - LibA-260506-pH-1
       - LibB-260506-pH-1

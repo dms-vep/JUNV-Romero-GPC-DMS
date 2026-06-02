@@ -1,0 +1,8 @@
+name: pacbio_utils
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - pbtk

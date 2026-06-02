@@ -1,0 +1,33 @@
+# Configuration to make wrapped (multi-row) heatmaps
+
+entry_in_C_musculinus_TfR1: &C_musculinus_TfR1
+  data_csv: results/summaries/entry_293T-various-TfR1s.csv
+  title: effect of cell entry mutations with cells expressing C musculinus TfR1
+  effect_col: entry in C musculinus TfR1 cells
+  data_query_str: {}  # ignore this site
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  site_label_start: 10
+  color_scheme:
+    - "#E69F00"
+    - "#f7f7f7"   # white
+    - "#0072B2"
+  fixed_min: -5  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+
+entry_in_C_callosus_TfR1: &C_callosus_TfR1
+  data_csv: results/summaries/entry_293T-various-TfR1s.csv
+  title: effect of cell entry mutations with cells expressing C callosus TfR1
+  effect_col: entry in C callosus TfR1 cells
+  data_query_str: {}  # ignore this site
+  sites_per_row: 130  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  site_label_start: 10
+  color_scheme:
+    - "#E69F00"
+    - "#f7f7f7"   # white
+    - "#0072B2"
+  fixed_min: -5 # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order

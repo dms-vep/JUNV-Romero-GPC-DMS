@@ -1,0 +1,61 @@
+# Configuration for `dms-viz`, keyed by names given to output JSONs
+
+
+func_effects:
+  pdb_id: 9MT6 # Protein Data Bank ID
+  name: Junin GPC mutation effects on cell entry  # name assigned to visualization
+  pdb_type: biological_assembly  # show 'asymmetric_unit' or 'biological_assembly' for structure
+  # `data_csv` is CSV of DMS data, must have columns 'site', 'wildtype', and 'mutant'. Also must
+  # have a column corresponding to `metric` defined below, and `opt_params[condition]` if that is
+  # defined; OR you must specify `melt_condition_metric_cols`.
+  data_csv: results/summaries/entry_293T-various-TfR1s.csv  # CSV of DMS data
+  # `sitemap_csv` is CSV that must have columns 'reference_site' (corresponding to site in `data_csv`)
+  # as well as 'sequential_site', 'protein_site', and 'chains' which have meaning described here:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/data-requirements/#sitemap
+  sitemap_csv: data/inputs_for_dms-viz/sitemap.csv
+  # `melt_condition_metric_cols` is for when there are several columns in `data_csv`
+  # that need to be melted to create the 'metric' column and 'condition' column defined
+  # in `opt_params`. In that case, list the columns to melt. Otherwise set to 'null'.
+  melt_condition_metric_cols: 
+    - entry in C musculinus TfR1 cells
+    - entry in C callosus TfR1 cells
+  metric: effect  # metric to plot, in `data_csv` or created by `melt_conditions_metric_cols`
+  # optional params, have same meaning as to `configure-dms-viz`:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/
+  opt_params:
+    condition: cells
+    included-chains: A B C D E F G H I
+    # excluded-chains: D E F H I J L M N G K O
+    alphabet: RKHDEQNSTYWFAILMVGPC
+    floor: False
+    summary-stat: sum
+
+pH_stability:
+  pdb_id: 9MT6 # Protein Data Bank ID
+  name: Junin GPC mutation effects on cell entry  # name assigned to visualization
+  pdb_type: biological_assembly  # show 'asymmetric_unit' or 'biological_assembly' for structure
+  # `data_csv` is CSV of DMS data, must have columns 'site', 'wildtype', and 'mutant'. Also must
+  # have a column corresponding to `metric` defined below, and `opt_params[condition]` if that is
+  # defined; OR you must specify `melt_condition_metric_cols`.
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv  # CSV of DMS data
+  # `sitemap_csv` is CSV that must have columns 'reference_site' (corresponding to site in `data_csv`)
+  # as well as 'sequential_site', 'protein_site', and 'chains' which have meaning described here:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/data-requirements/#sitemap
+  sitemap_csv: data/inputs_for_dms-viz/sitemap.csv
+  # `melt_condition_metric_cols` is for when there are several columns in `data_csv`
+  # that need to be melted to create the 'metric' column and 'condition' column defined
+  # in `opt_params`. In that case, list the columns to melt. Otherwise set to 'null'.
+  melt_condition_metric_cols: 
+    - pH stability
+  metric: stability  # metric to plot, in `data_csv` or created by `melt_conditions_metric_cols`
+  # optional params, have same meaning as to `configure-dms-viz`:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/
+  opt_params:
+    condition: cells
+    included-chains: A B C D E F G H I
+    # excluded-chains: D E F H I J L M N G K O
+    alphabet: RKHDEQNSTYWFAILMVGPC
+    floor: False
+    summary-stat: sum
+    # tooltip-cols: {entry in 293T C musculinus EU164541 cells: entry in 293T C musculinus EU164541 cells}
+    filter-cols: {entry in C musculinus TfR1 cells: entry in C musculinus TfR1 cells}
