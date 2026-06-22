@@ -5,15 +5,15 @@ entry_in_C_musculinus_TfR1: &C_musculinus_TfR1
   title: effect of cell entry mutations with cells expressing C musculinus TfR1
   effect_col: entry in C musculinus TfR1 cells
   data_query_str: {}  # ignore this site
-  sites_per_row: 130  # how many sites in each row
+  sites_per_row: 110  # how many sites in each row
   site_label_freq: 10  # label sites at this frequency
   site_label_start: 10
   color_scheme:
     - "#E69F00"
     - "#f7f7f7"   # white
     - "#0072B2"
-  fixed_min: -5  # fix heatmap min at this
-  fixed_max: 1  # fix heatmap max at this
+  fixed_min: -6  # fix heatmap min at this
+  fixed_max: 2  # fix heatmap max at this
   alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
 
 entry_in_C_callosus_TfR1: &C_callosus_TfR1
@@ -21,13 +21,32 @@ entry_in_C_callosus_TfR1: &C_callosus_TfR1
   title: effect of cell entry mutations with cells expressing C callosus TfR1
   effect_col: entry in C callosus TfR1 cells
   data_query_str: {}  # ignore this site
-  sites_per_row: 130  # how many sites in each row
+  sites_per_row: 110  # how many sites in each row
   site_label_freq: 10  # label sites at this frequency
   site_label_start: 10
   color_scheme:
     - "#E69F00"
     - "#f7f7f7"   # white
     - "#0072B2"
-  fixed_min: -5 # fix heatmap min at this
-  fixed_max: 1  # fix heatmap max at this
+  fixed_min: -6 # fix heatmap min at this
+  fixed_max: 2  # fix heatmap max at this
   alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+
+pH_stability: &pH_stability
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv
+  title: effect of mutations on pH stability
+  effect_col: pH stability
+  data_query_str: {}  # ignore this site
+  sites_per_row: 110  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  site_label_start: 10
+  color_scheme:
+    - "#E7298A"
+    - "#f7f7f7"   # white
+    - "#4DAC26"
+  fixed_min: -3 # fix heatmap min at this
+  fixed_max: 3  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in C musculinus TfR1 cells
+    cutoff: -5

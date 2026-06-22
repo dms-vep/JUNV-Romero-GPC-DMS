@@ -139,13 +139,38 @@ rule wrapped_heatmap:
     output:
         chart_html="results/wrapped_heatmaps/{wrapped_hm}_wrapped_heatmap.html",
     params:
-        params_dict=lambda wc: wrapped_heatmap_config[wc.wrapped_hm]
+        params_dict=lambda wc: wrapped_heatmap_config[wc.wrapped_hm],
     log:
         notebook="results/notebooks/wrapped_heatmap_{wrapped_hm}.ipynb",
     conda:
         os.path.join(config["pipeline_path"], "environment.yml"),
     notebook:
         "analysis_notebooks/wrapped_heatmap.ipynb"
+
+
+rule map_scores_onto_pdb:
+    """Map scores onto PDB structure."""
+    input:
+        # input files
+        dms_scores="results/summaries/cell_entry_and_pH_stability.csv",
+        pdb_file="data/9MT6.pdb",
+        nb="analysis_notebooks/pdb_mapping.ipynb",
+    output:
+        nb="results/notebooks/pdb_mapping.ipynb",
+    params:
+        pdb_dir="results/mapped_scores_onto_pdb/",
+    log:
+        "results/logs/map_scores_onto_pdb.txt",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml")
+    shell:
+        """
+        papermill {input.nb} {output.nb} \
+            -p dms_scores {input.dms_scores} \
+            -p pdb_file {input.pdb_file} \
+            -p pdb_dir {params.pdb_dir} \
+            &> {log}
+        """
     
 
 
@@ -160,5 +185,8 @@ docs["Additional analyses and data files"] = {
     "Row-wrapped heatmaps" : {
         wrapped_hm: rules.wrapped_heatmap.output.chart_html.format(wrapped_hm=wrapped_hm)
         for wrapped_hm in wrapped_heatmap_config
-    }
+    },
+    "Map DMS scores onto PDB structure":{
+        "Notebook mapping scores onto pdb structure" : rules.map_scores_onto_pdb.output.nb,
+    },
 }
