@@ -1,0 +1,123 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    gizmoj9 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 --threads-max 1 -s Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo -o 810419_NC_010562-1_2003-XX-XX
+Seed:    335133 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 11 10:45:01 2026
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000142097 secs
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00152802 secs
+Alignment has 4 sequences with 1464 columns, 55 distinct patterns
+62 parsimony-informative, 412 singleton sites, 990 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.96046e-06 secs
+   1  810419_NC_010562-1_2003-XX-XX                0.82%    passed     63.55%
+   2  SPH114202_NC_006317-1_XXXX-XX-XX             0.00%    passed     91.78%
+   3  SP17_Brazil_SP_2020_PX308627-1_2020-06-01    0.00%    passed     99.01%
+   4  SPH114202_U41071-1_XXXX-XX-XX                0.00%    passed     91.78%
+****  TOTAL                                        0.20%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: SPH114202_U41071-1_XXXX-XX-XX is identical to SPH114202_NC_006317-1_XXXX-XX-XX but kept for subsequent analysis
+Checking for duplicate sequences: done in 2.00272e-05 secs
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+4783 trees examined
+Threads: 1 / Time: 1.000 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3932
+Determining AUTO threadcount: done in 1.00009 secs using 83.87% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3812.311
+Optimal log-likelihood: -3812.086
+Rate parameters:  A-C: 1.11204  A-G: 7.41965  A-T: 2.23024  C-G: 2.05972  C-T: 14.06628  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.195  G: 0.208  T: 0.284
+Proportion of invariable sites: 0.337
+Gamma shape alpha: 1.569
+Parameters optimization took 1 rounds (0.001 sec)
+Time for fast ML tree search: 0.003 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1464 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           TIM+F+I
+Corrected Akaike Information Criterion: TIM+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta.model.gz
+CPU time for ModelFinder: 0.952 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 1.143 seconds (0h:0m:1s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -3814.819
+2. Current log-likelihood: -3813.963
+3. Current log-likelihood: -3813.446
+Optimal log-likelihood: -3813.037
+Rate parameters:  A-C: 1.00000  A-G: 10.19835  A-T: 1.00000  C-G: 1.00000  C-T: 10.19835  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.195  G: 0.208  T: 0.284
+Proportion of invariable sites: 0.533
+Parameters optimization took 3 rounds (0.000 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 3.60012e-05 secs using 83.33% CPU
+Computing ML distances took 0.000060 sec (of wall-clock time) 0.000054 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 1.90735e-05 secs using 78.64% CPU
+Constructing RapidNJ tree: done in 1.09673e-05 secs using 82.06% CPU
+Computing RapidNJ tree took 0.000064 sec (of wall-clock time) 0.000056 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3813.038
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 1 parsimony trees... 0.000 second
+Computing log-likelihood of 1 initial trees ... 0.000 seconds
+Current best score: -3813.037
+
+Do NNI search on 2 best initial trees
+Finish initializing candidate tree set (2)
+Current best tree score: -3813.037 / CPU time: 0.003
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -3813.037
+2. Current log-likelihood: -3812.939
+3. Current log-likelihood: -3812.798
+4. Current log-likelihood: -3812.707
+5. Current log-likelihood: -3812.647
+Optimal log-likelihood: -3812.593
+Rate parameters:  A-C: 1.00000  A-G: 11.91228  A-T: 1.00000  C-G: 1.00000  C-T: 11.91228  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.195  G: 0.208  T: 0.284
+Proportion of invariable sites: 0.536
+Parameters optimization took 5 rounds (0.001 sec)
+BEST SCORE FOUND : -3812.593
+Total tree length: 1.350
+
+Total number of iterations: 2
+CPU time used for tree search: 0.003 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.003 sec (0h:0m:0s)
+Total CPU time used: 0.966 sec (0h:0m:0s)
+Total wall-clock time used: 1.175 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta.iqtree
+  Maximum-likelihood tree:       Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta.treefile
+  Likelihood distances:          Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta.mldist
+  Screen log file:               Results/SABV_GPC/Alignments/codon_ungapped-delim.fasta.log
+
+Date and Time: Tue Aug 11 10:45:02 2026

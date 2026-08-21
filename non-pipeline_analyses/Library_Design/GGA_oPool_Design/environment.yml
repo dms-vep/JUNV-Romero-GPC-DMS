@@ -1,0 +1,10 @@
+name: JUNV_library_design
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - biopython
+  - jupyterlab
+  - pandas

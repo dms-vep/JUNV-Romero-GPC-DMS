@@ -1,0 +1,95 @@
+LOCUS       CVsS_gp1                1455 bp ss-DNA     linear   UNA 10-MAR-2025
+DEFINITION  Chapare virus segment S, complete sequence.
+ACCESSION   NC_010562
+VERSION     .
+KEYWORDS    .
+SOURCE      Mammarenavirus chapareense
+  ORGANISM  Mammarenavirus chapareense
+REFERENCE   1  (bases 1 to 1455)
+  AUTHORS   Delgado S, Erickson BR, Agudo R, Blair PJ, Vallejo E, Albarino CG, 
+            Vargas J, Comer JA, Rollin PE, Ksiazek TG, Olson JG, Nichol ST.
+  TITLE     Chapare virus, a newly discovered arenavirus isolated from a fatal 
+            hemorrhagic fever case in Bolivia
+  JOURNAL   PLoS Pathog. 4 (4), E1000047 (2008)
+  PUBMED    18421377
+REFERENCE   2  (bases 1 to 1455)
+  AUTHORS   Erickson BR, Albarino C, Nichol ST.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2007) Special Pathogens Branch, Centers for 
+            Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA 
+            30333, USA
+REFERENCE   3  (bases 1 to 1455)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2005) National Center for Biotechnology 
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1455)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Mar 10, 2025 from SnapGene 8.0.2
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "PLoS 
+            Pathog."; date: "2008"; volume: "4"; issue: "4"; pages: "E1000047"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (02-NOV-2007) Special Pathogens Branch, Centers for Disease Control 
+            and Prevention, 1600 Clifton Road, Atlanta, GA 30333, USA"
+COMMENT     SGRef: number: 3; type: "Journal Article"; journalName: "Submitted 
+            (14-FEB-2005) National Center for Biotechnology Information, NIH, 
+            Bethesda, MD 20894, USA"
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            NCBI review. The reference sequence was derived from EU260463. 
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1455
+                     /segment="S"
+                     /host="Homo sapiens"
+                     /strain="810419"
+                     /mol_type="genomic RNA"
+                     /isolation_source="human sera"
+                     /collection_date=2003
+                     /note="/geo_loc_name=Bolivia: Samuzabeti, Chapare Province,
+                     Cochabamba Department"
+                     /db_xref="taxon:3052302"
+                     /organism="Mammarenavirus chapareense"
+     gene            1..1455
+                     /locus_tag="GPC"
+                     /gene=GPC
+     CDS             1..1455
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQLVSFFQEIPNIIQEAINIALIAVSLIAILKGLVNLWKSGLFQ
+                     LLVFLILAGRSCSFKIGRSTELQNITINMLKVFEDHPISCTVNKTLYYIRESENATWCV
+                     EIAALDMSVLLSPHDPRVMGNLSNCVHPDIKHRSELLGLLEWILRALKYDFLNYPPLLC
+                     EKVTSSVNETRIQINVSDSAGSHDFKETMLQRLAILFGTKLMFDKTPKQFIVIRNQTWV
+                     NQCKSNHVNTLHLMMANAGHAVKLRRLQGVFTWTITDAAGNDMPGGYCLERWMLVTSDL
+                     KCFGNTALAKCNLNHDSEFCDMLKLFEFNKKAIESLNDNTKNKVNLLTHSINALISDNL
+                     LMKNRLKELLDTPYCNYTKFWYVNHTITGEHSLPRCWMVKNNSYLNESEFRNDWILESD
+                     HLLSEMLNKEYFDRQGKTPITLVDICFWSTLFFTTTLFLHLVGFPTHRHIQGEPCPLPH
+                     KLNSNGGCRCGRYPELKKPTTWHRKH"
+ORIGIN
+        1 atgggtcaac ttgtgagttt ctttcaggaa attcctaaca tcatacagga agcaatcaac
+       61 attgctctaa tagctgtcag cctcattgct atcctaaaag ggttggtcaa tctgtggaaa
+      121 agtggtttgt ttcaactcct ggtcttcctt attctagctg gaaggtcctg ctcattcaaa
+      181 attggaagat ccacagaact ccaaaacatc acaataaaca tgttaaaggt ctttgaggac
+      241 catcctattt cttgcacagt gaacaaaact ctttattaca tccgtgaaag tgagaatgca
+      301 acatggtgtg tagagattgc tgcactggac atgtctgtct tgctctcgcc acatgatcca
+      361 cgtgtaatgg gcaacctatc aaactgtgtt cacccagaca ttaaacatag atcagaactt
+      421 ctaggtctat tggagtggat tttgagagct ctgaaatatg attttctaaa ttatccaccc
+      481 ctcttgtgtg aaaaagtgac atcatctgtc aatgaaacac gcattcagat aaatgtgagc
+      541 gatagtgcag gttctcatga tttcaaagaa accatgctcc aaaggctggc catactattt
+      601 ggcacaaaat tgatgtttga taaaacacct aagcagttca tagttatcag aaatcagact
+      661 tgggtgaatc agtgcaagtc caatcatgtc aacacgttgc atttgatgat ggctaatgct
+      721 gggcatgctg ttaaattaag aagattgcaa ggggtgttca cttggacgat cacagatgct
+      781 gctggcaacg acatgcctgg aggttattgt ttggaaaggt ggatgttagt cacatctgac
+      841 ctgaaatgtt ttggcaacac tgctcttgca aagtgtaact taaatcatga ctctgagttc
+      901 tgtgacatgt tgaaactgtt tgaatttaac aaaaaagcaa ttgagtcatt gaatgacaac
+      961 acaaagaaca aagtcaatct attaacacat tccattaatg ctttaatttc tgacaatctt
+     1021 ttgatgaaga atagattaaa agagttattg gacactccct actgcaacta cacaaaattc
+     1081 tggtatgtca accacaccat cacaggagag cattcacttc cacgctgttg gatggttaaa
+     1141 aacaacagct acctcaatga aagtgaattt agaaatgatt ggattcttga gagtgaccac
+     1201 ttgttgtccg aaatgttgaa caaagagtat tttgacagac aagggaaaac cccaataaca
+     1261 cttgttgaca tctgcttttg gagcacactg ttcttcacaa caacattgtt tctccatcta
+     1321 gtaggcttcc caactcacag acacattcag ggagaacctt gcccactgcc tcacaagctc
+     1381 aacagcaatg gtggatgcag gtgtggcaga tatccagaac tcaagaaacc aacaacctgg
+     1441 cacaggaaac actga
+//

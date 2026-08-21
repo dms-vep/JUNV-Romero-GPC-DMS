@@ -1,0 +1,7 @@
+Building a tree via:
+	iqtree3 --threads-max 1 -s Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo \-o SPH114202_NC_006317-1_XXXX-XX-XX > Results/CHAPV_GPC/Alignments/codon_ungapped-delim.iqtree.log
+	Please use the corresponding citations according to
+	https://iqtree.github.io/doc/Home#how-to-cite-iq-tree
+Conducting a model test... see 'Results/CHAPV_GPC/Alignments/codon_ungapped-delim.iqtree.log' for the result. You can specify this with --substitution-model in future runs.
+
+Building original tree took 1.833622932434082 seconds

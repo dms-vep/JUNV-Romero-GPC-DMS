@@ -1,0 +1,81 @@
+LOCUS       sequence_(12)           1455 bp ss-DNA     linear   UNA 19-FEB-2025
+DEFINITION  Junin virus segment S, complete genome.
+ACCESSION   NC_005081
+VERSION     .
+KEYWORDS    .
+SOURCE      Mammarenavirus juninense
+  ORGANISM  Mammarenavirus juninense
+REFERENCE   1  (bases 1 to 1458)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2003) National Center for Biotechnology 
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   2  (bases 1 to 1458)
+  AUTHORS   Bowen MD, Thurman K, Minor E, Meyer RF, Malfatti SA, Do LH, Smith 
+            KL, McCready PM, Chain PSG.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2003) Viral Sequencing Group, Lawrence Livermore 
+            National Laboratory, 7000 East Avenue, Livermore, CA 94550, USA
+REFERENCE   3  (bases 1 to 1458)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 19, 2025 from SnapGene 8.0.2
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Submitted 
+            (30-AUG-2003) National Center for Biotechnology Information, NIH, 
+            Bethesda, MD 20894, USA"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (01-AUG-2003) Viral Sequencing Group, Lawrence Livermore National 
+            Laboratory, 7000 East Avenue, Livermore, CA 94550, USA"
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            NCBI review. The reference sequence is identical to AY358023. 
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1455
+                     /segment="S"
+                     /strain="XJ13"
+                     /mol_type="genomic RNA"
+                     /label=small segment
+                     /organism="Mammarenavirus juninense"
+     gene            1..1455
+                     /locus_tag="GPC"
+                     /gene="GPC"
+     CDS             1..1455
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQFISFMQEIPTFLQEALNIALVAVSLIAIIKGIVNLYKSGLFQ
+                     FFVFLALAGRSCTEEAFKIGLHTEFQTVSFSMVGLFSNNPHDLPLLCTLNKSHLYIKGG
+                     NASFQISFDDIAVLLPQYDVIIQHPADMSWCSKSDDQIWLSQWFMNAVGHDWHLDPPFL
+                     CRNRTKTEGFIFQVNTSKTGVNENYAKKFKTGMHHLYREYPDSCPNGKLCLMKAQPTSW
+                     PLQCPLDHVNTLHFLTRGKNIQLPRRSLKAFFSWSLTDSSGKDTPGGYCLEEWMLVAAK
+                     MKCFGNTAVAKCNLNHDSEFCDMLRLFDYNKNAIKTLNDETKKQVNLMGQTINALISDN
+                     LLMKNKIRELMSVPYCNYTKFWYVNHTLSGQHSLPRCWLIKNNSYLNISDFRNDWILES
+                     DFLISEMLSKEYSDRQGKTPLTLVDICFWSTVFFTASLFLHLVGIPTHRHIRGEACPLP
+                     HRLNSLGGCRCGKYPNLKKPTVWRRGH"
+ORIGIN
+        1 atggggcagt tcattagctt catgcaagaa ataccaacct ttttgcagga ggctctgaac
+       61 attgctcttg ttgcagtcag tctcattgcc atcattaagg gtatagtgaa cttgtacaaa
+      121 agtggtttat tccaattctt tgtattccta gcgcttgcag gaagatcctg cacagaagaa
+      181 gctttcaaaa tcggactgca cactgagttc cagactgtgt ccttctcaat ggtgggtctc
+      241 ttttccaaca atccacatga cctacctttg ttgtgtacct taaacaagag ccatctttac
+      301 attaaggggg gcaatgcttc atttcagatc agctttgatg atattgcagt attgttgcca
+      361 cagtatgatg ttataataca acatccagca gatatgagct ggtgttccaa aagtgatgat
+      421 caaatttggt tgtctcagtg gttcatgaat gctgtgggac atgattggca tctagaccca
+      481 ccatttctgt gtaggaaccg tacaaagaca gaaggcttca tctttcaagt caacacctcc
+      541 aagactggtg ttaatgaaaa ttatgctaag aagtttaaga ctggcatgca tcatttatat
+      601 agagaatatc ctgactcttg cccgaatggc aaactgtgct taatgaaggc acaacctacc
+      661 agttggcctc tccaatgtcc actcgaccac gttaacacat tacacttcct tacaagaggt
+      721 aaaaacattc aacttccaag gaggtccttg aaagcattct tctcctggtc tttgacagac
+      781 tcatccggca aggatacccc tggaggctat tgtctagaag agtggatgct cgtagcagcc
+      841 aaaatgaagt gttttggcaa tactgctgta gcaaaatgca atttgaatca tgactctgaa
+      901 ttctgtgaca tgttgaggct ttttgattac aacaaaaatg ctatcaaaac cctaaatgat
+      961 gaaactaaga aacaagtaaa tctgatgggg cagacaatca atgccctgat atctgacaat
+     1021 ttattgatga aaaacaaaat tagggaactg atgagtgtcc cttactgcaa ttacacaaaa
+     1081 ttttggtatg tcaaccacac actttcagga caacactcat taccaaggtg ctggttaata
+     1141 aaaaacaaca gctatttgaa catctctgac ttccgtaatg actggatatt agaaagtgac
+     1201 ttcttaattt ctgaaatgct aagcaaagag tattcggaca ggcagggtaa aactcctttg
+     1261 actttagttg acatctgttt ttggagcaca gtattcttca cagcgtcact cttccttcac
+     1321 ttggtgggta tacccaccca cagacacatc aggggcgaag catgcccttt gccacacagg
+     1381 ttgaacagct tgggtggttg cagatgtggt aagtacccca atctaaagaa accaacagtt
+     1441 tggcgtagag gacac
+//

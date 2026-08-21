@@ -1,0 +1,11 @@
+augur refine is using TreeTime version 0.12.1
+
+0.00	-TreeAnc: set-up
+
+0.01	-SequenceData: loaded alignment.
+
+0.01	-SeqData: making compressed alignment...
+
+0.02	-SequenceData: constructed compressed alignment...
+updated tree written to Results/CHAPV_GPC/Trees/tree.nwk
+node attributes written to Results/CHAPV_GPC/Trees/tree_branch_lengths.json

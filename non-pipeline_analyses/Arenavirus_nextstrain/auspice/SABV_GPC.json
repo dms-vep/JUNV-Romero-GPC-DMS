@@ -1,0 +1,410 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Diversity of Sabia virus glycoprotein complex (GPC)",
+    "updated": "2026-08-11",
+    "maintainers": [
+      {
+        "name": "the Bloom lab",
+        "url": "https://jbloomlab.org/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "distance_measure": "div",
+      "color_by": "virus",
+      "transmission_lines": false
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1467,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "Results/SABV_GPC/SABV_GPC_reference.gb"
+      },
+      "GPC": {
+        "end": 1467,
+        "seqid": "Results/SABV_GPC/SABV_GPC_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "description": "Phylogeny of Glycoprotein complex (GPC). ",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Brazil",
+            "#AABD52"
+          ]
+        ]
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "virus",
+        "title": "Virus",
+        "type": "categorical"
+      },
+      {
+        "key": "candid_related",
+        "title": "Vaccine_related",
+        "type": "categorical"
+      },
+      {
+        "key": "date",
+        "title": "Date",
+        "type": "temporal"
+      }
+    ],
+    "filters": [
+      "virus",
+      "date",
+      "host",
+      "candid_related",
+      "country"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Brazil": {
+            "latitude": -10.3333332,
+            "longitude": -53.1999999
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "SP17_Brazil_SP_2020_PX308627-1_2020-06-01",
+        "node_attrs": {
+          "div": 0.0708518,
+          "url": "https://www.ncbi.nlm.nih.gov/nuccore/PX308627.1",
+          "accession": "PX308627.1",
+          "author": {
+            "author": "Claro et al",
+            "title": "Direct Submission",
+            "journal": "Submitted (05-SEP-2025) Department of Microbiology, Immunology, and Molecular Genetics, University of Kentucky, 180 N Martin Luther King Blvd, 338, Lexington, KY 40507, USA",
+            "value": "Claro et al"
+          },
+          "candid_related": {
+            "value": "no"
+          },
+          "virus": {
+            "value": "Sabia virus"
+          },
+          "date": {
+            "value": "2020-06-01"
+          },
+          "country": {
+            "value": "Brazil"
+          },
+          "host": {
+            "value": "Human"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T10C",
+              "C15G",
+              "G36A",
+              "T39C",
+              "C57T",
+              "C67T",
+              "T94C",
+              "A106G",
+              "T108C",
+              "T112C",
+              "C132T",
+              "G168A",
+              "T174C",
+              "T199C",
+              "G213A",
+              "T219C",
+              "G237A",
+              "T264C",
+              "C291T",
+              "A293G",
+              "A294G",
+              "T333C",
+              "C347T",
+              "A351G",
+              "C366T",
+              "T375C",
+              "C376T",
+              "C393T",
+              "G405A",
+              "G417A",
+              "T441C",
+              "T444C",
+              "C465T",
+              "T474C",
+              "G483A",
+              "T484C",
+              "A492G",
+              "C496G",
+              "T501A",
+              "A510C",
+              "A519G",
+              "C537T",
+              "G550T",
+              "T564C",
+              "G565A",
+              "A567G",
+              "G591T",
+              "A625C",
+              "C627T",
+              "A641C",
+              "G647C",
+              "A677G",
+              "A678T",
+              "T681C",
+              "C687T",
+              "T715C",
+              "T735C",
+              "C743T",
+              "A828G",
+              "C861T",
+              "C870T",
+              "A882G",
+              "G906A",
+              "G936A",
+              "C939T",
+              "A948T",
+              "G951A",
+              "G963A",
+              "T972C",
+              "A987G",
+              "T991A",
+              "C1033T",
+              "G1041A",
+              "T1060C",
+              "G1062A",
+              "T1071C",
+              "T1104C",
+              "G1151A",
+              "A1245T",
+              "G1266A",
+              "T1273C",
+              "T1281C",
+              "T1299C",
+              "T1326A",
+              "A1344G",
+              "T1365A",
+              "G1397A",
+              "T1398C",
+              "A1404G",
+              "A1431T"
+            ],
+            "GPC": [
+              "F5L",
+              "I36V",
+              "K98R",
+              "A116V",
+              "Q166E",
+              "G184W",
+              "E189K",
+              "I209L",
+              "Q214P",
+              "R216T",
+              "K226S",
+              "S248F",
+              "K316N",
+              "L331M",
+              "R384K",
+              "S466N",
+              "E477D"
+            ]
+          },
+          "labels": {
+            "aa": "GPC: F5L, I36V, K98R, A116V, Q166E, G184W, E189K, I209L, Q214P, R216T, K226S, S248F, K316N, L331M, R384K, S466N, E477D"
+          }
+        }
+      },
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.063868
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T60C",
+              "C129T",
+              "C147T",
+              "T152C",
+              "G162A",
+              "A164G",
+              "T192C",
+              "T234C",
+              "C249A",
+              "G263A",
+              "T282C",
+              "T384C",
+              "T399A",
+              "A402T",
+              "A403G",
+              "C427T",
+              "T453A",
+              "A456G",
+              "A510G",
+              "A525G",
+              "A548T",
+              "C594T",
+              "G597A",
+              "T600C",
+              "C618T",
+              "G622A",
+              "C639T",
+              "C640A",
+              "G645A",
+              "A667T",
+              "T689A",
+              "G717A",
+              "A745G",
+              "G756A",
+              "A795G",
+              "T798C",
+              "G813T",
+              "T838C",
+              "G840A",
+              "A846G",
+              "C852T",
+              "C888T",
+              "T891C",
+              "T897C",
+              "T900C",
+              "A955G",
+              "G982A",
+              "C1008T",
+              "G1032A",
+              "C1044T",
+              "C1057T",
+              "C1077T",
+              "G1128A",
+              "A1131G",
+              "T1164C",
+              "A1167G",
+              "C1191T",
+              "C1233T",
+              "G1239A",
+              "T1242C",
+              "T1296C",
+              "G1335A",
+              "A1338C",
+              "C1386T",
+              "A1400G",
+              "A1419G"
+            ],
+            "GPC": [
+              "I51T",
+              "K55R",
+              "S88N",
+              "K135E",
+              "Y183F",
+              "D208N",
+              "Q214K",
+              "T223S",
+              "V230E",
+              "S249G",
+              "K319E",
+              "E328K",
+              "K467R"
+            ]
+          },
+          "labels": {
+            "aa": "GPC: I51T, K55R, S88N, K135E, Y183F, D208N, Q214K, T223S, V230E, S249G, K319E, E328K, K467R"
+          }
+        },
+        "children": [
+          {
+            "name": "SPH114202_NC_006317-1_XXXX-XX-XX",
+            "node_attrs": {
+              "div": 0.063869,
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_006317.1",
+              "accession": "NC_006317.1",
+              "author": {
+                "author": "Gonzalez et al",
+                "title": "Genetic characterization and phylogeny of Sabia virus, an emergent pathogen in Brazil",
+                "journal": "Virology 221 (2), 318-324 (1996)",
+                "paper_url": "https://pubmed.ncbi.nlm.nih.gov/8661442",
+                "value": "Gonzalez et al"
+              },
+              "candid_related": {
+                "value": "no"
+              },
+              "virus": {
+                "value": "Sabia virus"
+              },
+              "date": {
+                "value": "XXXX-XX-XX"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "SPH114202_U41071-1_XXXX-XX-XX",
+            "node_attrs": {
+              "div": 0.063869,
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/U41071.1",
+              "accession": "U41071.1",
+              "author": {
+                "author": "Gonzalez et al",
+                "title": "Genetic characterization and phylogeny of Sabia virus, an emergent pathogen in Brazil",
+                "journal": "Virology 221 (2), 318-324 (1996)",
+                "paper_url": "https://pubmed.ncbi.nlm.nih.gov/8661442",
+                "value": "Gonzalez et al"
+              },
+              "candid_related": {
+                "value": "no"
+              },
+              "virus": {
+                "value": "Sabia virus"
+              },
+              "date": {
+                "value": "XXXX-XX-XX"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "root_sequence": {
+    "nuc": "ATGGGTCAATTGTTCAGCTTTTTTGAAGAAGTTCCGAATATCATCCATGAGGCTATCAATATAGCTCTGATAGCAGTGAGCTTAATTGCTGCCTTGAAAGGGATGATTAACTTGTGGAAGAGTGGCCTCTTCCAATTGATATTCTTCTTGATTCTAGCAGGGAAATCGTGTTCTTTTAGAATTGGAAGGAGTACAGAATTGCAAAACATAACGTTTGATATGTTGAAGGTATTTGAGGACCACCCCACCTCTTGCATGGTGAGTCATTCCACCTACTATGTTCATGAAAACAAAAATGCCACTTGGTGTCTTGAGGTGTCTGTGACTGATGTTACCCTGCTCATGGCTGAACATGATCGTCAAGTCCTCAACAATCTGTCAAATTGTGTGCACCCTGCTGTAAAGCACAGAAGCAGGATGGTTGGCCTACTTGAGTGGATTTTTAGAGCCCTTAAATATGACTTCAATCATGATCCAACACCGTTGTGTCAAAAGCAAACTTCAACAGTAAATGAAACACGTGTACAGATAAACATCACTGAGGGGTATGGGTCTCACGGGTTTGAAGATACCATCCTTCAAAGACTAGGGGTCCTGTTTGGTTCAAGAATTGCATTCTCAGATATCCAGGATTTAGGCCAAAAGAGGTTTTTATTGATTAGAAATACAACTTGGAAAAATCAATGCGTAATGAATCATGTAAACTCCATGCATTTGATGTTGGCGAATGCTGGTCGCTCTTCTAGTTCTAGAAGGCCACTCGGCATTTTCTCCTGGACAATAACTGATGCAGTAGGTAATGACATGCCTGGGGGTTATTGTCTTGAAAGATGGATGTTGGTGACATCAGACCTTAAGTGCTTTGGAAACACAGCACTAGCAAAATGCAATCTTGATCATGATTCGGAATTCTGTGACATGTTGAAATTGTTTGAGTTCAACAAAAAAGCGATAAAGACATTGAATGACAATACAAAAAACGAGGTAAACTTGCTGACCCACTCAATCAATGCATTAATATCTGACAACTTGCTGATGAAGAACCGACTTAAAGAACTGTTGAACACTCCTTATTGCAATTACACCAAATTTTGGTATGTCAATCACACAGCATCAGGGGAACACTCGTTACCACGGTGCTGGCTTGTTAGAAATAATAGCTATTTAAATGAAAGTGAATTTAGAAATGACTGGATTATTGAGAGTGATCATTTATTGTCTGAAATGCTCAACAAAGAGTATATAGATAGACAGGGAAAGACACCGTTGACTTTGGTGGATATCTGTTTCTGGAGTACTTTGTTTTTCACAACAACACTGTTTCTTCACCTGGTGGGATTTCCAACTCATAGACACATACGTGGTGAACCCTGCCCACTACCCCACAGGCTCAACAGTAAAGGAGGATGTAGATGTGGAAAATACCCTGAACTAAAAAAGCCAATCACCTGGCACAAGAACCAC",
+    "GPC": "MGQLFSFFEEVPNIIHEAINIALIAVSLIAALKGMINLWKSGLFQLIFFLILAGKSCSFRIGRSTELQNITFDMLKVFEDHPTSCMVSHSTYYVHENKNATWCLEVSVTDVTLLMAEHDRQVLNNLSNCVHPAVKHRSRMVGLLEWIFRALKYDFNHDPTPLCQKQTSTVNETRVQINITEGYGSHGFEDTILQRLGVLFGSRIAFSDIQDLGQKRFLLIRNTTWKNQCVMNHVNSMHLMLANAGRSSSSRRPLGIFSWTITDAVGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLDHDSEFCDMLKLFEFNKKAIKTLNDNTKNEVNLLTHSINALISDNLLMKNRLKELLNTPYCNYTKFWYVNHTASGEHSLPRCWLVRNNSYLNESEFRNDWIIESDHLLSEMLNKEYIDRQGKTPLTLVDICFWSTLFFTTTLFLHLVGFPTHRHIRGEPCPLPHRLNSKGGCRCGKYPELKKPITWHKNH"
+  }
+}

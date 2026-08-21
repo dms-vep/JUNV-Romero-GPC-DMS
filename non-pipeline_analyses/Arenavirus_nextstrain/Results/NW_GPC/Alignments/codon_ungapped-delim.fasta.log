@@ -1,0 +1,362 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    gizmoj9 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 --threads-max 1 -s Results/NW_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo -o NC_012776-1_2008-10-XX
+Seed:    768359 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 11 10:46:17 2026
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file Results/NW_GPC/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00441098 secs using 96.19% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0034759 secs using 96.09% CPU
+Alignment has 186 sequences with 1455 columns, 1025 distinct patterns
+938 parsimony-informative, 131 singleton sites, 386 constant sites
+                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000430107 secs using 99.74% CPU
+   1  NC_012776-1_2008-10-XX                                                                      7.22%    passed     18.99%
+   2  810419_NC_010562-1_2003-XX-XX                                                               2.06%    passed     41.23%
+   3  SPH114202_NC_006317-1_XXXX-XX-XX                                                            2.06%    passed     29.99%
+   4  INH-95551_NC_005077-1_XXXX-XX-XX                                                            2.27%    passed      9.76%
+   5  Carvallo_NC_005078-1_XXXX-XX-XX                                                             0.00%    passed     94.37%
+   6  XJ13_NC_005081-1_XXXX-XX-XX                                                                 0.00%    passed     88.06%
+   7  VINH-95551_PZ066132-1_1989-09-01                                                            2.27%    passed      9.76%
+   8  Carvallo_PV088375-1_2024-10-01                                                              0.00%    passed     94.37%
+   9  SP17_Brazil_SP_2020_PX308627-1_2020-06-01                                                   2.06%    passed     48.10%
+  10  AIMS_136871_PV861669-1_2023-XX-XX                                                           0.00%    passed     95.16%
+  11  AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX                                              0.00%    passed     89.65%
+  12  AIMS_136269_MACV_Chicava_PV861673-1_2023-XX-XX                                              0.00%    passed     89.65%
+  13  MACV_Chicava_Spleen_P2_PV861675-1_2023-XX-XX                                                0.00%    passed     89.65%
+  14  MACV_Chicava_Spleen_P3_PV861677-1_2023-XX-XX                                                0.00%    passed     89.65%
+  15  AIMS_136153_MACV_Carvallo_PV861679-1_2023-XX-XX                                             0.00%    passed     94.37%
+  16  MACV_Carvallo_Spleen_P2_PV861681-1_2023-XX-XX                                               0.00%    passed     94.37%
+  17  MACV_Carvallo_Spleen_P3_PV861683-1_2023-XX-XX                                               0.00%    passed     94.37%
+  18  MACV_Carvallo_brain_PV861685-1_2023-XX-XX                                                   0.00%    passed     93.50%
+  19  P3441_OR806660-1_2010-04-15                                                                 0.00%    passed     89.06%
+  20  Candid-1_PV266730-1_1980-XX-XX                                                              0.00%    passed     87.66%
+  21  S-26764_LC753262-1_1997-09-02                                                               2.27%    passed      6.04%
+  22  P3790-Espindola_OL774853-1_1976-XX-XX                                                       0.00%    passed     98.57%
+  23  P3827-Coronel_OL774855-1_XXXX-XX-XX                                                         0.00%    passed     99.71%
+  24  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28    2.06%    passed     15.46%
+  25  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28    2.06%    passed     15.46%
+  26  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28     19.86%    passed     14.41%
+  27  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27      2.06%    passed     15.46%
+  28  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27      2.06%    passed     15.46%
+  29  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23      2.06%    passed     17.60%
+  30  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17      2.06%    passed     20.81%
+  31  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17      2.06%    passed     20.81%
+  32  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13      2.06%    passed     17.81%
+  33  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31      2.13%    passed     21.09%
+  34  Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX           2.06%    passed     18.39%
+  35  Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX           2.06%    passed     23.99%
+  36  P3551_MZ408913-1_XXXX-XX-XX                                                                 0.00%    passed     94.91%
+  37  XJ13_MZ408914-1_XXXX-XX-XX                                                                  0.00%    passed     91.62%
+  38  Romero_P3235_MW227339-1_2017-03-16                                                          0.00%    passed     97.01%
+  39  Carvallo_MT015970-1_2014-06-03                                                              0.00%    passed     94.37%
+  40  XJCl3_MG189701-1_XXXX-XX-XX                                                                 0.00%    passed     91.62%
+  41  Carvallo_KM198592-1_2012-07-09                                                              0.00%    passed     94.37%
+  42  USAMRIID-ID-18464_JN794584-1_1991-04-17                                                     0.00%    passed     94.37%
+  43  USAMRIID-ID-780_JN794586-1_1992-03-06                                                       0.48%    passed     84.97%
+  44  recXJ13_JN200801-1_XXXX-XX-XX                                                               0.00%    passed     88.06%
+  45  XJ17_JF799981-1_XXXX-XX-XX                                                                  0.00%    passed     93.58%
+  46  XJ34_JF799982-1_XXXX-XX-XX                                                                  0.00%    passed     92.75%
+  47  XJ39_JF799983-1_XXXX-XX-XX                                                                  0.00%    passed     92.75%
+  48  XJ48_JF799984-1_XXXX-XX-XX                                                                  0.00%    passed     92.75%
+  49  H_Lye63_G_JF446284-1_1963-XX-XX                                                            66.60%    passed     82.87%
+  50  H_FHA5069_G_JF446285-1_1971-XX-XX                                                          66.39%    passed     45.06%
+  51  H_p1879_G_JF446286-1_1971-XX-XX                                                            66.80%    passed     50.14%
+  52  H_FHA5054_G_JF446287-1_1971-XX-XX                                                          66.60%    passed     50.01%
+  53  H_8027_G_JF446288-1_1991-XX-XX                                                             66.80%    passed     84.41%
+  54  AN_8640_G_JF446289-1_1966-XX-XX                                                            66.19%    passed     84.34%
+  55  AN_5185_G_JF446290-1_1966-XX-XX                                                            66.39%    passed     81.08%
+  56  AN_13365_G_JF446291-1_1969-XX-XX                                                           66.39%    passed     79.87%
+  57  AN_16501_G_JF446292-1_1974-XX-XX                                                           66.80%    passed     93.94%
+  58  AN_17058_G_JF446293-1_1975-XX-XX                                                           67.63%    passed     72.16%
+  59  AN_17246_G_JF446294-1_1975-XX-XX                                                           66.60%    passed     82.88%
+  60  AN_17116_G_JF446295-1_1975-XX-XX                                                           66.39%    passed     92.14%
+  61  AN_17064_G_JF446296-1_1975-XX-XX                                                           66.39%    passed     92.14%
+  62  Candid1-wt_HQ126699-1_XXXX-XX-XX                                                            0.00%    passed     87.66%
+  63  Candid1-rec_HQ126701-1_XXXX-XX-XX                                                           0.00%    passed     90.99%
+  64  S-56764_AY572554-1_XXXX-XX-XX                                                               2.27%    passed      6.72%
+  65  CVH-960302_AY572555-1_XXXX-XX-XX                                                            2.27%    passed     24.74%
+  66  CVH-960103_AY572556-1_XXXX-XX-XX                                                            2.27%    passed     20.85%
+  67  CVH-950801_AY572557-1_XXXX-XX-XX                                                            2.27%    passed     17.98%
+  68  CVH-960102_AY572558-1_XXXX-XX-XX                                                            2.27%    passed     26.09%
+  69  VHF-1750_AY572559-1_XXXX-XX-XX                                                              2.27%    passed      7.51%
+  70  VAV-1608_AY572560-1_XXXX-XX-XX                                                              2.27%    passed     62.05%
+  71  CVH-961104_AY572561-1_XXXX-XX-XX                                                            2.27%    passed      9.29%
+  72  AV-97021119_AY573922-1_XXXX-XX-XX                                                           2.27%    passed     11.02%
+  73  VHF-3990-AV-97021237_AY576604-1_XXXX-XX-XX                                                  2.27%    passed     38.52%
+  74  JNM-6682_DQ531486-1_XXXX-XX-XX                                                              0.00%    passed     98.18%
+  75  JNM-7354_DQ531488-1_XXXX-XX-XX                                                              0.00%    passed     99.77%
+  76  P1998_DQ854730-1_XXXX-XX-XX                                                                 0.00%    passed     73.35%
+  77  P2031_DQ854731-1_XXXX-XX-XX                                                                 0.00%    passed     92.37%
+  78  P4036_DQ854732-1_XXXX-XX-XX                                                                 0.00%    passed     91.27%
+  79  P2045_DQ854733-1_XXXX-XX-XX                                                                 0.00%    passed     94.56%
+  80  P3778_DQ854734-1_XXXX-XX-XX                                                                 0.00%    passed     82.98%
+  81  P3766_DQ854735-1_XXXX-XX-XX                                                                 0.00%    passed     97.72%
+  82  P2290_DQ854736-1_XXXX-XX-XX                                                                 0.00%    passed     80.36%
+  83  P3096_DQ854737-1_XXXX-XX-XX                                                                 0.00%    passed     85.54%
+  84  P35302_DQ854738-1_XXXX-XX-XX                                                                0.00%    passed     96.82%
+  85  P3790_DQ854739-1_XXXX-XX-XX                                                                 0.00%    passed     97.27%
+  86  Candid-1_FJ969442-1_XXXX-XX-XX                                                              0.00%    passed     84.44%
+  87  FSB-2040_FJ696411-1_2007-XX-XX                                                              4.74%    passed     88.41%
+  88  FSB-2041_FJ696412-1_2007-02-XX                                                              4.74%    passed     88.41%
+  89  FSB-2042_FJ696413-1_2007-02-XX                                                              4.74%    passed     88.41%
+  90  FSB-2334_FJ696414-1_2008-02-XX                                                              4.74%    passed     90.58%
+  91  FSB-2369_FJ696415-1_2008-02-XX                                                              4.74%    passed     78.93%
+  92  XJ13_FJ805378-1_XXXX-XX-XX                                                                  0.00%    passed     90.42%
+  93  rXJ13_FJ805380-1_XXXX-XX-XX                                                                 0.00%    passed     86.65%
+  94  810419_EU260463-1_2003-XX-XX                                                                2.06%    passed     41.23%
+  95  Chicava_AY924202-1_XXXX-XX-XX                                                               0.00%    passed     89.65%
+  96  9430084_AY924203-1_XXXX-XX-XX                                                               0.00%    passed     88.20%
+  97  200002427_AY924204-1_XXXX-XX-XX                                                             0.00%    passed     93.77%
+  98  9301012_AY924205-1_XXXX-XX-XX                                                               0.07%    passed     77.78%
+  99  MARU-216606_AY924206-1_XXXX-XX-XX                                                           0.00%    passed     94.37%
+ 100  MARU-222688_AY924207-1_XXXX-XX-XX                                                           0.00%    passed     73.23%
+ 101  MARU-249121_AY924208-1_XXXX-XX-XX                                                           0.00%    passed     96.19%
+ 102  CVH-960101_AY497548-1_XXXX-XX-XX                                                            2.27%    passed     20.16%
+ 103  Cba-IV4454_DQ272266-3_XXXX-XX-XX                                                            0.00%    passed     86.78%
+ 104  Candid-1_AY746353-1_XXXX-XX-XX                                                              0.00%    passed     88.39%
+ 105  Chicava_AY624355-1_XXXX-XX-XX                                                               0.00%    passed     89.65%
+ 106  Rumero_AY619641-1_XXXX-XX-XX                                                                0.00%    passed     97.01%
+ 107  Carvallo_AY619643-1_XXXX-XX-XX                                                              0.00%    passed     94.37%
+ 108  Mallele_AY619645-1_XXXX-XX-XX                                                               0.00%    passed     79.30%
+ 109  Carvallo_AY571904-1_XXXX-XX-XX                                                              0.00%    passed     94.37%
+ 110  9430072_AY571905-1_XXXX-XX-XX                                                              49.28%    passed     56.66%
+ 111  9430082_AY571906-1_XXXX-XX-XX                                                              49.28%    passed     56.66%
+ 112  9430081_AY571907-1_XXXX-XX-XX                                                              49.28%    passed     56.66%
+ 113  9430084_AY571908-1_XXXX-XX-XX                                                              49.28%    passed     56.66%
+ 114  9430075_AY571909-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 115  9430078_AY571910-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 116  9430069_AY571911-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 117  9430071_AY571912-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 118  9430666_AY571913-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 119  9430076_AY571914-1_XXXX-XX-XX                                                              49.28%    passed     54.89%
+ 120  MARU249121_AY571915-1_XXXX-XX-XX                                                           49.28%    passed     72.20%
+ 121  MARU222688_AY571916-1_XXXX-XX-XX                                                           49.28%    passed     78.94%
+ 122  MARU250720_AY571917-1_XXXX-XX-XX                                                           49.28%    passed     78.33%
+ 123  9301013_AY571918-1_XXXX-XX-XX                                                              49.28%    passed     47.42%
+ 124  9301012_AY571919-1_XXXX-XX-XX                                                              49.28%    passed     41.70%
+ 125  Chicava_AY571920-1_XXXX-XX-XX                                                              49.28%    passed     67.71%
+ 126  MARU223455_AY571921-1_XXXX-XX-XX                                                           49.28%    passed     71.15%
+ 127  MARU221600_AY571922-1_XXXX-XX-XX                                                           49.28%    passed     75.42%
+ 128  MARU228955_AY571923-1_XXXX-XX-XX                                                           49.28%    passed     66.47%
+ 129  MARU217269_AY571924-1_XXXX-XX-XX                                                           49.28%    passed     71.49%
+ 130  MARU223805_AY571925-1_XXXX-XX-XX                                                           49.28%    passed     66.47%
+ 131  MARU227774_AY571926-1_XXXX-XX-XX                                                           49.28%    passed     66.47%
+ 132  Carvallo_AY571927-1_XXXX-XX-XX                                                             49.28%    passed     66.47%
+ 133  MARU216606_AY571928-1_XXXX-XX-XX                                                           49.28%    passed     66.47%
+ 134  MARU223671_AY571929-1_XXXX-XX-XX                                                           49.28%    passed     73.99%
+ 135  MARU258667_AY571930-1_XXXX-XX-XX                                                           49.28%    passed     33.21%
+ 136  9530537_AY571931-1_XXXX-XX-XX                                                              49.28%    passed     73.17%
+ 137  9530537_AY571959-1_XXXX-XX-XX                                                               0.00%    passed     38.83%
+ 138  XJ13_AY358023-2_XXXX-XX-XX                                                                  0.00%    passed     88.06%
+ 139  INH-95551_AY129247-1_XXXX-XX-XX                                                             2.27%    passed      9.76%
+ 140  Carvallo_AY129248-1_XXXX-XX-XX                                                              0.00%    passed     94.37%
+ 141  INH-95551_AF485258-1_XXXX-XX-XX                                                             2.27%    passed      9.76%
+ 142  Carvallo_AF485260-1_XXXX-XX-XX                                                              0.00%    passed     94.37%
+ 143  CbaAn9446_AF264197-1_XXXX-XX-XX                                                            73.20%    passed     46.66%
+ 144  CbaLye63_AF264198-1_XXXX-XX-XX                                                             73.20%    passed     43.89%
+ 145  CbaIV4454_AF264199-1_XXXX-XX-XX                                                            73.20%    passed     47.74%
+ 146  CbaFHA5069_AF264200-1_XXXX-XX-XX                                                           73.20%    passed     56.32%
+ 147  PAn19107_AF264201-1_XXXX-XX-XX                                                             73.20%    passed     71.99%
+ 148  PAn19103_AF264202-1_XXXX-XX-XX                                                             73.20%    passed     71.99%
+ 149  PAn16160_AF264203-1_XXXX-XX-XX                                                             73.20%    passed     71.01%
+ 150  PAn19109_AF264204-1_XXXX-XX-XX                                                             73.20%    passed     67.15%
+ 151  PAn14661_AF264205-1_XXXX-XX-XX                                                             73.20%    passed     26.45%
+ 152  PH8845_AF264206-1_XXXX-XX-XX                                                               73.20%    passed     46.71%
+ 153  PH6699_AF264207-1_XXXX-XX-XX                                                               73.20%    passed     35.12%
+ 154  PH5949_AF264208-1_XXXX-XX-XX                                                               73.20%    passed     36.42%
+ 155  PH7734_AF264209-1_XXXX-XX-XX                                                               73.20%    passed     39.45%
+ 156  PH5893_AF264210-1_XXXX-XX-XX                                                               73.20%    passed     42.03%
+ 157  PH4795_AF264211-1_XXXX-XX-XX                                                               73.20%    passed     51.00%
+ 158  PAn10004_AF264212-1_XXXX-XX-XX                                                             73.20%    passed     39.28%
+ 159  PAn16288_AF264213-1_XXXX-XX-XX                                                             73.20%    passed     29.56%
+ 160  PAn16256_AF264214-1_XXXX-XX-XX                                                             73.20%    passed     29.56%
+ 161  PH4842_AF264215-1_XXXX-XX-XX                                                               73.20%    passed     31.04%
+ 162  PH7007_AF264216-1_XXXX-XX-XX                                                               73.20%    passed     33.32%
+ 163  PH4757_AF264217-1_XXXX-XX-XX                                                               73.20%    passed     43.50%
+ 164  PH3878_AF264218-1_XXXX-XX-XX                                                               73.20%    passed     29.89%
+ 165  PHToledo_AF264219-1_XXXX-XX-XX                                                             73.20%    passed     29.93%
+ 166  PH6101_AF264220-1_XXXX-XX-XX                                                               73.20%    passed     29.93%
+ 167  PH3235_AF264221-1_XXXX-XX-XX                                                               73.20%    passed     27.12%
+ 168  PH7367_AF264222-1_XXXX-XX-XX                                                               73.20%    passed     36.47%
+ 169  PAn19221_AF264223-1_XXXX-XX-XX                                                             73.20%    passed     29.92%
+ 170  PAn9918_AF264224-1_XXXX-XX-XX                                                              73.20%    passed     22.59%
+ 171  PAn16114_AF264225-1_XXXX-XX-XX                                                             73.20%    passed     45.80%
+ 172  PH4906_AF264226-1_XXXX-XX-XX                                                               73.20%    passed     39.74%
+ 173  XJCl3_AF264227-1_XXXX-XX-XX                                                                73.20%    passed     52.81%
+ 174  XJ44_AF264228-1_XXXX-XX-XX                                                                 73.20%    passed     58.32%
+ 175  PH3790_AF264229-1_XXXX-XX-XX                                                               73.20%    passed     42.72%
+ 176  PH3470_AF264230-1_XXXX-XX-XX                                                               73.20%    passed     42.72%
+ 177  PH2697_AF264231-1_XXXX-XX-XX                                                               73.20%    passed     45.05%
+ 178  PH2412_AF264232-1_XXXX-XX-XX                                                               73.20%    passed     45.05%
+ 179  PAn14823_AF264233-1_XXXX-XX-XX                                                             73.20%    passed     42.99%
+ 180  PH7994_AF264234-1_XXXX-XX-XX                                                               73.20%    passed     45.05%
+ 181  PH3190_AF264235-1_XXXX-XX-XX                                                               73.20%    passed     52.41%
+ 182  XJ-Parodi-strain_U70799-1_XXXX-XX-XX                                                        0.00%    passed     73.71%
+ 183  XJ-44_U70800-1_XXXX-XX-XX                                                                   0.00%    passed     62.75%
+ 184  Candid-1_U70801-1_XXXX-XX-XX                                                                0.00%    passed     73.39%
+ 185  SPH114202_U41071-1_XXXX-XX-XX                                                               2.06%    passed     29.99%
+ 186  MC2_D10072-2_XXXX-XX-XX                                                                     0.00%    passed     55.53%
+WARNING: 52 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                      27.81%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 810419_EU260463-1_2003-XX-XX is identical to 810419_NC_010562-1_2003-XX-XX but kept for subsequent analysis
+NOTE: SPH114202_U41071-1_XXXX-XX-XX is identical to SPH114202_NC_006317-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: VINH-95551_PZ066132-1_1989-09-01 is identical to INH-95551_NC_005077-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: Carvallo_PV088375-1_2024-10-01 is identical to Carvallo_NC_005078-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: XJ13_AY358023-2_XXXX-XX-XX is identical to XJ13_NC_005081-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: AIMS_136269_MACV_Chicava_PV861673-1_2023-XX-XX is identical to AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX but kept for subsequent analysis
+NOTE: Candid1-wt_HQ126699-1_XXXX-XX-XX is identical to Candid-1_PV266730-1_1980-XX-XX but kept for subsequent analysis
+NOTE: Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28 is identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28 but kept for subsequent analysis
+NOTE: Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17 is identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17 but kept for subsequent analysis
+NOTE: XJCl3_MG189701-1_XXXX-XX-XX is identical to XJ13_MZ408914-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: Rumero_AY619641-1_XXXX-XX-XX is identical to Romero_P3235_MW227339-1_2017-03-16 but kept for subsequent analysis
+NOTE: XJ39_JF799983-1_XXXX-XX-XX is identical to XJ34_JF799982-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: AN_17064_G_JF446296-1_1975-XX-XX is identical to AN_17116_G_JF446295-1_1975-XX-XX but kept for subsequent analysis
+NOTE: FSB-2041_FJ696412-1_2007-02-XX is identical to FSB-2040_FJ696411-1_2007-XX-XX but kept for subsequent analysis
+NOTE: 9430082_AY571906-1_XXXX-XX-XX is identical to 9430072_AY571905-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: 9430078_AY571910-1_XXXX-XX-XX is identical to 9430075_AY571909-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: MARU227774_AY571926-1_XXXX-XX-XX is identical to MARU223805_AY571925-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PAn19103_AF264202-1_XXXX-XX-XX is identical to PAn19107_AF264201-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PAn16256_AF264214-1_XXXX-XX-XX is identical to PAn16288_AF264213-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH6101_AF264220-1_XXXX-XX-XX is identical to PHToledo_AF264219-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH3470_AF264230-1_XXXX-XX-XX is identical to PH3790_AF264229-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH2412_AF264232-1_XXXX-XX-XX is identical to PH2697_AF264231-1_XXXX-XX-XX but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000928879 secs using 99.91% CPU
+Identifying sites to remove: done in 0.00166512 secs using 20.18% CPU
+NOTE: 27 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: INH-95551_AY129247-1_XXXX-XX-XX (identical to INH-95551_NC_005077-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: INH-95551_AF485258-1_XXXX-XX-XX (identical to INH-95551_NC_005077-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: AIMS_136153_MACV_Carvallo_PV861679-1_2023-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: MACV_Carvallo_Spleen_P2_PV861681-1_2023-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: MACV_Carvallo_Spleen_P3_PV861683-1_2023-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_MT015970-1_2014-06-03 (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_KM198592-1_2012-07-09 (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: USAMRIID-ID-18464_JN794584-1_1991-04-17 (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_AY619643-1_XXXX-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_AY571904-1_XXXX-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_AY129248-1_XXXX-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_AF485260-1_XXXX-XX-XX (identical to Carvallo_NC_005078-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: MACV_Chicava_Spleen_P2_PV861675-1_2023-XX-XX (identical to AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX) is ignored but added at the end
+NOTE: MACV_Chicava_Spleen_P3_PV861677-1_2023-XX-XX (identical to AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX) is ignored but added at the end
+NOTE: Chicava_AY924202-1_XXXX-XX-XX (identical to AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX) is ignored but added at the end
+NOTE: Chicava_AY624355-1_XXXX-XX-XX (identical to AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX) is ignored but added at the end
+NOTE: Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27 (identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28) is ignored but added at the end
+NOTE: Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27 (identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28) is ignored but added at the end
+NOTE: XJ48_JF799984-1_XXXX-XX-XX (identical to XJ34_JF799982-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: FSB-2042_FJ696413-1_2007-02-XX (identical to FSB-2040_FJ696411-1_2007-XX-XX) is ignored but added at the end
+NOTE: 9430081_AY571907-1_XXXX-XX-XX (identical to 9430072_AY571905-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: 9430084_AY571908-1_XXXX-XX-XX (identical to 9430072_AY571905-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: 9430069_AY571911-1_XXXX-XX-XX (identical to 9430075_AY571909-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: 9430071_AY571912-1_XXXX-XX-XX (identical to 9430075_AY571909-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: 9430666_AY571913-1_XXXX-XX-XX (identical to 9430075_AY571909-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: 9430076_AY571914-1_XXXX-XX-XX (identical to 9430075_AY571909-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: Carvallo_AY571927-1_XXXX-XX-XX (identical to MARU223805_AY571925-1_XXXX-XX-XX) is ignored but added at the end
+Alignment was printed to Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.019 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+3 trees examined
+Threads: 1 / Time: 1.066 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -72753
+Determining AUTO threadcount: done in 1.06682 secs using 82.19% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -18489.202
+Optimal log-likelihood: -18488.636
+Rate parameters:  A-C: 2.68371  A-G: 21.06708  A-T: 3.62604  C-G: 2.78419  C-T: 27.38431  G-T: 1.00000
+Base frequencies:  A: 0.297  C: 0.206  G: 0.207  T: 0.290
+Proportion of invariable sites: 0.143
+Gamma shape alpha: 0.631
+Parameters optimization took 1 rounds (0.218 sec)
+Time for fast ML tree search: 3.563 seconds
+
+NOTE: ModelFinder requires 53 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1455 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.model.gz
+CPU time for ModelFinder: 64.000 seconds (0h:1m:4s)
+Wall-clock time for ModelFinder: 76.589 seconds (0h:1m:16s)
+
+NOTE: 21 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.800 / Estimate: 0.000, 0.416 / LogL: -18496.331
+Init pinv, alpha: 0.029, 0.800 / Estimate: 0.036, 0.452 / LogL: -18494.285
+Init pinv, alpha: 0.059, 0.800 / Estimate: 0.070, 0.497 / LogL: -18492.520
+Init pinv, alpha: 0.088, 0.800 / Estimate: 0.105, 0.548 / LogL: -18490.753
+Init pinv, alpha: 0.118, 0.800 / Estimate: 0.136, 0.610 / LogL: -18489.038
+Init pinv, alpha: 0.147, 0.800 / Estimate: 0.169, 0.689 / LogL: -18486.865
+Init pinv, alpha: 0.177, 0.800 / Estimate: 0.191, 0.756 / LogL: -18485.403
+Init pinv, alpha: 0.206, 0.800 / Estimate: 0.204, 0.809 / LogL: -18485.009
+Init pinv, alpha: 0.236, 0.800 / Estimate: 0.208, 0.824 / LogL: -18484.937
+Init pinv, alpha: 0.265, 0.800 / Estimate: 0.211, 0.834 / LogL: -18484.886
+Optimal pinv,alpha: 0.211, 0.834 / LogL: -18484.886
+
+Parameters optimization took 8.725 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.131945 secs using 88.55% CPU
+Computing ML distances took 0.132573 sec (of wall-clock time) 0.117473 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000553131 secs using 99.98% CPU
+Constructing RapidNJ tree: done in 0.00118208 secs using 99.91% CPU
+Computing RapidNJ tree took 0.001765 sec (of wall-clock time) 0.001766 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -20630.459
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -18484.870
+Finish initializing candidate tree set (4)
+Current best tree score: -18484.870 / CPU time: 3.305
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:1m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -18484.870
+2. Current log-likelihood: -18484.804
+Optimal log-likelihood: -18484.774
+Rate parameters:  A-C: 2.68284  A-G: 22.04873  A-T: 3.78165  C-G: 2.77342  C-T: 29.20309  G-T: 1.00000
+Base frequencies:  A: 0.297  C: 0.206  G: 0.207  T: 0.290
+Proportion of invariable sites: 0.207
+Gamma shape alpha: 0.815
+Parameters optimization took 2 rounds (0.307 sec)
+BEST SCORE FOUND : -18484.774
+Total tree length: 16.748
+
+Total number of iterations: 2
+CPU time used for tree search: 2.766 sec (0h:0m:2s)
+Wall-clock time used for tree search: 3.305 sec (0h:0m:3s)
+Total CPU time used: 75.077 sec (0h:1m:15s)
+Total wall-clock time used: 89.897 sec (0h:1m:29s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.iqtree
+  Maximum-likelihood tree:       Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.treefile
+  Likelihood distances:          Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.mldist
+  Screen log file:               Results/NW_GPC/Alignments/codon_ungapped-delim.fasta.log
+
+Date and Time: Tue Aug 11 10:47:47 2026

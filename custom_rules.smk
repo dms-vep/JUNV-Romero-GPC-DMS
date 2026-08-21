@@ -153,6 +153,7 @@ rule map_scores_onto_pdb:
     input:
         # input files
         dms_scores="results/summaries/cell_entry_and_pH_stability.csv",
+        cell_entry_diffs="results/compare_cell_entry/site_diffs.csv",
         pdb_file="data/9MT6.pdb",
         nb="analysis_notebooks/pdb_mapping.ipynb",
     output:
@@ -167,8 +168,66 @@ rule map_scores_onto_pdb:
         """
         papermill {input.nb} {output.nb} \
             -p dms_scores {input.dms_scores} \
+            -p cell_entry_diffs {input.cell_entry_diffs} \
             -p pdb_file {input.pdb_file} \
             -p pdb_dir {params.pdb_dir} \
+            &> {log}
+        """
+
+
+rule GPC_region_analysis:
+    """Extract DMS scores for specific regions of GPC to highlight."""
+    input:
+        # input files
+        musculinus_scores="results/func_effects/averages/293T-TFRC-KO-C-musculinus-TfR1_func_effects.csv",
+        callosus_scores="results/func_effects/averages/293T-TFRC-KO-C-callosus-TfR1_func_effects.csv",
+        dms_scores="results/summaries/cell_entry_and_pH_stability.csv",
+        site_diffs="results/compare_cell_entry/site_diffs.csv",
+        nb="analysis_notebooks/GPC_region_analysis.ipynb",
+    output:
+        nb="results/notebooks/GPC_region_analysis.ipynb",
+    params:
+        min_times_seen=2,
+        n_selections=2,
+    log:
+        "results/logs/GPC_region_analysis.txt",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml")
+    shell:
+        """
+        papermill {input.nb} {output.nb} \
+            -p musculinus_scores {input.musculinus_scores} \
+            -p callosus_scores {input.callosus_scores} \
+            -p dms_scores {input.dms_scores} \
+            -p site_diffs {input.site_diffs} \
+            -p min_times_seen {params.min_times_seen} \
+            -p n_selections {params.n_selections} \
+            &> {log}
+        """
+
+rule natural_sequence_comparison:
+    """Compare DMS scores to natural GPC sequences."""
+    input:
+        # input files
+        dms_scores="results/summaries/cell_entry_and_pH_stability.csv",
+        alignment="non-pipeline_analyses/Arenavirus_nextstrain/Results/NW_GPC/Alignments/protein_ungapped_no_outgroup.fasta",
+        metadata="non-pipeline_analyses/Arenavirus_nextstrain/Results/NW_GPC/metadata.tsv",
+        nb="analysis_notebooks/compare_to_natural_seqs.ipynb",
+    output:
+        nb="results/notebooks/compare_to_natural_seqs.ipynb",
+    params:
+        out_dir="results/comparison_to_natural_seqs/",
+    log:
+        "results/logs/compare_to_natural_seqs.txt",
+    conda:
+        os.path.join(config["pipeline_path"], "environment.yml")
+    shell:
+        """
+        papermill {input.nb} {output.nb} \
+            -p dms_scores {input.dms_scores} \
+            -p alignment {input.alignment} \
+            -p metadata {input.metadata} \
+            -p out_dir {params.out_dir} \
             &> {log}
         """
     
@@ -188,5 +247,11 @@ docs["Additional analyses and data files"] = {
     },
     "Map DMS scores onto PDB structure":{
         "Notebook mapping scores onto pdb structure" : rules.map_scores_onto_pdb.output.nb,
+    },
+    "Analyze DMS scores for specific GPC regions":{
+        "Notebook analyzing specific GPC regions and DMS scores" : rules.GPC_region_analysis.output.nb,
+    },
+    "Compare DMS scores to natural GPC sequences":{
+        "Notebook analyzing DMS scores of natural GPC mutations" : rules.natural_sequence_comparison.output.nb,
     },
 }

@@ -32,7 +32,7 @@ func_effects:
 
 pH_stability:
   pdb_id: 9MT6 # Protein Data Bank ID
-  name: Junin GPC mutation effects on cell entry  # name assigned to visualization
+  name: Junin GPC mutation effects on pH stability  # name assigned to visualization
   pdb_type: biological_assembly  # show 'asymmetric_unit' or 'biological_assembly' for structure
   # `data_csv` is CSV of DMS data, must have columns 'site', 'wildtype', and 'mutant'. Also must
   # have a column corresponding to `metric` defined below, and `opt_params[condition]` if that is

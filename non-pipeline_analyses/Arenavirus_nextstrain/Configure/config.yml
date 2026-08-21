@@ -1,0 +1,551 @@
+#################################################---START INPUT DATA---#######################################################
+
+# List of accessions file
+Accession_list: Configure/Input_Data/all_arenavirus_accessions_052726.txt
+# # Put "no files" if no files
+Local_genbanks: "no files" # Configure/Input_Data/Input_Genbanks/
+
+# Reference genbanks
+Reference_fasta: 
+  JUNV_GPC: Configure/Input_Data/JUNV_GPC_reference_NC_005081.fasta
+  MACV_GPC: Configure/Input_Data/MACV_GPC_reference_NC_005078.fasta
+  GTOV_GPC: Configure/Input_Data/GTOV_GPC_reference_NC_005077.fasta
+  CHAPV_GPC: Configure/Input_Data/CHAPV_GPC_reference_NC_010562.fasta
+  SABV_GPC: Configure/Input_Data/SABV_GPC_reference_NC_006317.fasta
+  NW_GPC: Configure/Input_Data/JUNV_GPC_reference_NC_005081.fasta
+Min_id_cutoff:
+  JUNV_GPC: 0.8
+  MACV_GPC: 0.8
+  GTOV_GPC: 0.8
+  CHAPV_GPC: 0.8
+  SABV_GPC: 0.8
+  NW_GPC: 0.5
+Reference_genbank: 
+  JUNV_GPC: Configure/Input_Data/JUNV_GPC_reference_NC_005081.gb
+  MACV_GPC: Configure/Input_Data/MACV_GPC_reference_NC_005078.gb
+  GTOV_GPC: Configure/Input_Data/GTOV_GPC_reference_NC_005077.gb
+  CHAPV_GPC: Configure/Input_Data/CHAPV_GPC_reference_NC_010562.gb
+  SABV_GPC: Configure/Input_Data/SABV_GPC_reference_NC_006317.gb
+  NW_GPC: Configure/Input_Data/JUNV_GPC_reference_NC_005081.gb
+Reference_accession: 
+  JUNV_GPC: AY619641 # Identical AA sequence to MW227339
+  MACV_GPC: NC_005078
+  GTOV_GPC: NC_005077
+  CHAPV_GPC: NC_010562
+  SABV_GPC: NC_006317
+  NW_GPC: AY619641 # Identical AA sequence to MW227339
+
+# Outgroup for rooting tree
+Outgroup: 
+  JUNV_GPC: Carvallo_NC_005078-1_XXXX-XX-XX # Machupo virus
+  MACV_GPC: XJ13_NC_005081-1_XXXX-XX-XX # Junin virus
+  GTOV_GPC: BeAn-70563_NC_010247-1_XXXX-XX-XX # Amapari virus
+  CHAPV_GPC: SPH114202_NC_006317-1_XXXX-XX-XX # Sabia virus
+  SABV_GPC: 810419_NC_010562-1_2003-XX-XX # Chapare virus
+  NW_GPC: NC_012776-1_2008-10-XX # Lujo
+
+# Size threshold filters
+Genome_size_threshold_lower: 
+  JUNV_GPC: 300
+  MACV_GPC: 300
+  GTOV_GPC: 300
+  CHAPV_GPC: 300
+  SABV_GPC: 300
+  NW_GPC: 300
+Genome_size_threshold_upper: 
+  JUNV_GPC: 3900
+  MACV_GPC: 3900
+  GTOV_GPC: 3900
+  CHAPV_GPC: 3900
+  SABV_GPC: 3900
+  NW_GPC: 3900
+# Minimum size ORF when translating to protein
+# ORF minumum size
+ORF_min_size:
+  JUNV_GPC: 300 # 100 amino acids
+  MACV_GPC: 300 # 100 amino acids
+  GTOV_GPC: 300 # 100 amino acids
+  CHAPV_GPC: 300 # 100 amino acids
+  SABV_GPC: 300 # 100 amino acids
+  NW_GPC: 300
+
+# Maximum fraction of ambiuous bases allowed
+max_frac_N: 
+  JUNV_GPC: 0.01
+  MACV_GPC: 0.01
+  GTOV_GPC: 0.01
+  CHAPV_GPC: 0.01
+  SABV_GPC: 0.01
+  NW_GPC: 0.01
+
+# Remove duplicates 'Yes' or 'No'
+Remove_duplicates: 'No'
+
+# Sequences to remove
+Accessions_to_exclude: 
+  JUNV_GPC: []
+  MACV_GPC:
+    - HQ243444
+  GTOV_GPC: []
+  CHAPV_GPC: []
+  SABV_GPC: []
+  NW_GPC:
+    - HQ243444
+
+# Sequences to make sure are included
+Accessions_to_include: 
+  JUNV_GPC: 
+    - NC_005078 # Machupo virus
+    - MW227339 # DMS reference sequence
+  MACV_GPC: 
+    - NC_005081 # Junin virus
+  GTOV_GPC:
+    - NC_010247 # Amapari virus
+  CHAPV_GPC: 
+    - NC_006317 # Sabia virus
+  SABV_GPC: 
+    - NC_010562 # Chapare virus
+  NW_GPC: 
+    - NC_012776 # Lujo
+    - MW227339 # DMS reference sequence
+
+# Virus name groupings
+Virus_groupings:
+  JUNV_GPC:
+    Junin virus:
+      - MAMMARENAVIRUS JUNINENSE
+  MACV_GPC:
+    Machupo virus:
+      - MAMMARENAVIRUS MACHUPOENSE
+  GTOV_GPC:
+    Guanarito virus:
+      - MAMMARENAVIRUS GUANARITOENSE
+  CHAPV_GPC:
+    Chapare virus:
+      - MAMMARENAVIRUS CHAPAREENSE
+  SABV_GPC:
+    Sabia virus:
+      - SABIA VIRUS
+  NW_GPC:
+    Junin virus:
+      - MAMMARENAVIRUS JUNINENSE
+    Machupo virus:
+      - MAMMARENAVIRUS MACHUPOENSE
+    Guanarito virus:
+      - MAMMARENAVIRUS GUANARITOENSE
+    Chapare virus:
+      - MAMMARENAVIRUS CHAPAREENSE
+    Sabia virus:
+      - SABIA VIRUS
+
+# Gene name groupings
+Gene_groupings:
+  JUNV_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GPC PRECURSOR PROTEIN
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+  MACV_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+  GTOV_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+  CHAPV_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+  SABV_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+  NW_GPC:
+    - GPC # reference label
+    - GLYCOPROTEIN PRECURSOR
+    - GPC PRECURSOR PROTEIN
+    - GLYCOPROTEIN
+    - GP-C
+    - ENVELOPE GLYCOPROTEIN C
+    - GP
+    - ENVELOPE GLYCOPROTEIN
+    - GLYCOPROTEIN 1
+    - GP1
+    - G1
+
+
+# Auspice configuration
+Auspice_config: Configure/Input_Data/auspice_config.json
+Color_schemes: Configure/Input_Data/color_schemes.tsv
+Color_orderings: Configure/Input_Data/color_orderings.tsv
+Lat_longs: Configure/Input_Data/lat_longs.tsv
+
+Auspice_tree_titles:
+  JUNV_GPC: "'Diversity of Junin virus glycoprotein complex (GPC)'"
+  MACV_GPC: "'Diversity of Machupo virus glycoprotein complex (GPC)'"
+  GTOV_GPC: "'Diversity of Guanarito virus glycoprotein complex (GPC)'"
+  CHAPV_GPC: "'Diversity of Chapare virus glycoprotein complex (GPC)'"
+  SABV_GPC: "'Diversity of Sabia virus glycoprotein complex (GPC)'"
+  NW_GPC: "'Diversity of pathogenic New World arenavirus glycoprotein complex (GPC)'"
+
+Auspice_tree_descriptions:
+  JUNV_GPC: Configure/Input_Data/GPC_description.md
+  MACV_GPC: Configure/Input_Data/GPC_description.md
+  GTOV_GPC: Configure/Input_Data/GPC_description.md
+  CHAPV_GPC: Configure/Input_Data/GPC_description.md
+  SABV_GPC: Configure/Input_Data/GPC_description.md
+  NW_GPC: Configure/Input_Data/GPC_description.md
+
+# Temp files for determing orientation of segments
+Temp_fasta_file: Results/temp_fasta_file.fasta
+Temp_alignment_file: Results/temp_alignment_file.fasta
+
+#################################################---END INPUT DATA---#########################################################
+
+#################################################---START DATA GROUPINGS---###################################################
+
+Asia:
+  - Israel
+  - Palestine
+  - Lebanon
+  - Jordan
+  - Syria
+  - Georgia
+  - Iraq
+  - Armenia
+  - Saudi Arabia
+  - Kuwait
+  - Yemen
+  - Bahrain
+  - Qatar
+  - Iran
+  - United Arab Emirates
+  - Oman
+  - Uzbekistan
+  - Afghanistan
+  - Kazakhstan
+  - Pakistan
+  - Tajikistan
+  - Maldives
+  - Kyrgyzstan
+  - India
+  - Sri Lanka
+  - Nepal
+  - Asia
+  - Bangladesh
+  - Myanmar
+  - Thailand
+  - Malaysia
+  - Mongolia
+  - Laos
+  - Singapore
+  - China
+  - Cambodia
+  - Vietnam
+  - Hong Kong
+  - Indonesia
+  - Brunei
+  - Taiwan
+  - Philippines
+  - Timor-Leste
+  - South Korea
+  - Japan
+
+Oceania:
+  - French Polynesia
+  - Palau
+  - Australia
+  - Papua New Guinea
+  - Oceania
+  - Micronesia
+  - Solomon Islands
+  - Vanuatu
+  - Marshall Islands
+  - New Zealand
+  - Kiribati
+  - Fiji
+
+Africa:
+  - Cabo Verde
+  - Gambia
+  - Guinea-Bissau
+  - Senegal
+  - Sierra Leone
+  - Guinea
+  - Liberia
+  - Mauritania
+  - CÃ´te d'Ivoire
+  - Morocco
+  - Mali
+  - Burkina Faso
+  - Ghana
+  - Togo
+  - Benin
+  - Algeria
+  - Sao Tome and Principe
+  - Nigeria
+  - Tunisia
+  - Niger
+  - Equatorial Guinea
+  - Gabon
+  - Cameroon
+  - Republic of the Congo
+  - Libya
+  - Namibia
+  - Angola
+  - Chad
+  - Central African Republic
+  - Democratic Republic of the Congo
+  - Africa
+  - Botswana
+  - South Africa
+  - Zambia
+  - Lesotho
+  - Sudan
+  - South Sudan
+  - Zimbabwe
+  - Burundi
+  - Rwanda
+  - Egypt
+  - Eswatini
+  - Uganda
+  - Malawi
+  - Mozambique
+  - Tanzania
+  - Kenya
+  - Ethiopia
+  - Djibouti
+  - Union of the Comoros
+  - Madagascar
+  - Somalia
+  - Seychelles
+  - Mauritius
+
+Europe:
+  - Iceland
+  - Portugal
+  - Ireland
+  - Spain
+  - United Kingdom
+  - Andorra
+  - France
+  - Belgium
+  - Netherlands
+  - Luxembourg
+  - Monaco
+  - Switzerland
+  - Norway
+  - Denmark
+  - Liechtenstein
+  - Germany
+  - Europe
+  - Italy
+  - Malta
+  - Slovenia
+  - Sweden
+  - Austria
+  - Croatia
+  - Czech Republic
+  - Bosnia and Herzegovina
+  - Poland
+  - Slovakia
+  - Montenegro
+  - Albania
+  - Hungary
+  - Serbia
+  - Kosovo
+  - North Macedonia
+  - Greece
+  - Lithuania
+  - Romania
+  - Bulgaria
+  - Latvia
+  - Estonia
+  - Finland
+  - Belarus
+  - Moldova
+  - Ukraine
+  - Cyprus
+  - Turkey
+  - Azerbaijan
+  - Russia
+
+South America:
+  - Argentina
+  - Uruguay
+  - Chile
+  - Paraguay
+  - Bolivia
+  - South America
+  - Brazil
+  - Peru
+  - Ecuador
+  - Colombia
+  - Suriname
+  - Guyana
+  - Venezuela
+  - Trinidad and Tobago
+  - Bonaire
+  - Curacao
+  - Aruba
+
+North America:
+  - Panama
+  - Costa Rica
+  - Grenada
+  - Nicaragua
+  - Saint Vincent and the Grenadines
+  - Barbados
+  - El Salvador
+  - Saint Lucia
+  - Honduras
+  - Dominica
+  - Guatemala
+  - Guadeloupe
+  - Belize
+  - Antigua and Barbuda
+  - Saint Kitts and Nevis
+  - Saint BarthÃ©lemy
+  - Sint Maarten
+  - Saint Martin
+  - Jamaica
+  - Dominican Republic
+  - Haiti
+  - Mexico
+  - Cuba
+  - Bahamas
+  - North America
+  - Bermuda
+  - USA
+  - Canada
+
+#################################################---END DATA GROUPINGS---#####################################################
+
+#################################################---START GENBANK FEATURES---#################################################
+
+Genbank_features:
+  - assembly_gap
+  - C_region
+  - CDS
+  - centromere
+  - D-loop
+  - D_segment
+  - exon
+  - gap
+  - gene
+  - iDNA
+  - intron
+  - J_segment
+  - mat_peptide
+  - misc_binding
+  - misc_difference
+  - misc_feature
+  - misc_recomb
+  - misc_RNA
+  - misc_structure
+  - mobile_element
+  - modified_base
+  - mRNA
+  - ncRNA
+  - N_region
+  - old_sequence
+  - operon
+  - oriT
+  - polyA_site
+  - precursor_RNA
+  - prim_transcript
+  - primer_bind
+  - propeptide
+  - protein_bind
+  - regulatory
+  - repeat_region
+  - rep_origin
+  - rRNA
+  - S_region
+  - sig_peptide
+  - source
+  - stem_loop
+  - STS
+  - telomere
+  - tmRNA
+  - transit_peptide
+  - tRNA
+  - unsure
+  - V_region
+  - V_segment
+  - variation
+  - 3'UTR
+  - 5'UTR
+
+#################################################---END GENBANK FEATURES---###################################################
+#################################################---START HOST GROUPINGS---###################################################
+Host_grouper:
+  Human:
+    - homo sapiens
+    - homon sapiens
+    - humans
+    - human
+    - monkey # a Romero isolate is from UTMB where they did monkey challenge studies
+
+  Rodent:
+    - mastomys natalensis
+    - mastomys
+    - rodent
+    - rodents
+    - mastomys sp.
+    - mastomys sp
+    - hylomyscus pamfi
+    - mastomys erythroleucus
+    - lophuromys sikapusi
+    - cavia porcellus (guinea pig)
+    - mus baoulei
+    - rattus norvegicus
+    - zygodontomys brevicauda
+    - calomys callosus
+    - calomys sp.
+    - calomys musculinus
+    - akodon sp.
+    - oligoryzomys flavescens
+    - calomys laucha
+
+  Vero cells:
+    - vero e6
+    - vero e6 cells
+    - veroe6
+#################################################---END HOST GROUPINGS---#####################################################

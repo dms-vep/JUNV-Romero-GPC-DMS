@@ -1,0 +1,87 @@
+{
+  "annotations": {
+    "GPC": {
+      "end": 1467,
+      "seqid": "Results/SABV_GPC/SABV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 1467,
+      "seqid": "Results/SABV_GPC/SABV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "nodes": {
+    "NODE_0000000": {
+      "aa_muts": {
+        "GPC": []
+      },
+      "aa_sequences": {
+        "GPC": "MGQLFSFFEEVPNIIHEAINIALIAVSLIAALKGMINLWKSGLFQLIFFLILAGKSCSFRIGRSTELQNITFDMLKVFEDHPTSCMVSHSTYYVHENKNATWCLEVSVTDVTLLMAEHDRQVLNNLSNCVHPAVKHRSRMVGLLEWIFRALKYDFNHDPTPLCQKQTSTVNETRVQINITEGYGSHGFEDTILQRLGVLFGSRIAFSDIQDLGQKRFLLIRNTTWKNQCVMNHVNSMHLMLANAGRSSSSRRPLGIFSWTITDAVGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLDHDSEFCDMLKLFEFNKKAIKTLNDNTKNEVNLLTHSINALISDNLLMKNRLKELLNTPYCNYTKFWYVNHTASGEHSLPRCWLVRNNSYLNESEFRNDWIIESDHLLSEMLNKEYIDRQGKTPLTLVDICFWSTLFFTTTLFLHLVGFPTHRHIRGEPCPLPHRLNSKGGCRCGKYPELKKPITWHKNH"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "GPC": [
+          "I51T",
+          "K55R",
+          "S88N",
+          "K135E",
+          "Y183F",
+          "D208N",
+          "Q214K",
+          "T223S",
+          "V230E",
+          "S249G",
+          "K319E",
+          "E328K",
+          "K467R"
+        ]
+      }
+    },
+    "SP17_Brazil_SP_2020_PX308627-1_2020-06-01": {
+      "aa_muts": {
+        "GPC": [
+          "F5L",
+          "I36V",
+          "K98R",
+          "A116V",
+          "Q166E",
+          "G184W",
+          "E189K",
+          "I209L",
+          "Q214P",
+          "R216T",
+          "K226S",
+          "S248F",
+          "K316N",
+          "L331M",
+          "R384K",
+          "S466N",
+          "E477D"
+        ]
+      }
+    },
+    "SPH114202_NC_006317-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "SPH114202_U41071-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    }
+  },
+  "reference": {
+    "GPC": "MGQLFSFFEEVPNIIHEAINIALIAVSLIAALKGMINLWKSGLFQLIFFLILAGKSCSFRIGRSTELQNITFDMLKVFEDHPTSCMVSHSTYYVHENKNATWCLEVSVTDVTLLMAEHDRQVLNNLSNCVHPAVKHRSRMVGLLEWIFRALKYDFNHDPTPLCQKQTSTVNETRVQINITEGYGSHGFEDTILQRLGVLFGSRIAFSDIQDLGQKRFLLIRNTTWKNQCVMNHVNSMHLMLANAGRSSSSRRPLGIFSWTITDAVGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLDHDSEFCDMLKLFEFNKKAIKTLNDNTKNEVNLLTHSINALISDNLLMKNRLKELLNTPYCNYTKFWYVNHTASGEHSLPRCWLVRNNSYLNESEFRNDWIIESDHLLSEMLNKEYIDRQGKTPLTLVDICFWSTLFFTTTLFLHLVGFPTHRHIRGEPCPLPHRLNSKGGCRCGKYPELKKPITWHKNH"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "alignment": "Results/CHAPV_GPC/Alignments/codon_ungapped_no_outgroup.fasta",
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "input_tree": "Results/CHAPV_GPC/Trees/tree_no_outgroup.nwk",
+  "nodes": {
+    "810419_EU260463-1_2003-XX-XX": {
+      "branch_length": 1e-06
+    },
+    "810419_NC_010562-1_2003-XX-XX": {
+      "branch_length": 1e-06
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28": {
+      "branch_length": 2.34e-06
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23": {
+      "branch_length": 0.00069376
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17": {
+      "branch_length": 1e-06
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28": {
+      "branch_length": 0.0
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28": {
+      "branch_length": 2.41e-06
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27": {
+      "branch_length": 0.0
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27": {
+      "branch_length": 0.0
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17": {
+      "branch_length": 1e-06
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13": {
+      "branch_length": 0.00545965
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31": {
+      "branch_length": 0.00337602
+    },
+    "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX": {
+      "branch_length": 0.0013825
+    },
+    "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX": {
+      "branch_length": 0.00069196
+    },
+    "NODE_0000000": {
+      "branch_length": 0.001
+    },
+    "NODE_0000001": {
+      "branch_length": 0.03914383
+    },
+    "NODE_0000002": {
+      "branch_length": 0.07100364
+    },
+    "NODE_0000003": {
+      "branch_length": 0.00953587
+    },
+    "NODE_0000004": {
+      "branch_length": 0.01322947
+    },
+    "NODE_0000005": {
+      "branch_length": 0.00590701
+    },
+    "NODE_0000006": {
+      "branch_length": 0.00140116
+    },
+    "NODE_0000007": {
+      "branch_length": 0.00080907
+    },
+    "NODE_0000008": {
+      "branch_length": 0.00776903
+    },
+    "NODE_0000009": {
+      "branch_length": 2.04e-06
+    },
+    "NODE_0000010": {
+      "branch_length": 2.65e-06
+    },
+    "NODE_0000011": {
+      "branch_length": 2.34e-06
+    },
+    "NODE_0000012": {
+      "branch_length": 0.0
+    }
+  }
+}

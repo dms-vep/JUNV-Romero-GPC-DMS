@@ -1,0 +1,229 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    gizmoj9 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 --threads-max 1 -s Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo -o Carvallo_NC_005078-1_XXXX-XX-XX
+Seed:    184934 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 11 10:47:53 2026
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00205493 secs using 99.95% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00226307 secs using 99.95% CPU
+Alignment has 92 sequences with 1455 columns, 408 distinct patterns
+280 parsimony-informative, 323 singleton sites, 852 constant sites
+                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.70092e-05 secs using 97.39% CPU
+   1  Carvallo_NC_005078-1_XXXX-XX-XX          0.00%    passed     80.81%
+   2  XJ13_NC_005081-1_XXXX-XX-XX              0.00%    passed     89.77%
+   3  P3441_OR806660-1_2010-04-15              0.00%    passed     93.51%
+   4  Candid-1_PV266730-1_1980-XX-XX           0.00%    passed     91.46%
+   5  P3790-Espindola_OL774853-1_1976-XX-XX    0.00%    passed     85.73%
+   6  P3827-Coronel_OL774855-1_XXXX-XX-XX      0.00%    passed     93.47%
+   7  P3551_MZ408913-1_XXXX-XX-XX              0.00%    passed     94.08%
+   8  XJ13_MZ408914-1_XXXX-XX-XX               0.00%    passed     92.01%
+   9  Romero_P3235_MW227339-1_2017-03-16       0.00%    passed     85.30%
+  10  XJCl3_MG189701-1_XXXX-XX-XX              0.00%    passed     92.01%
+  11  recXJ13_JN200801-1_XXXX-XX-XX            0.00%    passed     89.77%
+  12  XJ17_JF799981-1_XXXX-XX-XX               0.00%    passed     92.51%
+  13  XJ34_JF799982-1_XXXX-XX-XX               0.00%    passed     93.92%
+  14  XJ39_JF799983-1_XXXX-XX-XX               0.00%    passed     93.92%
+  15  XJ48_JF799984-1_XXXX-XX-XX               0.00%    passed     93.92%
+  16  H_Lye63_G_JF446284-1_1963-XX-XX         66.60%    passed     95.61%
+  17  H_FHA5069_G_JF446285-1_1971-XX-XX       66.39%    passed     63.05%
+  18  H_p1879_G_JF446286-1_1971-XX-XX         66.80%    passed     68.19%
+  19  H_FHA5054_G_JF446287-1_1971-XX-XX       66.60%    passed     69.80%
+  20  H_8027_G_JF446288-1_1991-XX-XX          66.80%    passed     96.56%
+  21  AN_8640_G_JF446289-1_1966-XX-XX         66.19%    passed     96.57%
+  22  AN_5185_G_JF446290-1_1966-XX-XX         66.39%    passed     95.13%
+  23  AN_13365_G_JF446291-1_1969-XX-XX        66.39%    passed     93.81%
+  24  AN_16501_G_JF446292-1_1974-XX-XX        66.80%    passed     99.59%
+  25  AN_17058_G_JF446293-1_1975-XX-XX        67.63%    passed     90.94%
+  26  AN_17246_G_JF446294-1_1975-XX-XX        66.60%    passed     95.83%
+  27  AN_17116_G_JF446295-1_1975-XX-XX        66.39%    passed     99.46%
+  28  AN_17064_G_JF446296-1_1975-XX-XX        66.39%    passed     99.46%
+  29  Candid1-wt_HQ126699-1_XXXX-XX-XX         0.00%    passed     91.46%
+  30  Candid1-rec_HQ126701-1_XXXX-XX-XX        0.00%    passed     93.37%
+  31  JNM-6682_DQ531486-1_XXXX-XX-XX           0.00%    passed     95.99%
+  32  JNM-7354_DQ531488-1_XXXX-XX-XX           0.00%    passed     91.39%
+  33  P1998_DQ854730-1_XXXX-XX-XX              0.00%    passed     80.83%
+  34  P2031_DQ854731-1_XXXX-XX-XX              0.00%    passed     95.64%
+  35  P4036_DQ854732-1_XXXX-XX-XX              0.00%    passed     94.58%
+  36  P2045_DQ854733-1_XXXX-XX-XX              0.00%    passed     86.98%
+  37  P3778_DQ854734-1_XXXX-XX-XX              0.00%    passed     87.68%
+  38  P3766_DQ854735-1_XXXX-XX-XX              0.00%    passed     87.20%
+  39  P2290_DQ854736-1_XXXX-XX-XX              0.00%    passed     87.35%
+  40  P3096_DQ854737-1_XXXX-XX-XX              0.00%    passed     92.12%
+  41  P35302_DQ854738-1_XXXX-XX-XX             0.00%    passed     92.31%
+  42  P3790_DQ854739-1_XXXX-XX-XX              0.00%    passed     88.12%
+  43  Candid-1_FJ969442-1_XXXX-XX-XX           0.00%    passed     89.63%
+  44  XJ13_FJ805378-1_XXXX-XX-XX               0.00%    passed     90.54%
+  45  rXJ13_FJ805380-1_XXXX-XX-XX              0.00%    passed     90.23%
+  46  Cba-IV4454_DQ272266-3_XXXX-XX-XX         0.00%    passed     93.21%
+  47  Candid-1_AY746353-1_XXXX-XX-XX           0.00%    passed     92.40%
+  48  Rumero_AY619641-1_XXXX-XX-XX             0.00%    passed     85.30%
+  49  XJ13_AY358023-2_XXXX-XX-XX               0.00%    passed     89.77%
+  50  CbaAn9446_AF264197-1_XXXX-XX-XX         73.20%    passed     67.82%
+  51  CbaLye63_AF264198-1_XXXX-XX-XX          73.20%    passed     64.77%
+  52  CbaIV4454_AF264199-1_XXXX-XX-XX         73.20%    passed     67.86%
+  53  CbaFHA5069_AF264200-1_XXXX-XX-XX        73.20%    passed     76.95%
+  54  PAn19107_AF264201-1_XXXX-XX-XX          73.20%    passed     82.85%
+  55  PAn19103_AF264202-1_XXXX-XX-XX          73.20%    passed     82.85%
+  56  PAn16160_AF264203-1_XXXX-XX-XX          73.20%    passed     80.18%
+  57  PAn19109_AF264204-1_XXXX-XX-XX          73.20%    passed     77.31%
+  58  PAn14661_AF264205-1_XXXX-XX-XX          73.20%    passed     31.23%
+  59  PH8845_AF264206-1_XXXX-XX-XX            73.20%    passed     58.72%
+  60  PH6699_AF264207-1_XXXX-XX-XX            73.20%    passed     41.13%
+  61  PH5949_AF264208-1_XXXX-XX-XX            73.20%    passed     40.27%
+  62  PH7734_AF264209-1_XXXX-XX-XX            73.20%    passed     45.95%
+  63  PH5893_AF264210-1_XXXX-XX-XX            73.20%    passed     50.13%
+  64  PH4795_AF264211-1_XXXX-XX-XX            73.20%    passed     58.05%
+  65  PAn10004_AF264212-1_XXXX-XX-XX          73.20%    passed     48.30%
+  66  PAn16288_AF264213-1_XXXX-XX-XX          73.20%    passed     38.25%
+  67  PAn16256_AF264214-1_XXXX-XX-XX          73.20%    passed     38.25%
+  68  PH4842_AF264215-1_XXXX-XX-XX            73.20%    passed     37.92%
+  69  PH7007_AF264216-1_XXXX-XX-XX            73.20%    passed     38.36%
+  70  PH4757_AF264217-1_XXXX-XX-XX            73.20%    passed     50.40%
+  71  PH3878_AF264218-1_XXXX-XX-XX            73.20%    passed     34.57%
+  72  PHToledo_AF264219-1_XXXX-XX-XX          73.20%    passed     35.93%
+  73  PH6101_AF264220-1_XXXX-XX-XX            73.20%    passed     35.93%
+  74  PH3235_AF264221-1_XXXX-XX-XX            73.20%    passed     31.76%
+  75  PH7367_AF264222-1_XXXX-XX-XX            73.20%    passed     41.80%
+  76  PAn19221_AF264223-1_XXXX-XX-XX          73.20%    passed     33.62%
+  77  PAn9918_AF264224-1_XXXX-XX-XX           73.20%    passed     24.65%
+  78  PAn16114_AF264225-1_XXXX-XX-XX          73.20%    passed     56.40%
+  79  PH4906_AF264226-1_XXXX-XX-XX            73.20%    passed     51.00%
+  80  XJCl3_AF264227-1_XXXX-XX-XX             73.20%    passed     65.49%
+  81  XJ44_AF264228-1_XXXX-XX-XX              73.20%    passed     69.34%
+  82  PH3790_AF264229-1_XXXX-XX-XX            73.20%    passed     51.29%
+  83  PH3470_AF264230-1_XXXX-XX-XX            73.20%    passed     51.29%
+  84  PH2697_AF264231-1_XXXX-XX-XX            73.20%    passed     55.34%
+  85  PH2412_AF264232-1_XXXX-XX-XX            73.20%    passed     55.34%
+  86  PAn14823_AF264233-1_XXXX-XX-XX          73.20%    passed     54.80%
+  87  PH7994_AF264234-1_XXXX-XX-XX            73.20%    passed     55.34%
+  88  PH3190_AF264235-1_XXXX-XX-XX            73.20%    passed     63.10%
+  89  XJ-Parodi-strain_U70799-1_XXXX-XX-XX     0.00%    passed     84.30%
+  90  XJ-44_U70800-1_XXXX-XX-XX                0.00%    passed     78.76%
+  91  Candid-1_U70801-1_XXXX-XX-XX             0.00%    passed     83.70%
+  92  MC2_D10072-2_XXXX-XX-XX                  0.00%    passed     74.57%
+WARNING: 52 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                   40.44%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: XJ13_AY358023-2_XXXX-XX-XX is identical to XJ13_NC_005081-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: Candid1-wt_HQ126699-1_XXXX-XX-XX is identical to Candid-1_PV266730-1_1980-XX-XX but kept for subsequent analysis
+NOTE: XJCl3_MG189701-1_XXXX-XX-XX is identical to XJ13_MZ408914-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: Rumero_AY619641-1_XXXX-XX-XX is identical to Romero_P3235_MW227339-1_2017-03-16 but kept for subsequent analysis
+NOTE: XJ39_JF799983-1_XXXX-XX-XX is identical to XJ34_JF799982-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: AN_17064_G_JF446296-1_1975-XX-XX is identical to AN_17116_G_JF446295-1_1975-XX-XX but kept for subsequent analysis
+NOTE: PAn19103_AF264202-1_XXXX-XX-XX is identical to PAn19107_AF264201-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PAn16256_AF264214-1_XXXX-XX-XX is identical to PAn16288_AF264213-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH6101_AF264220-1_XXXX-XX-XX is identical to PHToledo_AF264219-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH3470_AF264230-1_XXXX-XX-XX is identical to PH3790_AF264229-1_XXXX-XX-XX but kept for subsequent analysis
+NOTE: PH2412_AF264232-1_XXXX-XX-XX is identical to PH2697_AF264231-1_XXXX-XX-XX but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000305891 secs using 100% CPU
+Identifying sites to remove: done in 0.00078392 secs using 99.76% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: XJ48_JF799984-1_XXXX-XX-XX (identical to XJ34_JF799982-1_XXXX-XX-XX) is ignored but added at the end
+Alignment was printed to Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+14 trees examined
+Threads: 1 / Time: 1.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11708
+Determining AUTO threadcount: done in 1.04429 secs using 83.81% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -7025.637
+Optimal log-likelihood: -7025.306
+Rate parameters:  A-C: 4.22737  A-G: 29.95533  A-T: 4.17706  C-G: 1.93772  C-T: 38.64347  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.212  G: 0.205  T: 0.291
+Proportion of invariable sites: 0.287
+Gamma shape alpha: 0.569
+Parameters optimization took 1 rounds (0.054 sec)
+Time for fast ML tree search: 0.647 seconds
+
+NOTE: ModelFinder requires 12 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1455 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           TIM2+F+I+R2
+Corrected Akaike Information Criterion: TIM2+F+I+R2
+Bayesian Information Criterion:         TPM2u+F+I+G4
+Best-fit model: TPM2u+F+I+G4 chosen according to BIC
+
+All model information printed to Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.model.gz
+CPU time for ModelFinder: 31.775 seconds (0h:0m:31s)
+Wall-clock time for ModelFinder: 37.918 seconds (0h:0m:37s)
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.867 / Estimate: 0.000, 0.284 / LogL: -7033.142
+Init pinv, alpha: 0.065, 0.867 / Estimate: 0.067, 0.320 / LogL: -7032.114
+Init pinv, alpha: 0.130, 0.867 / Estimate: 0.134, 0.364 / LogL: -7031.071
+Init pinv, alpha: 0.195, 0.867 / Estimate: 0.200, 0.427 / LogL: -7030.114
+Init pinv, alpha: 0.260, 0.867 / Estimate: 0.266, 0.504 / LogL: -7029.084
+Init pinv, alpha: 0.325, 0.867 / Estimate: 0.331, 0.611 / LogL: -7028.256
+Init pinv, alpha: 0.390, 0.867 / Estimate: 0.392, 0.776 / LogL: -7027.863
+Init pinv, alpha: 0.455, 0.867 / Estimate: 0.445, 1.011 / LogL: -7028.421
+Init pinv, alpha: 0.521, 0.867 / Estimate: 0.458, 1.123 / LogL: -7028.947
+Init pinv, alpha: 0.586, 0.867 / Estimate: 0.458, 1.120 / LogL: -7028.950
+Optimal pinv,alpha: 0.392, 0.776 / LogL: -7027.863
+
+Parameters optimization took 1.753 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.024188 secs using 97.42% CPU
+Computing ML distances took 0.024377 sec (of wall-clock time) 0.023756 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000209093 secs using 99.48% CPU
+Constructing RapidNJ tree: done in 0.000411987 secs using 99.76% CPU
+Computing RapidNJ tree took 0.000654 sec (of wall-clock time) 0.000653 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -7370.162
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -7027.863
+Finish initializing candidate tree set (4)
+Current best tree score: -7027.863 / CPU time: 0.334
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -7027.863
+Optimal log-likelihood: -7027.862
+Rate parameters:  A-C: 3.15023  A-G: 28.63625  A-T: 3.15023  C-G: 1.00000  C-T: 28.63625  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.212  G: 0.205  T: 0.291
+Proportion of invariable sites: 0.392
+Gamma shape alpha: 0.775
+Parameters optimization took 1 rounds (0.023 sec)
+BEST SCORE FOUND : -7027.862
+Total tree length: 2.931
+
+Total number of iterations: 2
+CPU time used for tree search: 0.267 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.335 sec (0h:0m:0s)
+Total CPU time used: 33.858 sec (0h:0m:33s)
+Total wall-clock time used: 40.463 sec (0h:0m:40s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.iqtree
+  Maximum-likelihood tree:       Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.treefile
+  Likelihood distances:          Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.mldist
+  Screen log file:               Results/JUNV_GPC/Alignments/codon_ungapped-delim.fasta.log
+
+Date and Time: Tue Aug 11 10:48:33 2026

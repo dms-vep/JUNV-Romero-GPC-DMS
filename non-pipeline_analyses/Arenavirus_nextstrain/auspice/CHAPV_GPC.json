@@ -1,0 +1,1370 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Diversity of Chapare virus glycoprotein complex (GPC)",
+    "updated": "2026-08-11",
+    "maintainers": [
+      {
+        "name": "the Bloom lab",
+        "url": "https://jbloomlab.org/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "distance_measure": "div",
+      "color_by": "virus",
+      "transmission_lines": false
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1455,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "Results/CHAPV_GPC/CHAPV_GPC_reference.gb"
+      },
+      "GPC": {
+        "end": 1455,
+        "seqid": "Results/CHAPV_GPC/CHAPV_GPC_reference.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "description": "Phylogeny of Glycoprotein complex (GPC). ",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Bolivia",
+            "#4C90C0"
+          ]
+        ]
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical"
+      },
+      {
+        "key": "virus",
+        "title": "Virus",
+        "type": "categorical"
+      },
+      {
+        "key": "candid_related",
+        "title": "Vaccine_related",
+        "type": "categorical"
+      },
+      {
+        "key": "date",
+        "title": "Date",
+        "type": "temporal"
+      }
+    ],
+    "filters": [
+      "virus",
+      "date",
+      "country",
+      "candid_related",
+      "host"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Bolivia": {
+            "latitude": -17.0568696,
+            "longitude": -64.9912286
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.0391438
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C24T",
+              "C102G",
+              "T154C",
+              "G162A",
+              "A165G",
+              "G186A",
+              "T192C",
+              "G225A",
+              "A228G",
+              "T325C",
+              "A342G",
+              "G381A",
+              "G411A",
+              "G480C",
+              "C543T",
+              "T547G",
+              "C645T",
+              "T690C",
+              "C708G",
+              "A756G",
+              "A768G",
+              "C876T",
+              "A1029G",
+              "T1053C",
+              "T1101C",
+              "G1137T",
+              "T1152C",
+              "A1191G",
+              "T1221C",
+              "T1275C",
+              "T1284C",
+              "G1320A",
+              "G1323A",
+              "T1374C",
+              "A1377G",
+              "C1404T",
+              "A1409G",
+              "T1452C"
+            ],
+            "GPC": [
+              "S183A",
+              "I236M",
+              "K470R"
+            ]
+          },
+          "labels": {
+            "aa": "GPC: S183A, I236M, K470R"
+          }
+        },
+        "children": [
+          {
+            "name": "810419_NC_010562-1_2003-XX-XX",
+            "node_attrs": {
+              "div": 0.0391448,
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_010562.1",
+              "accession": "NC_010562.1",
+              "author": {
+                "author": "Delgado et al",
+                "title": "Chapare virus, a newly discovered arenavirus isolated from a fatal hemorrhagic fever case in Bolivia",
+                "journal": "PLoS Pathog. 4 (4), E1000047 (2008)",
+                "paper_url": "https://pubmed.ncbi.nlm.nih.gov/18421377",
+                "value": "Delgado et al"
+              },
+              "country": {
+                "value": "Bolivia"
+              },
+              "candid_related": {
+                "value": "no"
+              },
+              "host": {
+                "value": "Human"
+              },
+              "virus": {
+                "value": "Chapare virus"
+              },
+              "date": {
+                "value": "2003-XX-XX"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "810419_EU260463-1_2003-XX-XX",
+            "node_attrs": {
+              "div": 0.0391448,
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/EU260463.1",
+              "accession": "EU260463.1",
+              "author": {
+                "author": "Delgado et al",
+                "title": "Chapare virus, a newly discovered arenavirus isolated from a fatal hemorrhagic fever case in Bolivia",
+                "journal": "PLoS Pathog. 4 (4), E1000047 (2008)",
+                "paper_url": "https://pubmed.ncbi.nlm.nih.gov/18421377",
+                "value": "Delgado et al"
+              },
+              "country": {
+                "value": "Bolivia"
+              },
+              "candid_related": {
+                "value": "no"
+              },
+              "host": {
+                "value": "Human"
+              },
+              "virus": {
+                "value": "Chapare virus"
+              },
+              "date": {
+                "value": "2003-XX-XX"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000002",
+        "node_attrs": {
+          "div": 0.0710036
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A45C",
+              "C57A",
+              "C78G",
+              "C84T",
+              "T90C",
+              "C93T",
+              "C102T",
+              "C138A",
+              "T150C",
+              "C168T",
+              "C201T",
+              "A204G",
+              "T246C",
+              "T248C",
+              "T252C",
+              "A258G",
+              "G261A",
+              "T272A",
+              "C282T",
+              "G290A",
+              "A312G",
+              "G315A",
+              "T321A",
+              "C339T",
+              "G348A",
+              "G362C",
+              "A366G",
+              "A423C",
+              "A429T",
+              "G432A",
+              "T450C",
+              "T465C",
+              "C500G",
+              "A501T",
+              "T505A",
+              "T546C",
+              "T552G",
+              "C564T",
+              "A566G",
+              "C573T",
+              "G576A",
+              "T593C",
+              "A597G",
+              "G612A",
+              "A624G",
+              "G633A",
+              "C639T",
+              "G678A",
+              "A694G",
+              "G754A",
+              "C789T",
+              "C792T",
+              "G813A",
+              "T826C",
+              "C831T",
+              "C840T",
+              "T849C",
+              "T861C",
+              "A882G",
+              "T885C",
+              "C900T",
+              "T927C",
+              "A936G",
+              "G945A",
+              "G966A",
+              "A967G",
+              "C969G",
+              "C993T",
+              "T996C",
+              "T1002C",
+              "A1041G",
+              "G1044A",
+              "A1047G",
+              "T1056A",
+              "C1065T",
+              "C1095T",
+              "G1110A",
+              "C1155T",
+              "T1204C",
+              "C1209T",
+              "G1218A",
+              "T1230C",
+              "C1236T",
+              "T1278C",
+              "A1349G",
+              "T1359C",
+              "G1401A",
+              "A1410G",
+              "C1437T",
+              "G1445A",
+              "A1448C"
+            ],
+            "GPC": [
+              "I83T",
+              "L91H",
+              "S97N",
+              "R121P",
+              "T167S",
+              "S169T",
+              "K189R",
+              "M192I",
+              "I198T",
+              "T232A",
+              "V252I",
+              "N323E",
+              "Q450R",
+              "R482K",
+              "K483T"
+            ]
+          },
+          "labels": {
+            "aa": "GPC: I83T, L91H, S97N, R121P, T167S, S169T, K189R, M192I, I198T, T232A, V252I, N323E, Q450R, R482K, K483T"
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.0805395
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T36A",
+                  "G129A",
+                  "C177T",
+                  "G337A",
+                  "T363C",
+                  "C423T",
+                  "T534C",
+                  "A738G",
+                  "G912A",
+                  "A933G",
+                  "C1318T",
+                  "C1398T",
+                  "C1422T"
+                ],
+                "GPC": [
+                  "V113I"
+                ]
+              },
+              "labels": {
+                "aa": "GPC: V113I"
+              }
+            },
+            "children": [
+              {
+                "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13",
+                "node_attrs": {
+                  "div": 0.0859992,
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772917.1",
+                  "accession": "MZ772917.1",
+                  "author": {
+                    "author": "Loayza Mafayle et al",
+                    "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                    "journal": "Unpublished",
+                    "value": "Loayza Mafayle et al"
+                  },
+                  "country": {
+                    "value": "Bolivia"
+                  },
+                  "candid_related": {
+                    "value": "no"
+                  },
+                  "host": {
+                    "value": "Human"
+                  },
+                  "virus": {
+                    "value": "Chapare virus"
+                  },
+                  "date": {
+                    "value": "2019-12-13"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C21T",
+                      "T102C",
+                      "A216T",
+                      "A272T",
+                      "G829A",
+                      "C1098T",
+                      "G1349A",
+                      "T1452C"
+                    ],
+                    "GPC": [
+                      "H91L",
+                      "V277I",
+                      "R450Q"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "GPC: H91L, V277I, R450Q"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.093769
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T153C",
+                      "C255T",
+                      "A261G",
+                      "G312C",
+                      "T326C",
+                      "T332C",
+                      "T334A",
+                      "T340C",
+                      "T482C",
+                      "G500A",
+                      "T573C",
+                      "G624A",
+                      "A635T",
+                      "G643A",
+                      "A813G",
+                      "C960G",
+                      "C1386T",
+                      "A1431G"
+                    ],
+                    "GPC": [
+                      "L109S",
+                      "M111T",
+                      "S112T",
+                      "L161P",
+                      "S167N",
+                      "Q212L",
+                      "V215I",
+                      "N320K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "GPC: L109S, M111T, S112T, L161P, S167N, Q212L, V215I, N320K"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17",
+                    "node_attrs": {
+                      "div": 0.09377,
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772913.1",
+                      "accession": "MZ772913.1",
+                      "author": {
+                        "author": "Loayza Mafayle et al",
+                        "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                        "journal": "Unpublished",
+                        "value": "Loayza Mafayle et al"
+                      },
+                      "country": {
+                        "value": "Bolivia"
+                      },
+                      "candid_related": {
+                        "value": "no"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "virus": {
+                        "value": "Chapare virus"
+                      },
+                      "date": {
+                        "value": "2019-07-17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17",
+                    "node_attrs": {
+                      "div": 0.09377,
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772915.1",
+                      "accession": "MZ772915.1",
+                      "author": {
+                        "author": "Loayza Mafayle et al",
+                        "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                        "journal": "Unpublished",
+                        "value": "Loayza Mafayle et al"
+                      },
+                      "country": {
+                        "value": "Bolivia"
+                      },
+                      "candid_related": {
+                        "value": "no"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "virus": {
+                        "value": "Chapare virus"
+                      },
+                      "date": {
+                        "value": "2019-07-17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 0.0769107
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C94T",
+                  "T127C",
+                  "T183A",
+                  "T513C",
+                  "G657A",
+                  "A870G",
+                  "A924G",
+                  "G1203A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX",
+                "node_attrs": {
+                  "div": 0.0782932,
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772920.1",
+                  "accession": "MZ772920.1",
+                  "author": {
+                    "author": "Loayza Mafayle et al",
+                    "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                    "journal": "Unpublished",
+                    "value": "Loayza Mafayle et al"
+                  },
+                  "country": {
+                    "value": "Bolivia"
+                  },
+                  "candid_related": {
+                    "value": "no"
+                  },
+                  "host": {
+                    "value": "Human"
+                  },
+                  "virus": {
+                    "value": "Chapare virus"
+                  },
+                  "date": {
+                    "value": "2019-07-XX"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G696A",
+                      "G819A"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 0.0783118
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T993G",
+                      "C1146T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX",
+                    "node_attrs": {
+                      "div": 0.0790038,
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772922.1",
+                      "accession": "MZ772922.1",
+                      "author": {
+                        "author": "Loayza Mafayle et al",
+                        "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                        "journal": "Unpublished",
+                        "value": "Loayza Mafayle et al"
+                      },
+                      "country": {
+                        "value": "Bolivia"
+                      },
+                      "candid_related": {
+                        "value": "no"
+                      },
+                      "host": {
+                        "value": "Human"
+                      },
+                      "virus": {
+                        "value": "Chapare virus"
+                      },
+                      "date": {
+                        "value": "2019-07-XX"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T561C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000007",
+                    "node_attrs": {
+                      "div": 0.0791209
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T326C"
+                        ],
+                        "GPC": [
+                          "L109S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "GPC: L109S"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31",
+                        "node_attrs": {
+                          "div": 0.0824969,
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772919.1",
+                          "accession": "MZ772919.1",
+                          "author": {
+                            "author": "Loayza Mafayle et al",
+                            "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                            "journal": "Unpublished",
+                            "value": "Loayza Mafayle et al"
+                          },
+                          "country": {
+                            "value": "Bolivia"
+                          },
+                          "candid_related": {
+                            "value": "no"
+                          },
+                          "host": {
+                            "value": "Human"
+                          },
+                          "virus": {
+                            "value": "Chapare virus"
+                          },
+                          "date": {
+                            "value": "2019-12-31"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T75Y",
+                              "C279T",
+                              "T325A",
+                              "G333A",
+                              "A495G",
+                              "C629T"
+                            ],
+                            "GPC": [
+                              "S109T",
+                              "M111I",
+                              "P210L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "GPC: S109T, M111I, P210L"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 0.0868899
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A54T",
+                              "G333T",
+                              "T334A",
+                              "C376T",
+                              "T426C",
+                              "G643A",
+                              "C885T",
+                              "C1089T",
+                              "C1278T",
+                              "G1323A",
+                              "G1349A"
+                            ],
+                            "GPC": [
+                              "M111I",
+                              "S112T",
+                              "V215I",
+                              "R450Q"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "GPC: M111I, S112T, V215I, R450Q"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28",
+                            "node_attrs": {
+                              "div": 0.0868923,
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772907.1",
+                              "accession": "MZ772907.1",
+                              "author": {
+                                "author": "Loayza Mafayle et al",
+                                "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                "journal": "Unpublished",
+                                "value": "Loayza Mafayle et al"
+                              },
+                              "country": {
+                                "value": "Bolivia"
+                              },
+                              "candid_related": {
+                                "value": "no"
+                              },
+                              "host": {
+                                "value": "Human"
+                              },
+                              "virus": {
+                                "value": "Chapare virus"
+                              },
+                              "date": {
+                                "value": "2019-06-28"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A532W",
+                                  "G1195N",
+                                  "A1196N",
+                                  "C1197N",
+                                  "C1198N",
+                                  "A1199N",
+                                  "C1200N",
+                                  "T1201N",
+                                  "T1202N",
+                                  "A1203N",
+                                  "C1204N",
+                                  "T1205N",
+                                  "G1206N",
+                                  "T1207N",
+                                  "C1208N",
+                                  "T1209N",
+                                  "G1210N",
+                                  "A1211N",
+                                  "A1212N",
+                                  "A1213N",
+                                  "T1214N",
+                                  "G1215N",
+                                  "T1216N",
+                                  "T1217N",
+                                  "A1218N",
+                                  "A1219N",
+                                  "A1220N",
+                                  "T1221N",
+                                  "A1222N",
+                                  "A1223N",
+                                  "A1224N",
+                                  "G1225N",
+                                  "A1226N",
+                                  "G1227N",
+                                  "T1228N",
+                                  "A1229N",
+                                  "C1230N",
+                                  "T1231N",
+                                  "T1232N",
+                                  "T1233N",
+                                  "G1234N",
+                                  "A1235N",
+                                  "T1236N",
+                                  "A1237N",
+                                  "G1238N",
+                                  "A1239N",
+                                  "C1240N",
+                                  "A1241N",
+                                  "A1242N",
+                                  "G1243N",
+                                  "G1244N",
+                                  "G1245N",
+                                  "A1246N",
+                                  "A1247N",
+                                  "A1248N",
+                                  "A1249N",
+                                  "C1250N",
+                                  "C1251N",
+                                  "C1252N",
+                                  "C1253N",
+                                  "A1254N",
+                                  "A1255N",
+                                  "T1256N",
+                                  "A1257N",
+                                  "A1258N",
+                                  "C1259N",
+                                  "A1260N",
+                                  "C1261N",
+                                  "T1262N",
+                                  "T1263N",
+                                  "G1264N",
+                                  "T1265N",
+                                  "T1266N",
+                                  "G1267N",
+                                  "A1268N",
+                                  "C1269N",
+                                  "A1270N",
+                                  "T1271N",
+                                  "C1272N",
+                                  "T1273N",
+                                  "G1274N",
+                                  "T1275N",
+                                  "T1276N",
+                                  "T1277N",
+                                  "T1278N",
+                                  "T1279N",
+                                  "G1280N",
+                                  "G1281N",
+                                  "A1282N",
+                                  "G1283N",
+                                  "T1284N",
+                                  "A1285N",
+                                  "C1286N",
+                                  "A1287N",
+                                  "C1288N",
+                                  "T1289N",
+                                  "G1290N",
+                                  "T1291N",
+                                  "T1292N",
+                                  "C1293N",
+                                  "T1294N",
+                                  "T1295N",
+                                  "C1296N",
+                                  "A1297N",
+                                  "C1298N",
+                                  "A1299N",
+                                  "A1300N",
+                                  "C1301N",
+                                  "A1302N",
+                                  "A1303N",
+                                  "C1304N",
+                                  "A1305N",
+                                  "T1306N",
+                                  "T1307N",
+                                  "G1308N",
+                                  "T1309N",
+                                  "T1310N",
+                                  "T1311N",
+                                  "C1312N",
+                                  "T1313N",
+                                  "C1314N",
+                                  "C1315N",
+                                  "A1316N",
+                                  "T1317N",
+                                  "C1318N",
+                                  "T1319N",
+                                  "G1320N",
+                                  "G1321N",
+                                  "T1322N",
+                                  "A1323N",
+                                  "G1324N",
+                                  "G1325N",
+                                  "C1326N",
+                                  "T1327N",
+                                  "T1328N",
+                                  "C1329N",
+                                  "C1330N",
+                                  "C1331N",
+                                  "A1332N",
+                                  "A1333N",
+                                  "C1334N",
+                                  "T1335N",
+                                  "C1336N",
+                                  "A1337N",
+                                  "C1338N",
+                                  "A1339N",
+                                  "G1340N",
+                                  "A1341N",
+                                  "C1342N",
+                                  "A1343N",
+                                  "C1344N",
+                                  "A1345N",
+                                  "T1346N",
+                                  "T1347N",
+                                  "C1348N",
+                                  "A1349N",
+                                  "G1350N",
+                                  "G1351N",
+                                  "G1352N",
+                                  "A1353N",
+                                  "G1354N",
+                                  "A1355N",
+                                  "A1356N",
+                                  "C1357N",
+                                  "C1358N",
+                                  "C1359N",
+                                  "T1360N",
+                                  "G1361N",
+                                  "C1362N",
+                                  "C1363N",
+                                  "C1364N",
+                                  "A1365N",
+                                  "C1366N",
+                                  "T1367N",
+                                  "G1368N",
+                                  "C1369N",
+                                  "C1370N",
+                                  "T1371N",
+                                  "C1372N",
+                                  "A1373N",
+                                  "T1374N",
+                                  "A1375N",
+                                  "A1376N",
+                                  "A1377N",
+                                  "C1378N",
+                                  "T1379N",
+                                  "C1380N",
+                                  "A1381N",
+                                  "A1382N",
+                                  "C1383N",
+                                  "A1384N",
+                                  "G1385N",
+                                  "C1386N",
+                                  "A1387N",
+                                  "A1388N",
+                                  "T1389N",
+                                  "G1390N",
+                                  "G1391N",
+                                  "T1392N",
+                                  "G1393N",
+                                  "G1394N",
+                                  "A1395N",
+                                  "T1396N",
+                                  "G1397N",
+                                  "C1398N",
+                                  "A1399N",
+                                  "G1400N",
+                                  "A1401N",
+                                  "T1402N",
+                                  "G1403N",
+                                  "C1404N",
+                                  "G1405N",
+                                  "G1406N",
+                                  "C1407N",
+                                  "A1408N",
+                                  "A1409N",
+                                  "G1410N",
+                                  "T1411N",
+                                  "A1412N",
+                                  "T1413N",
+                                  "C1414N",
+                                  "C1415N",
+                                  "A1416N",
+                                  "G1417N",
+                                  "A1418N",
+                                  "A1419N",
+                                  "C1420N",
+                                  "T1421N",
+                                  "C1422N",
+                                  "A1423N",
+                                  "A1424N",
+                                  "G1425N",
+                                  "A1426N",
+                                  "A1427N",
+                                  "A1428N",
+                                  "C1429N",
+                                  "C1430N",
+                                  "A1431N",
+                                  "A1432N",
+                                  "C1433N",
+                                  "A1434N",
+                                  "A1435N",
+                                  "C1436N",
+                                  "T1437N",
+                                  "T1438N",
+                                  "G1439N",
+                                  "G1440N",
+                                  "C1441N",
+                                  "A1442N",
+                                  "C1443N",
+                                  "A1444N",
+                                  "A1445N",
+                                  "G1446N",
+                                  "A1447N",
+                                  "C1448N",
+                                  "A1449N",
+                                  "C1450N",
+                                  "A1451N",
+                                  "T1452N"
+                                ],
+                                "GPC": [
+                                  "N178X",
+                                  "D399X",
+                                  "H400X",
+                                  "L401X",
+                                  "L402X",
+                                  "S403X",
+                                  "E404X",
+                                  "M405X",
+                                  "L406X",
+                                  "N407X",
+                                  "K408X",
+                                  "E409X",
+                                  "Y410X",
+                                  "F411X",
+                                  "D412X",
+                                  "R413X",
+                                  "Q414X",
+                                  "G415X",
+                                  "K416X",
+                                  "T417X",
+                                  "P418X",
+                                  "I419X",
+                                  "T420X",
+                                  "L421X",
+                                  "V422X",
+                                  "D423X",
+                                  "I424X",
+                                  "C425X",
+                                  "F426X",
+                                  "W427X",
+                                  "S428X",
+                                  "T429X",
+                                  "L430X",
+                                  "F431X",
+                                  "F432X",
+                                  "T433X",
+                                  "T434X",
+                                  "T435X",
+                                  "L436X",
+                                  "F437X",
+                                  "L438X",
+                                  "H439X",
+                                  "L440X",
+                                  "V441X",
+                                  "G442X",
+                                  "F443X",
+                                  "P444X",
+                                  "T445X",
+                                  "H446X",
+                                  "R447X",
+                                  "H448X",
+                                  "I449X",
+                                  "Q450X",
+                                  "G451X",
+                                  "E452X",
+                                  "P453X",
+                                  "C454X",
+                                  "P455X",
+                                  "L456X",
+                                  "P457X",
+                                  "H458X",
+                                  "K459X",
+                                  "L460X",
+                                  "N461X",
+                                  "S462X",
+                                  "N463X",
+                                  "G464X",
+                                  "G465X",
+                                  "C466X",
+                                  "R467X",
+                                  "C468X",
+                                  "G469X",
+                                  "K470X",
+                                  "Y471X",
+                                  "P472X",
+                                  "E473X",
+                                  "L474X",
+                                  "K475X",
+                                  "K476X",
+                                  "P477X",
+                                  "T478X",
+                                  "T479X",
+                                  "W480X",
+                                  "H481X",
+                                  "K482X",
+                                  "T483X",
+                                  "H484X"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "GPC: N178X, D399X, H400X, L401X, L402X, S403X, E404X, M405X, L406X, N407X, K408X, E409X, Y410X, F411X, D412X, R413X, Q414X, G415X, K416X, T417X, P418X, I419X, T420X, L421X, V422X, D423X, I424X, C425X, F426X, W427X, S428X, T429X, L430X, F431X, F432X, T433X, T434X, T435X, L436X, F437X, L438X, H439X, L440X, V441X, G442X, F443X, P444X, T445X, H446X, R447X, H448X, I449X, Q450X, G451X, E452X, P453X, C454X, P455X, L456X, P457X, H458X, K459X, L460X, N461X, S462X, N463X, G464X, G465X, C466X, R467X, C468X, G469X, K470X, Y471X, P472X, E473X, L474X, K475X, K476X, P477X, T478X, T479X, W480X, H481X, K482X, T483X, H484X"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "div": 0.0868919
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23",
+                                "node_attrs": {
+                                  "div": 0.0875857,
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772911.1",
+                                  "accession": "MZ772911.1",
+                                  "author": {
+                                    "author": "Loayza Mafayle et al",
+                                    "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                    "journal": "Unpublished",
+                                    "value": "Loayza Mafayle et al"
+                                  },
+                                  "country": {
+                                    "value": "Bolivia"
+                                  },
+                                  "candid_related": {
+                                    "value": "no"
+                                  },
+                                  "host": {
+                                    "value": "Human"
+                                  },
+                                  "virus": {
+                                    "value": "Chapare virus"
+                                  },
+                                  "date": {
+                                    "value": "2019-08-23"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1016G"
+                                    ],
+                                    "GPC": [
+                                      "N339S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "GPC: N339S"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000010",
+                                "node_attrs": {
+                                  "div": 0.0868946
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28",
+                                    "node_attrs": {
+                                      "div": 0.0868969,
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772905.1",
+                                      "accession": "MZ772905.1",
+                                      "author": {
+                                        "author": "Loayza Mafayle et al",
+                                        "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                        "journal": "Unpublished",
+                                        "value": "Loayza Mafayle et al"
+                                      },
+                                      "country": {
+                                        "value": "Bolivia"
+                                      },
+                                      "candid_related": {
+                                        "value": "no"
+                                      },
+                                      "host": {
+                                        "value": "Human"
+                                      },
+                                      "virus": {
+                                        "value": "Chapare virus"
+                                      },
+                                      "date": {
+                                        "value": "2019-05-28"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000011",
+                                    "node_attrs": {
+                                      "div": 0.0868969
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27",
+                                        "node_attrs": {
+                                          "div": 0.0868969,
+                                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772909.1",
+                                          "accession": "MZ772909.1",
+                                          "author": {
+                                            "author": "Loayza Mafayle et al",
+                                            "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                            "journal": "Unpublished",
+                                            "value": "Loayza Mafayle et al"
+                                          },
+                                          "country": {
+                                            "value": "Bolivia"
+                                          },
+                                          "candid_related": {
+                                            "value": "no"
+                                          },
+                                          "host": {
+                                            "value": "Human"
+                                          },
+                                          "virus": {
+                                            "value": "Chapare virus"
+                                          },
+                                          "date": {
+                                            "value": "2019-06-27"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000012",
+                                        "node_attrs": {
+                                          "div": 0.0868969
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28",
+                                            "node_attrs": {
+                                              "div": 0.0868969,
+                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772903.1",
+                                              "accession": "MZ772903.1",
+                                              "author": {
+                                                "author": "Loayza Mafayle et al",
+                                                "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                                "journal": "Unpublished",
+                                                "value": "Loayza Mafayle et al"
+                                              },
+                                              "country": {
+                                                "value": "Bolivia"
+                                              },
+                                              "candid_related": {
+                                                "value": "no"
+                                              },
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "virus": {
+                                                "value": "Chapare virus"
+                                              },
+                                              "date": {
+                                                "value": "2019-05-28"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27",
+                                            "node_attrs": {
+                                              "div": 0.0868969,
+                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/MZ772908.1",
+                                              "accession": "MZ772908.1",
+                                              "author": {
+                                                "author": "Loayza Mafayle et al",
+                                                "title": "Chapare hemorrhagic fever in Bolivia 2019: nosocomial transmission, viral persistence in humans and virus detection in Oligoryzomys microtis rodents",
+                                                "journal": "Unpublished",
+                                                "value": "Loayza Mafayle et al"
+                                              },
+                                              "country": {
+                                                "value": "Bolivia"
+                                              },
+                                              "candid_related": {
+                                                "value": "no"
+                                              },
+                                              "host": {
+                                                "value": "Human"
+                                              },
+                                              "virus": {
+                                                "value": "Chapare virus"
+                                              },
+                                              "date": {
+                                                "value": "2019-06-27"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "root_sequence": {
+    "nuc": "ATGGGTCAACTTGTGAGTTTCTTCCAGGAAATTCCTAACATCATACAGGAAGCAATCAACATTGCTCTAATAGCTGTCAGCCTCATTGCTATCCTAAAAGGCTTGGTCAATCTGTGGAAAAGTGGTTTGTTTCAACTCCTGGTCTTCCTTATTTTAGCTGGGAGATCCTGCTCATTCAAAATTGGGAGATCTACAGAACTCCAAAACATCACAATAAACATGTTGAAAGTCTTTGAGGACCATCCTATTTCTTGCACAGTGAACAAAACTCTTTATTACATCCGTGAAAGTGAGAATGCAACATGGTGTGTAGAGATTGCTGCATTGGACATGTCTGTCTTACTCTCGCCACATGATCCACGTGTAATGGGCAACCTATCGAACTGTGTTCACCCAGACATTAAACATAGGTCAGAACTTCTAGGTCTATTGGAGTGGATTTTGAGAGCTCTGAAATATGATTTTCTAAATTATCCACCGCTCTTGTGTGAAAAAGTGACATCATCTGTCAATGAAACACGCATTCAGATAAATGTGAGCGACAGTTCAGGTTCTCATGATTTCAAAGAAACCATGCTCCAAAGGCTGGCCATACTATTTGGCACAAAATTGATGTTTGATAAAACACCTAAGCAGTTCATAGTCATCAGAAATCAGACTTGGGTGAATCAGTGCAAGTCCAATCATGTTAACACGTTGCATTTGATCATGGCTAATGCTGGGCATGCTGTTAAATTAAGAAGATTGCAAGGGGTATTCACTTGGACAATCACAGATGCTGCTGGCAACGACATGCCTGGAGGTTATTGTTTGGAAAGGTGGATGTTAGTCACATCTGACCTGAAATGTTTTGGCAACACTGCTCTTGCAAAGTGCAACTTAAATCATGACTCTGAGTTCTGTGACATGTTGAAACTGTTTGAATTTAACAAAAAAGCAATTGAGTCATTGAATGACAACACAAAGAACAAAGTCAATCTATTAACACATTCCATTAATGCTTTAATTTCTGACAATCTTTTGATGAAAAATAGATTAAAAGAGTTATTGGATACTCCCTACTGCAACTACACAAAATTCTGGTATGTCAACCACACCATTACAGGAGAGCATTCACTTCCACGCTGTTGGATGGTGAAAAACAACAGCTATCTCAATGAAAGTGAATTTAGAAATGATTGGATTCTTGAAAGTGACCACTTGTTGTCCGAAATGTTGAATAAAGAGTATTTTGACAGACAAGGGAAAACCCCAATAACACTTGTTGACATCTGTTTTTGGAGTACACTGTTCTTCACAACAACATTGTTTCTCCATCTGGTGGGCTTCCCAACTCACAGACACATTCAGGGAGAACCTTGCCCACTGCCTCATAAACTCAACAGCAATGGTGGATGCAGGTGCGGCAAATATCCAGAACTCAAGAAACCAACAACCTGGCACAGGAAACAT",
+    "GPC": "MGQLVSFFQEIPNIIQEAINIALIAVSLIAILKGLVNLWKSGLFQLLVFLILAGRSCSFKIGRSTELQNITINMLKVFEDHPISCTVNKTLYYIRESENATWCVEIAALDMSVLLSPHDPRVMGNLSNCVHPDIKHRSELLGLLEWILRALKYDFLNYPPLLCEKVTSSVNETRIQINVSDSSGSHDFKETMLQRLAILFGTKLMFDKTPKQFIVIRNQTWVNQCKSNHVNTLHLIMANAGHAVKLRRLQGVFTWTITDAAGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLNHDSEFCDMLKLFEFNKKAIESLNDNTKNKVNLLTHSINALISDNLLMKNRLKELLDTPYCNYTKFWYVNHTITGEHSLPRCWMVKNNSYLNESEFRNDWILESDHLLSEMLNKEYFDRQGKTPITLVDICFWSTLFFTTTLFLHLVGFPTHRHIQGEPCPLPHKLNSNGGCRCGKYPELKKPTTWHRKH"
+  }
+}

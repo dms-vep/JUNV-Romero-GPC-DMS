@@ -1,0 +1,136 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    gizmoj9 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 --threads-max 1 -s Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo -o SPH114202_NC_006317-1_XXXX-XX-XX
+Seed:    911491 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 11 10:45:23 2026
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000384092 secs using 99.72% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00156808 secs using 99.93% CPU
+Alignment has 15 sequences with 1452 columns, 136 distinct patterns
+171 parsimony-informative, 309 singleton sites, 972 constant sites
+                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.10623e-06 secs using 86.35% CPU
+   1  810419_NC_010562-1_2003-XX-XX                                                               0.00%    passed     90.01%
+   2  SPH114202_NC_006317-1_XXXX-XX-XX                                                            0.00%    passed     32.37%
+   3  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28    0.00%    passed     99.34%
+   4  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28    0.00%    passed     99.34%
+   5  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28     17.84%    passed     71.24%
+   6  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27      0.00%    passed     99.34%
+   7  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27      0.00%    passed     99.34%
+   8  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23      0.00%    passed     99.72%
+   9  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17      0.00%    passed     99.66%
+  10  Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17      0.00%    passed     99.66%
+  11  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13      0.00%    passed     99.16%
+  12  Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31      0.07%    passed     99.84%
+  13  Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX           0.00%    passed     99.39%
+  14  Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX           0.00%    passed     99.71%
+  15  810419_EU260463-1_2003-XX-XX                                                                0.00%    passed     90.01%
+****  TOTAL                                                                                       1.19%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 810419_EU260463-1_2003-XX-XX is identical to 810419_NC_010562-1_2003-XX-XX but kept for subsequent analysis
+NOTE: Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28 is identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28 but kept for subsequent analysis
+NOTE: Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17 is identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17 but kept for subsequent analysis
+Checking for duplicate sequences: done in 5.6982e-05 secs using 100% CPU
+Identifying sites to remove: done in 0.000303984 secs using 100% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27 (identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28) is ignored but added at the end
+NOTE: Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27 (identical to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28) is ignored but added at the end
+Alignment was printed to Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+401 trees examined
+Threads: 1 / Time: 1.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -5016
+Determining AUTO threadcount: done in 1.00218 secs using 84.23% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4152.462
+Optimal log-likelihood: -4151.476
+Rate parameters:  A-C: 0.33452  A-G: 10.37906  A-T: 2.33308  C-G: 2.78069  C-T: 15.53596  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.198  G: 0.197  T: 0.284
+Proportion of invariable sites: 0.324
+Gamma shape alpha: 0.771
+Parameters optimization took 1 rounds (0.003 sec)
+Time for fast ML tree search: 0.031 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1452 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           TIM+F+G4
+Corrected Akaike Information Criterion: TIM+F+G4
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.model.gz
+CPU time for ModelFinder: 1.451 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.737 seconds (0h:0m:1s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -4156.705
+2. Current log-likelihood: -4156.014
+Optimal log-likelihood: -4155.967
+Rate parameters:  A-C: 1.00000  A-G: 11.44296  A-T: 1.00000  C-G: 1.00000  C-T: 11.44296  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.198  G: 0.197  T: 0.284
+Proportion of invariable sites: 0.542
+Parameters optimization took 2 rounds (0.001 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000200033 secs using 98.98% CPU
+Computing ML distances took 0.000230 sec (of wall-clock time) 0.000232 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 4.31538e-05 secs using 69.52% CPU
+Constructing RapidNJ tree: done in 3.09944e-05 secs using 96.79% CPU
+Computing RapidNJ tree took 0.000101 sec (of wall-clock time) 0.000101 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4165.604
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+UPDATE BEST LOG-LIKELIHOOD: -4155.958
+Finish initializing candidate tree set (2)
+Current best tree score: -4155.958 / CPU time: 0.006
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -4155.958
+Optimal log-likelihood: -4155.945
+Rate parameters:  A-C: 1.00000  A-G: 11.55094  A-T: 1.00000  C-G: 1.00000  C-T: 11.55094  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.198  G: 0.197  T: 0.284
+Proportion of invariable sites: 0.543
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -4155.945
+Total tree length: 1.370
+
+Total number of iterations: 2
+CPU time used for tree search: 0.003 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.006 sec (0h:0m:0s)
+Total CPU time used: 1.470 sec (0h:0m:1s)
+Total wall-clock time used: 1.771 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.iqtree
+  Maximum-likelihood tree:       Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.treefile
+  Likelihood distances:          Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.mldist
+  Screen log file:               Results/CHAPV_GPC/Alignments/codon_ungapped-delim.fasta.log
+
+Date and Time: Tue Aug 11 10:45:25 2026

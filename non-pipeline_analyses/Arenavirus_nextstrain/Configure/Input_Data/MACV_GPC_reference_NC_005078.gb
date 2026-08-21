@@ -1,0 +1,91 @@
+LOCUS       MACV_GPC                1491 bp    DNA     linear   UNA 26-FEB-2025
+DEFINITION  Machupo virus segment S, complete genome.
+ACCESSION   NC_005078
+VERSION     .
+KEYWORDS    .
+SOURCE      Mammarenavirus machupoense
+  ORGANISM  Mammarenavirus machupoense
+REFERENCE   1  (bases 1 to 1491)
+  AUTHORS   Charrel RN, Feldmann H, Fulhorst CF, Khelifa R, de Chesse R, de 
+            Lamballerie X.
+  TITLE     Phylogeny of New World arenaviruses based on the complete coding 
+            sequences of the small genomic segment identified an evolutionary 
+            lineage produced by intrasegmental recombination
+  JOURNAL   Biochem. Biophys. Res. Commun. 296 (5), 1118-1124 (2002)
+  PUBMED    12207889
+REFERENCE   2  (bases 1 to 1491)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2003) National Center for Biotechnology 
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1491)
+  AUTHORS   Charrel RN, Feldmann H, Khelifa R, de Lamballerie X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2002) Unite des Virus Emergents, Universite de la 
+            Mediterranee, 27 Blvd Jean Moulin, Marseille 13005, France
+REFERENCE   4  (bases 1 to 1491)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 26, 2025 from SnapGene 8.0.2
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Biochem. 
+            Biophys. Res. Commun."; date: "2002"; volume: "296"; issue: "5"; 
+            pages: "1118-1124"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (30-AUG-2003) National Center for Biotechnology Information, NIH, 
+            Bethesda, MD 20894, USA"
+COMMENT     SGRef: number: 3; type: "Journal Article"; journalName: "Submitted 
+            (05-JUL-2002) Unite des Virus Emergents, Universite de la 
+            Mediterranee, 27 Blvd Jean Moulin, Marseille 13005, France"
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            NCBI review. The reference sequence is identical to AY129248. 
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1491
+                     /segment="S"
+                     /strain="Carvallo"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:3052317"
+                     /organism="Mammarenavirus machupoense"
+     gene            1..1491
+                     /locus_tag="GPC"
+                     /gene="GPC"
+     CDS             1..1491
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQLISFFQEIPVFLQEALNIALVAVSLIAVIKGIINLYKSGLFQ
+                     FIFFLLLAGRSCSDGTFKIGLHTEFQSVTLTMQRLLANHSNELPSLCMLNNSFYYMRGG
+                     VNTFLIRVSDISVLMKEYDVSIYEPEDLGNCLNKSDSSWAIHWFSNALGHDWLMDPPML
+                     CRNKTKKEGSNIQFNISKADDARVYGKKIRNGMRHLFRGFHDPCEEGKVCYLTINQCGD
+                     PSSFDYCGVNHLSKCQFDHVNTLHFLVRSKTHLNFERSLKAFFSWSLTDSSGKDMPGGY
+                     CLEEWMLIAAKMKCFGNTAVAKCNQNHDSEFCDMLRLFDYNKNAIKTLNDESKKEINLL
+                     SQTVNALISDNLLMKNKIKELMSIPYCNYTKFWYVNHTLTGQHTLPRCWLIRNGSYLNT
+                     SEFRNDWILESDHLISEMLSKEYAERQGKTPITLVDICFWSTIFFTASLFLHLVGIPTH
+                     RHLKGEACPLPHKLDSFGGCRCGKYPRLKKPTIWHKRH"
+ORIGIN
+        1 atggggcagc ttatcagctt ctttcaggag attcctgttt ttctacagga agctctgaac
+       61 atcgctttag tggctgttag tctcatagct gtcatcaaag gcatcattaa cctttacaaa
+      121 agtggtctct tccagttcat cttctttctc ctcctagcag ggaggtcctg ctcggatggc
+      181 acattcaaaa taggcctaca cactgagttc cagtcagtca cccttaccat gcagagactt
+      241 ttagctaacc attcaaatga gctcccatct ctctgcatgc ttaacaatag tttttattat
+      301 atgaggggag gtgtgaacac cttcctgatt cgtgtttctg atatttcagt cctcatgaag
+      361 gagtatgatg tatcaatcta tgaaccagaa gaccttggaa attgtcttaa caagtctgac
+      421 tcaagctggg ctattcattg gttctcaaat gctttgggac atgactggct tatggatcct
+      481 ccaatgctat gtagaaacaa gacaaagaag gagggatcta acattcaatt caacatcagc
+      541 aaagctgatg atgccagagt gtatggaaag aagataagaa atggtatgag gcatctcttc
+      601 aggggcttcc atgacccgtg tgaggaaggg aaagtgtgct acctgaccat caatcagtgt
+      661 ggtgacccca gttcctttga ctactgtggc gtgaatcatc tttccaaatg tcagtttgac
+      721 catgtgaaca cccttcattt ccttgtgaga agtaagacac atctcaactt tgagaggtct
+      781 ttgaaagcat ttttctcatg gtctctgaca gactcctcag gaaaggacat gccaggaggt
+      841 tattgtctag aggaatggat gttgatagca gccaaaatga aatgtttcgg aaacactgct
+      901 gttgctaaat gtaatcaaaa tcatgactca gagttctgtg atatgctgag gctattcgac
+      961 tataacaaga atgcaataaa gaccctcaat gatgaatcaa agaaagaaat caatcttcta
+     1021 agccagacag tgaatgcctt aatctcagat aatttgttaa tgaagaataa aattaaagag
+     1081 ctaatgagca tcccttattg taattacaca aagttttggt atgtcaatca taccctgaca
+     1141 gggcagcaca ctcttccaag atgttggttg ataaggaatg gaagttatct taacacttct
+     1201 gaattcagga atgactggat tttagagagt gatcacctca tctcagagat gttaagtaag
+     1261 gaatatgctg aaaggcaagg caaaacccca atcacattag ttgatatttg tttctggagc
+     1321 acaattttct tcacagcatc attgttcctt catctagtcg gaatacccac ccatcgacac
+     1381 ctcaaaggcg aagcctgtcc tttgcctcat aagctggaca gcttcggagg ttgtagatgt
+     1441 ggcaaatatc ccagattgaa gaaacccacc atctggcaca aaagacatta a
+//

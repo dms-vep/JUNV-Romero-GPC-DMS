@@ -1,0 +1,54 @@
+{
+  "title": "",
+  "maintainers": [
+    {
+      "name": "the Bloom lab",
+      "url": "https://jbloomlab.org/"
+    }
+  ],
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "virus",
+      "title": "Virus",
+      "type": "categorical"
+    },
+    {
+      "key": "candid_related",
+      "title": "Vaccine_related",
+      "type": "categorical"
+    },
+    {
+      "key": "date",
+      "title": "Date",
+      "type": "temporal"
+    }
+  ],
+  "geo_resolutions": [
+    "country"
+  ],
+  "panels": [
+     "tree",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "distance_measure": "div",
+    "color_by" : "virus",
+    "transmission_lines": false
+  }
+}

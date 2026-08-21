@@ -1,0 +1,137 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    gizmoj9 (AVX512, FMA3, 376 GB RAM)
+Command: iqtree3 --threads-max 1 -s Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo -o BeAn-70563_NC_010247-1_XXXX-XX-XX
+Seed:    938514 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 11 10:49:27 2026
+Kernel:  AVX+FMA - auto-detect threads (1 CPU cores detected)
+
+Reading alignment file Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000364065 secs using 99.71% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00141311 secs using 90.01% CPU
+Alignment has 17 sequences with 1437 columns, 246 distinct patterns
+230 parsimony-informative, 368 singleton sites, 839 constant sites
+                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.00136e-05 secs
+   1  BeAn-70563_NC_010247-1_XXXX-XX-XX             0.00%    passed     34.38%
+   2  INH-95551_NC_005077-1_XXXX-XX-XX              0.00%    passed     97.91%
+   3  VINH-95551_PZ066132-1_1989-09-01              0.00%    passed     97.91%
+   4  S-26764_LC753262-1_1997-09-02                 0.00%    passed     92.39%
+   5  S-56764_AY572554-1_XXXX-XX-XX                 0.00%    passed     92.92%
+   6  CVH-960302_AY572555-1_XXXX-XX-XX              0.00%    passed     99.83%
+   7  CVH-960103_AY572556-1_XXXX-XX-XX              0.00%    passed     99.96%
+   8  CVH-950801_AY572557-1_XXXX-XX-XX              0.00%    passed     99.01%
+   9  CVH-960102_AY572558-1_XXXX-XX-XX              0.00%    passed     99.80%
+  10  VHF-1750_AY572559-1_XXXX-XX-XX                0.00%    passed     90.44%
+  11  VAV-1608_AY572560-1_XXXX-XX-XX                0.00%    passed     79.14%
+  12  CVH-961104_AY572561-1_XXXX-XX-XX              0.00%    passed     97.86%
+  13  AV-97021119_AY573922-1_XXXX-XX-XX             0.00%    passed     99.17%
+  14  VHF-3990-AV-97021237_AY576604-1_XXXX-XX-XX    0.00%    passed     96.92%
+  15  CVH-960101_AY497548-1_XXXX-XX-XX              0.00%    passed     99.98%
+  16  INH-95551_AY129247-1_XXXX-XX-XX               0.00%    passed     97.91%
+  17  INH-95551_AF485258-1_XXXX-XX-XX               0.00%    passed     97.91%
+****  TOTAL                                         0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: VINH-95551_PZ066132-1_1989-09-01 is identical to INH-95551_NC_005077-1_XXXX-XX-XX but kept for subsequent analysis
+Checking for duplicate sequences: done in 4.69685e-05 secs
+Identifying sites to remove: done in 0.000287056 secs
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: INH-95551_AY129247-1_XXXX-XX-XX (identical to INH-95551_NC_005077-1_XXXX-XX-XX) is ignored but added at the end
+NOTE: INH-95551_AF485258-1_XXXX-XX-XX (identical to INH-95551_NC_005077-1_XXXX-XX-XX) is ignored but added at the end
+Alignment was printed to Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+193 trees examined
+Threads: 1 / Time: 1.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -6736
+Determining AUTO threadcount: done in 1.0032 secs using 85.54% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -5454.567
+Optimal log-likelihood: -5454.114
+Rate parameters:  A-C: 1.79023  A-G: 16.16239  A-T: 1.58069  C-G: 1.72478  C-T: 21.14475  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.187  G: 0.224  T: 0.294
+Proportion of invariable sites: 0.285
+Gamma shape alpha: 0.912
+Parameters optimization took 1 rounds (0.005 sec)
+Time for fast ML tree search: 0.052 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1437 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           TIM2+F+I
+Corrected Akaike Information Criterion: TN+F+I
+Bayesian Information Criterion:         HKY+F+I
+Best-fit model: HKY+F+I chosen according to BIC
+
+All model information printed to Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.model.gz
+CPU time for ModelFinder: 2.247 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 2.646 seconds (0h:0m:2s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -5451.792
+Optimal log-likelihood: -5451.210
+Rate parameters:  A-C: 1.00000  A-G: 15.16666  A-T: 1.00000  C-G: 1.00000  C-T: 15.16666  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.187  G: 0.224  T: 0.294
+Proportion of invariable sites: 0.471
+Parameters optimization took 1 rounds (0.001 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00030303 secs using 99% CPU
+Computing ML distances took 0.000344 sec (of wall-clock time) 0.000349 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 3.09944e-05 secs using 93.57% CPU
+Constructing RapidNJ tree: done in 4.00543e-05 secs using 97.37% CPU
+Computing RapidNJ tree took 0.000097 sec (of wall-clock time) 0.000097 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5481.384
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Finish initializing candidate tree set (2)
+Current best tree score: -5451.210 / CPU time: 0.008
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -5451.210
+2. Current log-likelihood: -5451.074
+3. Current log-likelihood: -5450.929
+4. Current log-likelihood: -5450.861
+Optimal log-likelihood: -5450.820
+Rate parameters:  A-C: 1.00000  A-G: 16.86774  A-T: 1.00000  C-G: 1.00000  C-T: 16.86774  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.187  G: 0.224  T: 0.294
+Proportion of invariable sites: 0.471
+Parameters optimization took 4 rounds (0.003 sec)
+BEST SCORE FOUND : -5450.820
+Total tree length: 2.072
+
+Total number of iterations: 2
+CPU time used for tree search: 0.004 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.008 sec (0h:0m:0s)
+Total CPU time used: 2.273 sec (0h:0m:2s)
+Total wall-clock time used: 2.687 sec (0h:0m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.iqtree
+  Maximum-likelihood tree:       Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.treefile
+  Likelihood distances:          Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.mldist
+  Screen log file:               Results/GTOV_GPC/Alignments/codon_ungapped-delim.fasta.log
+
+Date and Time: Tue Aug 11 10:49:30 2026

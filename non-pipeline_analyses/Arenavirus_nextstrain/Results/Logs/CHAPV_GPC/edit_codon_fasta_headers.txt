@@ -1,0 +1,15 @@
+810419_NC_010562-1_2003-XX-XX_1 [1 - 1452] processed to 810419_NC_010562-1_2003-XX-XX
+SPH114202_NC_006317-1_XXXX-XX-XX_1 [1 - 1464] processed to SPH114202_NC_006317-1_XXXX-XX-XX
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28
+Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28_1 [1 - 1194] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27
+Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17
+Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13
+Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31_1 [1 - 1452] processed to Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31
+Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX_1 [1 - 1452] processed to Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX
+Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX_1 [1 - 1452] processed to Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX
+810419_EU260463-1_2003-XX-XX_1 [1 - 1452] processed to 810419_EU260463-1_2003-XX-XX

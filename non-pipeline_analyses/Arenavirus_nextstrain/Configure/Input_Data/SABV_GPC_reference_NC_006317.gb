@@ -1,0 +1,89 @@
+LOCUS       SabVsSgp1               1467 bp    DNA     linear   UNA 10-MAR-2025
+DEFINITION  Sabia virus, complete genome.
+ACCESSION   NC_006317
+VERSION     .
+KEYWORDS    .
+SOURCE      Sabia virus
+  ORGANISM  Sabia virus
+REFERENCE   1  (bases 1 to 1467)
+  AUTHORS   Gonzalez JP, Bowen MD, Nichol ST, Rico-Hesse R.
+  TITLE     Genetic characterization and phylogeny of Sabia virus, an emergent 
+            pathogen in Brazil
+  JOURNAL   Virology 221 (2), 318-324 (1996)
+  PUBMED    8661442
+REFERENCE   2  (bases 1 to 1467)
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-2004) National Center for Biotechnology 
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1467)
+  AUTHORS   Gonzalez JPJ., Bowen MD, Nichol ST, Rico-Hesse R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-NOV-1995) Michael D. Bowen, Special Pathogens Branch, 
+            DVRD/NCID, Centers for Disease Control and Prevention, 1600 Clifton 
+            Rd., N.E., Atlanta, GA 30333, USA
+REFERENCE   4  (bases 1 to 1467)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Mar 10, 2025 from SnapGene 8.0.2
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Virology"; 
+            date: "1996"; volume: "221"; issue: "2"; pages: "318-324"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (24-SEP-2004) National Center for Biotechnology Information, NIH, 
+            Bethesda, MD 20894, USA"
+COMMENT     SGRef: number: 3; type: "Journal Article"; journalName: "Submitted 
+            (21-NOV-1995) Michael D. Bowen, Special Pathogens Branch, DVRD/NCID,
+            Centers for Disease Control and Prevention, 1600 Clifton Rd., N.E., 
+            Atlanta, GA 30333, USA"
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final 
+            NCBI review. The reference sequence is identical to U41071. 
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1467
+                     /strain="SPH114202"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:2907957"
+                     /organism="Sabia virus"
+     gene            1..1467
+                     /locus_tag="GPC"
+                     /gene="GPC"
+     CDS             1..1467
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQLFSFFEEVPNIIHEAINIALIAVSLIAALKGMINLWKSGLFQ
+                     LIFFLTLAGRSCSFRIGRSTELQNITFDMLKVFEDHPTSCMVNHSTYYVHENKNATWCL
+                     EVSVTDVTLLMAEHDRQVLNNLSNCVHPAVEHRSRMVGLLEWIFRALKYDFNHDPTPLC
+                     QKQTSTVNETRVQINITEGFGSHGFEDTILQRLGVLFGSRIAFSNIQDLGKKRFLLIRN
+                     STWKNQCEMNHVNSMHLMLANAGRSSGSRRPLGIFSWTITDAVGNDMPGGYCLERWMLV
+                     TSDLKCFGNTALAKCNLDHDSEFCDMLKLFEFNKKAIETLNDNTKNKVNLLTHSINALI
+                     SDNLLMKNRLKELLNTPYCNYTKFWYVNHTASGEHSLPRCWLVRNNSYLNESEFRNDWI
+                     IESDHLLSEMLNKEYIDRQGKTPLTLVDICFWSTLFFTTTLFLHLVGFPTHRHIRGEPC
+                     PLPHRLNSRGGCRCGKYPELKKPITWHKNH"
+ORIGIN
+        1 atgggtcaat tgttcagctt ttttgaagaa gttccgaata tcatccatga ggctatcaac
+       61 atagctctga tagcagtgag cttaattgct gccttgaaag ggatgattaa cttgtggaag
+      121 agtggccttt tccaattgat attctttttg actctagcag gaagatcgtg ttcttttaga
+      181 attggaagga gcacagaatt gcaaaacata acgtttgata tgttgaaggt attcgaggac
+      241 caccccacat cttgcatggt gaatcattcc acctactatg tccatgaaaa caaaaatgcc
+      301 acttggtgtc ttgaggtgtc tgtgactgat gttaccctgc tcatggctga acatgatcgt
+      361 caagtcctca acaatctgtc aaactgtgtg caccctgcag ttgagcacag aagcaggatg
+      421 gttggcttac ttgagtggat ttttagagcc ctaaagtatg acttcaatca tgatccaaca
+      481 ccgttgtgtc aaaagcaaac ttcaacagtg aatgaaacac gtgtgcagat aaacatcact
+      541 gaggggtttg ggtctcacgg gtttgaagat accatccttc aaagactagg ggttctattc
+      601 ggttcaagaa ttgcattttc aaatatccag gatttaggta aaaaaaggtt tttattgatt
+      661 agaaattcaa cttggaaaaa tcaatgcgaa atgaatcatg taaactccat gcatttaatg
+      721 ttggcgaatg ctggtcgctc ttctggttct agaagaccac tcggcatttt ctcctggaca
+      781 ataactgatg cagtgggcaa tgacatgcct ggtggttatt gtcttgaaag atggatgcta
+      841 gtgacgtcag atcttaagtg ctttggaaac acagcactag caaaatgtaa ccttgaccac
+      901 gattcggaat tctgtgacat gttgaaattg tttgagttca acaaaaaagc gatagagaca
+      961 ttgaatgaca atacaaaaaa caaggtaaac ttgctgaccc actcaattaa tgcattaata
+     1021 tctgacaact tactgatgaa gaatcgactt aaagaattgt tgaacactcc ttattgtaat
+     1081 tacaccaaat tttggtatgt caatcacaca gcatcagggg aacactcatt gccacggtgc
+     1141 tggcttgtta gaaataatag ctacttgaat gaaagtgaat ttagaaatga ttggattatt
+     1201 gagagtgatc atttattgtc tgaaatgctc aataaagaat acatagatag acagggaaag
+     1261 acaccgttga ctttggtgga tatctgtttc tggagcactt tgtttttcac aacaacactg
+     1321 tttcttcacc tggtaggctt tccaactcat agacacatac gtggtgaacc ctgcccacta
+     1381 ccccataggc tcaacagtag aggaggatgt agatgtggga aataccctga actaaaaaag
+     1441 ccaatcacct ggcacaagaa ccactag
+//

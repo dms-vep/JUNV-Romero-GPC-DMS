@@ -1,0 +1,25 @@
+{
+  "alignment": "Results/SABV_GPC/Alignments/codon_ungapped_no_outgroup.fasta",
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "input_tree": "Results/SABV_GPC/Trees/tree_no_outgroup.nwk",
+  "nodes": {
+    "NODE_0000000": {
+      "branch_length": 0.001
+    },
+    "NODE_0000001": {
+      "branch_length": 0.06386796
+    },
+    "SP17_Brazil_SP_2020_PX308627-1_2020-06-01": {
+      "branch_length": 0.07085182
+    },
+    "SPH114202_NC_006317-1_XXXX-XX-XX": {
+      "branch_length": 1e-06
+    },
+    "SPH114202_U41071-1_XXXX-XX-XX": {
+      "branch_length": 1e-06
+    }
+  }
+}

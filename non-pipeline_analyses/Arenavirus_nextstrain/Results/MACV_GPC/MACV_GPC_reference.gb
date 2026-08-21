@@ -1,0 +1,63 @@
+LOCUS       GPC                     1491 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   GPC
+VERSION     GPC
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          1..1491
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQLISFFQEIPVFLQEALNIALVAVSLIAVIKGIINLYKSGLFQ
+                     FIFFLLLAGRSCSDGTFKIGLHTEFQSVTLTMQRLLANHSNELPSLCMLNNSFYYMRGG
+                     VNTFLIRVSDISVLMKEYDVSIYEPEDLGNCLNKSDSSWAIHWFSNALGHDWLMDPPML
+                     CRNKTKKEGSNIQFNISKADDARVYGKKIRNGMRHLFRGFHDPCEEGKVCYLTINQCGD
+                     PSSFDYCGVNHLSKCQFDHVNTLHFLVRSKTHLNFERSLKAFFSWSLTDSSGKDMPGGY
+                     CLEEWMLIAAKMKCFGNTAVAKCNQNHDSEFCDMLRLFDYNKNAIKTLNDESKKEINLL
+                     SQTVNALISDNLLMKNKIKELMSIPYCNYTKFWYVNHTLTGQHTLPRCWLIRNGSYLNT
+                     SEFRNDWILESDHLISEMLSKEYAERQGKTPITLVDICFWSTIFFTASLFLHLVGIPTH
+                     RHLKGEACPLPHKLDSFGGCRCGKYPRLKKPTIWHKRH"
+     CDS             1..1491
+                     /locus_tag="GPC"
+                     /codon_start=1
+                     /product="GPC"
+                     /translation="MGQLISFFQEIPVFLQEALNIALVAVSLIAVIKGIINLYKSGLFQ
+                     FIFFLLLAGRSCSDGTFKIGLHTEFQSVTLTMQRLLANHSNELPSLCMLNNSFYYMRGG
+                     VNTFLIRVSDISVLMKEYDVSIYEPEDLGNCLNKSDSSWAIHWFSNALGHDWLMDPPML
+                     CRNKTKKEGSNIQFNISKADDARVYGKKIRNGMRHLFRGFHDPCEEGKVCYLTINQCGD
+                     PSSFDYCGVNHLSKCQFDHVNTLHFLVRSKTHLNFERSLKAFFSWSLTDSSGKDMPGGY
+                     CLEEWMLIAAKMKCFGNTAVAKCNQNHDSEFCDMLRLFDYNKNAIKTLNDESKKEINLL
+                     SQTVNALISDNLLMKNKIKELMSIPYCNYTKFWYVNHTLTGQHTLPRCWLIRNGSYLNT
+                     SEFRNDWILESDHLISEMLSKEYAERQGKTPITLVDICFWSTIFFTASLFLHLVGIPTH
+                     RHLKGEACPLPHKLDSFGGCRCGKYPRLKKPTIWHKRH"
+                     /gene="GPC"
+ORIGIN
+        1 atggggcagc ttatcagctt ctttcaggag attcctgttt ttctacagga agctctgaac
+       61 atcgctttag tggctgttag tctcatagct gtcatcaaag gcatcattaa cctttacaaa
+      121 agtggtctct tccagttcat cttctttctc ctcctagcag ggaggtcctg ctcggatggc
+      181 acattcaaaa taggcctaca cactgagttc cagtcagtca cccttaccat gcagagactt
+      241 ttagctaacc attcaaatga gctcccatct ctctgcatgc ttaacaatag tttttattat
+      301 atgaggggag gtgtgaacac cttcctgatt cgtgtttctg atatttcagt cctcatgaag
+      361 gagtatgatg tatcaatcta tgaaccagaa gaccttggaa attgtcttaa caagtctgac
+      421 tcaagctggg ctattcattg gttctcaaat gctttgggac atgactggct tatggatcct
+      481 ccaatgctat gtagaaacaa gacaaagaag gagggatcta acattcaatt caacatcagc
+      541 aaagctgatg atgccagagt gtatggaaag aagataagaa atggtatgag gcatctcttc
+      601 aggggcttcc atgacccgtg tgaggaaggg aaagtgtgct acctgaccat caatcagtgt
+      661 ggtgacccca gttcctttga ctactgtggc gtgaatcatc tttccaaatg tcagtttgac
+      721 catgtgaaca cccttcattt ccttgtgaga agtaagacac atctcaactt tgagaggtct
+      781 ttgaaagcat ttttctcatg gtctctgaca gactcctcag gaaaggacat gccaggaggt
+      841 tattgtctag aggaatggat gttgatagca gccaaaatga aatgtttcgg aaacactgct
+      901 gttgctaaat gtaatcaaaa tcatgactca gagttctgtg atatgctgag gctattcgac
+      961 tataacaaga atgcaataaa gaccctcaat gatgaatcaa agaaagaaat caatcttcta
+     1021 agccagacag tgaatgcctt aatctcagat aatttgttaa tgaagaataa aattaaagag
+     1081 ctaatgagca tcccttattg taattacaca aagttttggt atgtcaatca taccctgaca
+     1141 gggcagcaca ctcttccaag atgttggttg ataaggaatg gaagttatct taacacttct
+     1201 gaattcagga atgactggat tttagagagt gatcacctca tctcagagat gttaagtaag
+     1261 gaatatgctg aaaggcaagg caaaacccca atcacattag ttgatatttg tttctggagc
+     1321 acaattttct tcacagcatc attgttcctt catctagtcg gaatacccac ccatcgacac
+     1381 ctcaaaggcg aagcctgtcc tttgcctcat aagctggaca gcttcggagg ttgtagatgt
+     1441 ggcaaatatc ccagattgaa gaaacccacc atctggcaca aaagacatta a
+//

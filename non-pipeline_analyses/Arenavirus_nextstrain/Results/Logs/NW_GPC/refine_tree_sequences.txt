@@ -1,0 +1,16 @@
+augur refine is using TreeTime version 0.12.1
+
+0.00	-TreeAnc: set-up
+
+0.00	WARNING: TreeTime has detected branches that are longer than 4. TreeTime
+    	requires trees where branch length is in units of average number of
+    	nucleotide or protein substitutions per site. Use on trees with longer
+    	branches is not recommended for ancestral sequence reconstruction.
+
+0.20	-SequenceData: loaded alignment.
+
+0.20	-SeqData: making compressed alignment...
+
+0.28	-SequenceData: constructed compressed alignment...
+updated tree written to Results/NW_GPC/Trees/tree.nwk
+node attributes written to Results/NW_GPC/Trees/tree_branch_lengths.json

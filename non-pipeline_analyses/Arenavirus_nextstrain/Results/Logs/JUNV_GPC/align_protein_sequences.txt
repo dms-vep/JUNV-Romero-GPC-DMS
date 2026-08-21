@@ -1,0 +1,62 @@
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: -1 kb
+rescale = 1
+All-to-all alignment.
+    0 / 92    1 / 92    2 / 92    3 / 92    4 / 92    5 / 92    6 / 92    7 / 92    8 / 92    9 / 92   10 / 92   11 / 92   12 / 92   13 / 92   14 / 92   15 / 92   16 / 92   17 / 92   18 / 92   19 / 92   20 / 92   21 / 92   22 / 92   23 / 92   24 / 92   25 / 92   26 / 92   27 / 92   28 / 92   29 / 92   30 / 92   31 / 92   32 / 92   33 / 92   34 / 92   35 / 92   36 / 92   37 / 92   38 / 92   39 / 92   40 / 92   41 / 92   42 / 92   43 / 92   44 / 92   45 / 92   46 / 92   47 / 92   48 / 92   49 / 92   50 / 92   51 / 92   52 / 92   53 / 92   54 / 92   55 / 92   56 / 92   57 / 92   58 / 92   59 / 92   60 / 92   61 / 92   62 / 92   63 / 92   64 / 92   65 / 92   66 / 92   67 / 92   68 / 92   69 / 92   70 / 92   71 / 92   72 / 92   73 / 92   74 / 92   75 / 92   76 / 92   77 / 92   78 / 92   79 / 92   80 / 92   81 / 92   82 / 92   83 / 92   84 / 92   85 / 92   86 / 92   87 / 92   88 / 92   89 / 92   90 / 92tbfast-pair (aa) Version 7.526
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 92   10 / 92   20 / 92   30 / 92   40 / 92   50 / 92   60 / 92   70 / 92   80 / 92   90 / 92
+done.
+
+Progressive alignment ... 
+STEP     1 /91 STEP     2 /91 STEP     3 /91 STEP     4 /91 STEP     5 /91 STEP     6 /91 STEP     7 /91 STEP     8 /91 STEP     9 /91 STEP    10 /91 STEP    11 /91 STEP    12 /91 STEP    13 /91 STEP    14 /91 STEP    15 /91 STEP    16 /91 STEP    17 /91 STEP    18 /91 STEP    19 /91 STEP    20 /91 STEP    21 /91 STEP    22 /91 STEP    23 /91 STEP    24 /91 STEP    25 /91 STEP    26 /91 STEP    27 /91 STEP    28 /91 STEP    29 /91 STEP    30 /91 STEP    31 /91 STEP    32 /91 STEP    33 /91 STEP    34 /91 STEP    35 /91 STEP    36 /91 STEP    37 /91 STEP    38 /91 STEP    39 /91 STEP    40 /91 STEP    41 /91 STEP    42 /91 STEP    43 /91 STEP    44 /91 STEP    45 /91 STEP    46 /91 STEP    47 /91 STEP    48 /91 STEP    49 /91 STEP    50 /91 STEP    51 /91 STEP    52 /91 STEP    53 /91 STEP    54 /91 STEP    55 /91 STEP    56 /91 STEP    57 /91 STEP    58 /91 STEP    59 /91 STEP    60 /91 STEP    61 /91 STEP    62 /91 STEP    63 /91 STEP    64 /91 STEP    65 /91 STEP    66 /91 STEP    67 /91 STEP    68 /91 STEP    69 /91 STEP    70 /91 STEP    71 /91 STEP    72 /91 STEP    73 /91 STEP    74 /91 STEP    75 /91 STEP    76 /91 STEP    77 /91 STEP    78 /91 STEP    79 /91 STEP    80 /91 STEP    81 /91 STEP    82 /91 STEP    83 /91 STEP    84 /91 STEP    85 /91 STEP    86 /91 STEP    87 /91 STEP    88 /91 STEP    89 /91 STEP    90 /91 STEP    91 /91 
+done.
+tbfast (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 92   10 / 92   20 / 92   30 / 92   40 / 92   50 / 92   60 / 92   70 / 92   80 / 92   90 / 92
+Segment   1/  1    1- 527
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  identical.   STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  identical.   STEP 001-008-0  identical.   STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  identical.   STEP 001-011-0  identical.   STEP 001-011-1  identical.   STEP 001-012-0  identical.   STEP 001-012-1  identical.   STEP 001-013-0  identical.   STEP 001-013-1  identical.   STEP 001-014-0  identical.   STEP 001-014-1  identical.   STEP 001-015-0  identical.   STEP 001-015-1  identical.   STEP 001-016-0  identical.   STEP 001-016-1  identical.   STEP 001-017-0  identical.   STEP 001-017-1  identical.   STEP 001-018-0  identical.   STEP 001-018-1  identical.   STEP 001-019-0  identical.   STEP 001-019-1  identical.   STEP 001-020-0  identical.   STEP 001-020-1  identical.   STEP 001-021-0  identical.   STEP 001-021-1  identical.   STEP 001-022-0  identical.   STEP 001-022-1  identical.   STEP 001-023-0  identical.   STEP 001-023-1  identical.   STEP 001-024-0  identical.   STEP 001-024-1  identical.   STEP 001-025-0  identical.   STEP 001-025-1  identical.   STEP 001-026-0  identical.   STEP 001-026-1  identical.   STEP 001-027-0  identical.   STEP 001-027-1  identical.   STEP 001-028-0  identical.   STEP 001-028-1  identical.   STEP 001-029-0  identical.   STEP 001-029-1  identical.   STEP 001-030-0  identical.   STEP 001-030-1  identical.   STEP 001-031-0  identical.   STEP 001-031-1  identical.   STEP 001-032-0  identical.   STEP 001-032-1  identical.   STEP 001-033-0  identical.   STEP 001-033-1  identical.   STEP 001-034-0  identical.   STEP 001-034-1  identical.   STEP 001-035-0  identical.   STEP 001-035-1  identical.   STEP 001-036-0  identical.   STEP 001-036-1  identical.   STEP 001-037-0  identical.   STEP 001-037-1  identical.   STEP 001-038-0  identical.   STEP 001-038-1  identical.   STEP 001-039-0  identical.   STEP 001-039-1  identical.   STEP 001-040-0  identical.   STEP 001-040-1  identical.   STEP 001-041-0  identical.   STEP 001-041-1  identical.   STEP 001-042-0  identical.   STEP 001-042-1  identical.   STEP 001-043-0  identical.   STEP 001-043-1  identical.   STEP 001-044-0  identical.   STEP 001-044-1  identical.   STEP 001-045-0  identical.   STEP 001-045-1  identical.   STEP 001-046-0  identical.   STEP 001-046-1  identical.   STEP 001-047-0  identical.   STEP 001-047-1  identical.   STEP 001-048-0  identical.   STEP 001-048-1  identical.   STEP 001-049-0  identical.   STEP 001-049-1  identical.   STEP 001-050-0  identical.   STEP 001-050-1  identical.   STEP 001-051-0  identical.   STEP 001-051-1  identical.   STEP 001-052-0  identical.   STEP 001-052-1  identical.   STEP 001-053-0  identical.   STEP 001-053-1  identical.   STEP 001-054-0  identical.   STEP 001-054-1  identical.   STEP 001-055-0  identical.   STEP 001-055-1  identical.   STEP 001-056-0  identical.   STEP 001-056-1  identical.   STEP 001-057-0  identical.   STEP 001-057-1  identical.   STEP 001-058-0  identical.   STEP 001-058-1  identical.   STEP 001-059-0  identical.   STEP 001-059-1  identical.   STEP 001-060-0  identical.   STEP 001-060-1  identical.   STEP 001-061-0  identical.   STEP 001-061-1  identical.   STEP 001-062-0  identical.   STEP 001-062-1  identical.   STEP 001-063-0  identical.   STEP 001-063-1  identical.   STEP 001-064-0  identical.   STEP 001-064-1  identical.   STEP 001-065-0  identical.   STEP 001-065-1  identical.   STEP 001-066-0  identical.   STEP 001-066-1  identical.   STEP 001-067-0  identical.   STEP 001-067-1  identical.   STEP 001-068-0  identical.   STEP 001-068-1  identical.   STEP 001-069-0  identical.   STEP 001-069-1  identical.   STEP 001-070-0  identical.   STEP 001-070-1  identical.   STEP 001-071-0  identical.   STEP 001-071-1  identical.   STEP 001-072-0  identical.   STEP 001-072-1  identical.   STEP 001-073-0  identical.   STEP 001-073-1  identical.   STEP 001-074-0  identical.   STEP 001-074-1  identical.   STEP 001-075-0  identical.   STEP 001-075-1  identical.   STEP 001-076-0  identical.   STEP 001-076-1  identical.   STEP 001-077-0  identical.   STEP 001-077-1  identical.   STEP 001-078-0  identical.   STEP 001-078-1  identical.   STEP 001-079-0  identical.   STEP 001-079-1  identical.   STEP 001-080-0  identical.   STEP 001-080-1  identical.   STEP 001-081-0  identical.   STEP 001-081-1  rejected.STEP 001-082-0  identical.   STEP 001-082-1  identical.   STEP 001-083-0  identical.   STEP 001-083-1  identical.   STEP 001-084-0  identical.   STEP 001-084-1  identical.   STEP 001-085-0  identical.   STEP 001-085-1  identical.   STEP 001-086-0  identical.   STEP 001-086-1  identical.   STEP 001-087-0  identical.   STEP 001-087-1  identical.   STEP 001-088-0  identical.   STEP 001-088-1  identical.   STEP 001-089-0  identical.   STEP 001-089-1  identical.   STEP 001-090-0  identical.   STEP 001-090-1  identical.   STEP 001-091-1  identical.   STEP 002-091-1  identical.   STEP 002-090-0  identical.   STEP 002-090-1  identical.   
+Converged.
+
+done
+dvtditr (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

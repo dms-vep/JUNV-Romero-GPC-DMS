@@ -1,0 +1,13 @@
+name: msa_analysis
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - biopython
+  - jupyterlab
+  - pandas
+  - seaborn
+  - mafft
+  - pymsaviz
+  - altair

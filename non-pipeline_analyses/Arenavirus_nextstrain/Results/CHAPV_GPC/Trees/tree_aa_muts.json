@@ -1,0 +1,301 @@
+{
+  "annotations": {
+    "GPC": {
+      "end": 1455,
+      "seqid": "Results/CHAPV_GPC/CHAPV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 1455,
+      "seqid": "Results/CHAPV_GPC/CHAPV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "nodes": {
+    "810419_EU260463-1_2003-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "810419_NC_010562-1_2003-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201901267-8_MZ772905-1_2019-05-28": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903410_MZ772911-1_2019-08-23": {
+      "aa_muts": {
+        "GPC": [
+          "N339S"
+        ]
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--tc_BOL_2019_Caranavi-201903458_MZ772915-1_2019-07-17": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901267-8_MZ772903-1_2019-05-28": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901324_MZ772907-1_2019-06-28": {
+      "aa_muts": {
+        "GPC": [
+          "N178X",
+          "D399X",
+          "H400X",
+          "L401X",
+          "L402X",
+          "S403X",
+          "E404X",
+          "M405X",
+          "L406X",
+          "N407X",
+          "K408X",
+          "E409X",
+          "Y410X",
+          "F411X",
+          "D412X",
+          "R413X",
+          "Q414X",
+          "G415X",
+          "K416X",
+          "T417X",
+          "P418X",
+          "I419X",
+          "T420X",
+          "L421X",
+          "V422X",
+          "D423X",
+          "I424X",
+          "C425X",
+          "F426X",
+          "W427X",
+          "S428X",
+          "T429X",
+          "L430X",
+          "F431X",
+          "F432X",
+          "T433X",
+          "T434X",
+          "T435X",
+          "L436X",
+          "F437X",
+          "L438X",
+          "H439X",
+          "L440X",
+          "V441X",
+          "G442X",
+          "F443X",
+          "P444X",
+          "T445X",
+          "H446X",
+          "R447X",
+          "H448X",
+          "I449X",
+          "Q450X",
+          "G451X",
+          "E452X",
+          "P453X",
+          "C454X",
+          "P455X",
+          "L456X",
+          "P457X",
+          "H458X",
+          "K459X",
+          "L460X",
+          "N461X",
+          "S462X",
+          "N463X",
+          "G464X",
+          "G465X",
+          "C466X",
+          "R467X",
+          "C468X",
+          "G469X",
+          "K470X",
+          "Y471X",
+          "P472X",
+          "E473X",
+          "L474X",
+          "K475X",
+          "K476X",
+          "P477X",
+          "T478X",
+          "T479X",
+          "W480X",
+          "H481X",
+          "K482X",
+          "T483X",
+          "H484X"
+        ]
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901326_MZ772908-1_2019-06-27": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201901328_MZ772909-1_2019-06-27": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903458_MZ772913-1_2019-07-17": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903462_MZ772917-1_2019-12-13": {
+      "aa_muts": {
+        "GPC": [
+          "H91L",
+          "V277I",
+          "R450Q"
+        ]
+      }
+    },
+    "Chapare_mammarenavirus_H-sapiens--wt_BOL_2019_Caranavi-201903467_MZ772919-1_2019-12-31": {
+      "aa_muts": {
+        "GPC": [
+          "S109T",
+          "M111I",
+          "P210L"
+        ]
+      }
+    },
+    "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-27S_MZ772920-1_2019-07-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "Chapare_mammarenavirus_O-microtis--wt_BOL_2019_Caranavi-30S_MZ772922-1_2019-07-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {
+        "GPC": []
+      },
+      "aa_sequences": {
+        "GPC": "MGQLVSFFQEIPNIIQEAINIALIAVSLIAILKGLVNLWKSGLFQLLVFLILAGRSCSFKIGRSTELQNITINMLKVFEDHPISCTVNKTLYYIRESENATWCVEIAALDMSVLLSPHDPRVMGNLSNCVHPDIKHRSELLGLLEWILRALKYDFLNYPPLLCEKVTSSVNETRIQINVSDSSGSHDFKETMLQRLAILFGTKLMFDKTPKQFIVIRNQTWVNQCKSNHVNTLHLIMANAGHAVKLRRLQGVFTWTITDAAGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLNHDSEFCDMLKLFEFNKKAIESLNDNTKNKVNLLTHSINALISDNLLMKNRLKELLDTPYCNYTKFWYVNHTITGEHSLPRCWMVKNNSYLNESEFRNDWILESDHLLSEMLNKEYFDRQGKTPITLVDICFWSTLFFTTTLFLHLVGFPTHRHIQGEPCPLPHKLNSNGGCRCGKYPELKKPTTWHRKH"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "GPC": [
+          "S183A",
+          "I236M",
+          "K470R"
+        ]
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "GPC": [
+          "I83T",
+          "L91H",
+          "S97N",
+          "R121P",
+          "T167S",
+          "S169T",
+          "K189R",
+          "M192I",
+          "I198T",
+          "T232A",
+          "V252I",
+          "N323E",
+          "Q450R",
+          "R482K",
+          "K483T"
+        ]
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "GPC": [
+          "V113I"
+        ]
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "GPC": [
+          "L109S",
+          "M111T",
+          "S112T",
+          "L161P",
+          "S167N",
+          "Q212L",
+          "V215I",
+          "N320K"
+        ]
+      }
+    },
+    "NODE_0000005": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "GPC": [
+          "L109S"
+        ]
+      }
+    },
+    "NODE_0000008": {
+      "aa_muts": {
+        "GPC": [
+          "M111I",
+          "S112T",
+          "V215I",
+          "R450Q"
+        ]
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000010": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "GPC": []
+      }
+    }
+  },
+  "reference": {
+    "GPC": "MGQLVSFFQEIPNIIQEAINIALIAVSLIAILKGLVNLWKSGLFQLLVFLILAGRSCSFKIGRSTELQNITINMLKVFEDHPISCTVNKTLYYIRESENATWCVEIAALDMSVLLSPHDPRVMGNLSNCVHPDIKHRSELLGLLEWILRALKYDFLNYPPLLCEKVTSSVNETRIQINVSDSSGSHDFKETMLQRLAILFGTKLMFDKTPKQFIVIRNQTWVNQCKSNHVNTLHLIMANAGHAVKLRRLQGVFTWTITDAAGNDMPGGYCLERWMLVTSDLKCFGNTALAKCNLNHDSEFCDMLKLFEFNKKAIESLNDNTKNKVNLLTHSINALISDNLLMKNRLKELLDTPYCNYTKFWYVNHTITGEHSLPRCWMVKNNSYLNESEFRNDWILESDHLLSEMLNKEYFDRQGKTPITLVDICFWSTLFFTTTLFLHLVGFPTHRHIQGEPCPLPHKLNSNGGCRCGKYPELKKPTTWHRKH"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "annotations": {
+    "GPC": {
+      "end": 1440,
+      "seqid": "Results/GTOV_GPC/GTOV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 1440,
+      "seqid": "Results/GTOV_GPC/GTOV_GPC_reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "nodes": {
+    "AV-97021119_AY573922-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "V38I",
+          "F49Y",
+          "C116G",
+          "L123F",
+          "G132D",
+          "N198D",
+          "N351S",
+          "K468R",
+          "Q472R",
+          "T474I"
+        ]
+      }
+    },
+    "CVH-950801_AY572557-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "V51I",
+          "N99D",
+          "I139V",
+          "I344F",
+          "K468N"
+        ]
+      }
+    },
+    "CVH-960101_AY497548-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "CVH-960102_AY572558-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "CVH-960103_AY572556-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "CVH-960302_AY572555-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "CVH-961104_AY572561-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "K40R",
+          "V51I",
+          "N99D",
+          "T121I",
+          "K131E",
+          "T164A",
+          "V167I",
+          "L239H",
+          "N321S",
+          "K411R",
+          "Q445L",
+          "N458D"
+        ]
+      }
+    },
+    "INH-95551_AF485258-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "INH-95551_AY129247-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "INH-95551_NC_005077-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {
+        "GPC": []
+      },
+      "aa_sequences": {
+        "GPC": "MGQLISFFQDIPIFFEEALNVALAVVTLLAIIKGIVNVWRSGLLQLLVFLVLAGRSCSFKVGHHTNFESFTVNLGGVFHELPSLCRVNNSYSLIRLSHNSSQALSVEYVDVHPVLCSSSPPILGNYTQCIEGSPEFDWILGWTIKGLGHDFLRDPRVCCEPKKSTNIEFTFQLNLTDSPETHHYRSKIEAGIRHLFGNYITNDSCSKMSVIMRNTTWESQCSNSHVNTLRFLVKNAGSHVGRKPLAFFSWSLSDPKGIDMPGGYCLERWMLVAGDLKCFGNTAVAKCNLNHDSEFCDMLRLFDFNKNAIEKLNNQTKTAVNMLTHSINSLISDNLLMRNKLKEILKVPYCNYTRFWYINHTKSGEHSLPRCWLVNNGSYLNESDFRNEWILESDHLIAEMLSKEYQDRQGKTPLTLVDLCFWSAIFFTTSLFLHLVGFPTHRHIQGEPCPLPHRLDRNGACRCGRYQKLGKQVTWKRKH"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "GPC": [
+          "G124D",
+          "V157I",
+          "S164R",
+          "C205Y",
+          "S219G",
+          "S238Y",
+          "E447D"
+        ]
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "GPC": [
+          "R40K",
+          "L43I",
+          "S101N",
+          "P121T",
+          "E131K",
+          "I167V",
+          "H239L"
+        ]
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "GPC": [
+          "R164T",
+          "I211V",
+          "I258N"
+        ]
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "GPC": [
+          "V51I",
+          "N101D",
+          "P179V",
+          "S186G",
+          "S206P",
+          "S222P",
+          "K342R",
+          "K476R"
+        ]
+      }
+    },
+    "NODE_0000005": {
+      "aa_muts": {
+        "GPC": [
+          "I32M",
+          "I444V",
+          "R457G"
+        ]
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "GPC": [
+          "L47F",
+          "N73K",
+          "A190V",
+          "N375S"
+        ]
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "GPC": [
+          "V167A"
+        ]
+      }
+    },
+    "NODE_0000008": {
+      "aa_muts": {
+        "GPC": [
+          "K187R",
+          "V190A",
+          "V240I"
+        ]
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000010": {
+      "aa_muts": {
+        "GPC": [
+          "A167T",
+          "T216S"
+        ]
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "GPC": [
+          "I344V"
+        ]
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "GPC": [
+          "Y466F"
+        ]
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "S-26764_LC753262-1_1997-09-02": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "S-56764_AY572554-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": []
+      }
+    },
+    "VAV-1608_AY572560-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "I31M",
+          "I35V",
+          "N66S",
+          "I144M",
+          "R156K",
+          "E180D",
+          "H325Q"
+        ]
+      }
+    },
+    "VHF-1750_AY572559-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "I31V",
+          "N73K",
+          "Y91H",
+          "N99E",
+          "V111M",
+          "I122V",
+          "I130T",
+          "T170K",
+          "P179L",
+          "N198D",
+          "I200T",
+          "D203G",
+          "S204N",
+          "Y205H",
+          "F231L",
+          "K234R",
+          "Y238Q",
+          "K243R"
+        ]
+      }
+    },
+    "VHF-3990-AV-97021237_AY576604-1_XXXX-XX-XX": {
+      "aa_muts": {
+        "GPC": [
+          "N99S",
+          "H112S",
+          "I130T",
+          "K131M",
+          "R164S",
+          "T165S",
+          "T170R",
+          "V210I",
+          "G219N",
+          "L239P",
+          "K256R",
+          "I258V",
+          "T318A"
+        ]
+      }
+    },
+    "VINH-95551_PZ066132-1_1989-09-01": {
+      "aa_muts": {
+        "GPC": []
+      }
+    }
+  },
+  "reference": {
+    "GPC": "MGQLISFFQDIPIFFEEALNVALAVVTLLAIIKGIVNVWRSGLLQLLVFLVLAGRSCSFKVGHHTNFESFTVNLGGVFHELPSLCRVNNSYSLIRLSHNSSQALSVEYVDVHPVLCSSSPPILGNYTQCIEGSPEFDWILGWTIKGLGHDFLRDPRVCCEPKKSTNIEFTFQLNLTDSPETHHYRSKIEAGIRHLFGNYITNDSCSKMSVIMRNTTWESQCSNSHVNTLRFLVKNAGSHVGRKPLAFFSWSLSDPKGIDMPGGYCLERWMLVAGDLKCFGNTAVAKCNLNHDSEFCDMLRLFDFNKNAIEKLNNQTKTAVNMLTHSINSLISDNLLMRNKLKEILKVPYCNYTRFWYINHTKSGEHSLPRCWLVNNGSYLNESDFRNEWILESDHLIAEMLSKEYQDRQGKTPLTLVDLCFWSAIFFTTSLFLHLVGFPTHRHIQGEPCPLPHRLDRNGACRCGRYQKLGKQVTWKRKH"
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "alignment": "Results/MACV_GPC/Alignments/codon_ungapped_no_outgroup.fasta",
+  "generated_by": {
+    "program": "augur",
+    "version": "34.1.2"
+  },
+  "input_tree": "Results/MACV_GPC/Trees/tree_no_outgroup.nwk",
+  "nodes": {
+    "200002427_AY924204-1_XXXX-XX-XX": {
+      "branch_length": 0.00537299
+    },
+    "9301012_AY571919-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "9301012_AY924205-1_XXXX-XX-XX": {
+      "branch_length": 0.00200716
+    },
+    "9301013_AY571918-1_XXXX-XX-XX": {
+      "branch_length": 0.00111627
+    },
+    "9430069_AY571911-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430071_AY571912-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430072_AY571905-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430075_AY571909-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430076_AY571914-1_XXXX-XX-XX": {
+      "branch_length": 0.00113436
+    },
+    "9430078_AY571910-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "9430081_AY571907-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430082_AY571906-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "9430084_AY571908-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9430084_AY924203-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "9430666_AY571913-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "9530537_AY571931-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "9530537_AY571959-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "AIMS_136153_MACV_Carvallo_PV861679-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "AIMS_136269_MACV_Chicava_PV861673-1_2023-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "AIMS_136869_MACV_Chicava_PV861671-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "AIMS_136871_PV861669-1_2023-XX-XX": {
+      "branch_length": 0.00066637
+    },
+    "Carvallo_AF485260-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_AY129248-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_AY571904-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_AY571927-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_AY619643-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_KM198592-1_2012-07-09": {
+      "branch_length": 0.0
+    },
+    "Carvallo_MT015970-1_2014-06-03": {
+      "branch_length": 0.0
+    },
+    "Carvallo_NC_005078-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Carvallo_PV088375-1_2024-10-01": {
+      "branch_length": 2.98e-06
+    },
+    "Chicava_AY571920-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "Chicava_AY624355-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "Chicava_AY924202-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "FSB-2040_FJ696411-1_2007-XX-XX": {
+      "branch_length": 0.0
+    },
+    "FSB-2041_FJ696412-1_2007-02-XX": {
+      "branch_length": 2.98e-06
+    },
+    "FSB-2042_FJ696413-1_2007-02-XX": {
+      "branch_length": 0.0
+    },
+    "FSB-2334_FJ696414-1_2008-02-XX": {
+      "branch_length": 0.01452265
+    },
+    "FSB-2369_FJ696415-1_2008-02-XX": {
+      "branch_length": 0.02167158
+    },
+    "MACV_Carvallo_Spleen_P2_PV861681-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "MACV_Carvallo_Spleen_P3_PV861683-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "MACV_Carvallo_brain_PV861685-1_2023-XX-XX": {
+      "branch_length": 0.00133483
+    },
+    "MACV_Chicava_Spleen_P2_PV861675-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "MACV_Chicava_Spleen_P3_PV861677-1_2023-XX-XX": {
+      "branch_length": 0.0
+    },
+    "MARU-216606_AY924206-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU-222688_AY924207-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU-249121_AY924208-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU216606_AY571928-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU217269_AY571924-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU221600_AY571922-1_XXXX-XX-XX": {
+      "branch_length": 0.0011354
+    },
+    "MARU222688_AY571916-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU223455_AY571921-1_XXXX-XX-XX": {
+      "branch_length": 0.00333617
+    },
+    "MARU223671_AY571929-1_XXXX-XX-XX": {
+      "branch_length": 0.00573992
+    },
+    "MARU223805_AY571925-1_XXXX-XX-XX": {
+      "branch_length": 0.0
+    },
+    "MARU227774_AY571926-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU228955_AY571923-1_XXXX-XX-XX": {
+      "branch_length": 0.00222498
+    },
+    "MARU249121_AY571915-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "MARU250720_AY571917-1_XXXX-XX-XX": {
+      "branch_length": 0.00475208
+    },
+    "MARU258667_AY571930-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "Mallele_AY619645-1_XXXX-XX-XX": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000000": {
+      "branch_length": 0.001
+    },
+    "NODE_0000001": {
+      "branch_length": 0.01474977
+    },
+    "NODE_0000002": {
+      "branch_length": 0.00109571
+    },
+    "NODE_0000003": {
+      "branch_length": 0.02066384
+    },
+    "NODE_0000004": {
+      "branch_length": 0.10681205
+    },
+    "NODE_0000005": {
+      "branch_length": 0.0126002
+    },
+    "NODE_0000006": {
+      "branch_length": 0.04260476
+    },
+    "NODE_0000007": {
+      "branch_length": 0.02730172
+    },
+    "NODE_0000008": {
+      "branch_length": 0.00390133
+    },
+    "NODE_0000009": {
+      "branch_length": 0.01188502
+    },
+    "NODE_0000010": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000011": {
+      "branch_length": 0.00258514
+    },
+    "NODE_0000012": {
+      "branch_length": 0.00500548
+    },
+    "NODE_0000013": {
+      "branch_length": 0.01907183
+    },
+    "NODE_0000014": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000015": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000016": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000017": {
+      "branch_length": 0.0
+    },
+    "NODE_0000018": {
+      "branch_length": 0.0
+    },
+    "NODE_0000019": {
+      "branch_length": 0.00126009
+    },
+    "NODE_0000020": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000021": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000022": {
+      "branch_length": 0.0
+    },
+    "NODE_0000023": {
+      "branch_length": 0.02028195
+    },
+    "NODE_0000024": {
+      "branch_length": 0.05317114
+    },
+    "NODE_0000025": {
+      "branch_length": 0.00108626
+    },
+    "NODE_0000026": {
+      "branch_length": 0.01847784
+    },
+    "NODE_0000027": {
+      "branch_length": 0.02036175
+    },
+    "NODE_0000028": {
+      "branch_length": 0.00207114
+    },
+    "NODE_0000029": {
+      "branch_length": 0.00200717
+    },
+    "NODE_0000030": {
+      "branch_length": 0.00156122
+    },
+    "NODE_0000031": {
+      "branch_length": 0.00240452
+    },
+    "NODE_0000032": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000033": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000034": {
+      "branch_length": 0.0
+    },
+    "NODE_0000035": {
+      "branch_length": 0.0
+    },
+    "NODE_0000036": {
+      "branch_length": 0.0
+    },
+    "NODE_0000037": {
+      "branch_length": 0.00636662
+    },
+    "NODE_0000038": {
+      "branch_length": 0.0008511
+    },
+    "NODE_0000039": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000040": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000041": {
+      "branch_length": 0.00792661
+    },
+    "NODE_0000042": {
+      "branch_length": 0.00091502
+    },
+    "NODE_0000043": {
+      "branch_length": 0.00066727
+    },
+    "NODE_0000044": {
+      "branch_length": 0.00066758
+    },
+    "NODE_0000045": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000046": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000047": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000048": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000049": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000050": {
+      "branch_length": 2.98e-06
+    },
+    "NODE_0000051": {
+      "branch_length": 0.0
+    },
+    "NODE_0000052": {
+      "branch_length": 0.0
+    },
+    "NODE_0000053": {
+      "branch_length": 0.0
+    },
+    "NODE_0000054": {
+      "branch_length": 0.0
+    },
+    "NODE_0000055": {
+      "branch_length": 0.0
+    },
+    "NODE_0000056": {
+      "branch_length": 0.0
+    },
+    "NODE_0000057": {
+      "branch_length": 0.0
+    },
+    "NODE_0000058": {
+      "branch_length": 0.0
+    },
+    "NODE_0000059": {
+      "branch_length": 0.0
+    },
+    "USAMRIID-ID-18464_JN794584-1_1991-04-17": {
+      "branch_length": 0.0
+    },
+    "USAMRIID-ID-780_JN794586-1_1992-03-06": {
+      "branch_length": 2.98e-06
+    }
+  }
+}
