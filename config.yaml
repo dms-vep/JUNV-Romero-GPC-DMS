@@ -5,7 +5,7 @@
 # https://github.com/dms-vep/dms-vep-pipeline-3/tree/main/homepage
 # ----------------------------------------------------------------------------
 # homepage: homepage/public
-# build_vitepress_homepage: true
+build_vitepress_homepage: true
 
 # ----------------------------------------------------------------------------
 # Relative paths from this directory containing the configuration (and where
