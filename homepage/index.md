@@ -18,9 +18,6 @@ features:
   - title: Experiments and Biosafety
     details: Explanation of pseudovirus deep mutational scanning
     link: /pH_stability
-  - title: Pipeline Information
-    details: Details on the computational pipeline
-    link: /pipeline_information
 ---
 
 ## Overview
@@ -32,7 +29,7 @@ The links in the boxes above take you to interactive plots or descriptions of di
 For a high-level overview, see the [summary](summary){target="_self"} of how mutations affect cell entry and low pH stability.
 To delve into the data in more detail, click on the boxes above for each individual phenotype.
 
-You can also examine the output of the full [computational pipeline](pipeline_information){target="_self"} and look at the underlying code [on GitHub](https://github.com/dms-vep/JUNV-Romero-GPC-DMS.git).
+You can also examine the output of the full computational pipeline and look at the underlying code [on GitHub](https://github.com/dms-vep/JUNV-Romero-GPC-DMS.git).
 Here are CSV files of the numerical values pre-filtered for high-confidence values for [cell entry and low pH stability](https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/summaries/cell_entry_and_pH_stability.csv).
 
 Note the experiments use [single-cycle replicative pseudoviruses that can be safely studied at biosafety-level 2](experiments_and_biosafety){target="_self"}.
