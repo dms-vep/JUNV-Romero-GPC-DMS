@@ -28,6 +28,8 @@ cell_entry_default: &cell_entry_default
     n_selections: 2
     effect_std: 1.5
   addtl_slider_stats_as_max: [effect_std]
+  le_filters:
+    effect_std: 1.5
 
 pH_stability_default: &pH_stability_default
   stat: stability_median  # column to plot

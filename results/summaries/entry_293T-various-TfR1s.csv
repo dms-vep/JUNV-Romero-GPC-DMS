@@ -217,7 +217,6 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 11,I,Y,-5.664,-5.575,11,SSP
 12,P,A,-1.353,-1.123,12,SSP
 12,P,C,-2.204,-1.901,12,SSP
-12,P,D,-1.124,-1.15,12,SSP
 12,P,E,-0.291,-0.3345,12,SSP
 12,P,F,-2.222,-2.025,12,SSP
 12,P,G,0.0531,0.1356,12,SSP
@@ -738,7 +737,6 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 38,L,C,-0.393,-0.1586,38,SSP
 38,L,D,-5.704,-5.718,38,SSP
 38,L,E,-5.712,-5.628,38,SSP
-38,L,F,-2.393,-2.35,38,SSP
 38,L,G,-2.466,-1.669,38,SSP
 38,L,H,-5.059,-4.643,38,SSP
 38,L,I,0.8262,0.1619,38,SSP
@@ -1098,7 +1096,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 56,S,E,-5.534,-5.668,56,SSP
 56,S,F,-5.729,-5.742,56,SSP
 56,S,G,-0.7354,-0.9179,56,SSP
-56,S,H,-2.76,-3.423,56,SSP
+56,S,H,,-3.423,56,SSP
 56,S,I,-2,-1.683,56,SSP
 56,S,K,-5.699,-5.748,56,SSP
 56,S,L,-5.604,-5.35,56,SSP
@@ -2470,7 +2468,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 124,V,W,-5.7,-5.617,124,GP1
 124,V,Y,-4.952,-5.588,124,GP1
 125,I,A,-0.1655,-0.4821,125,GP1
-125,I,C,-2.656,-0.8565,125,GP1
+125,I,C,-2.656,,125,GP1
 125,I,D,-5.085,-2.765,125,GP1
 125,I,E,-0.6143,0.05966,125,GP1
 125,I,F,-0.8565,-1.093,125,GP1
@@ -2911,7 +2909,6 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 147,W,C,-5.476,-4.911,147,GP1
 147,W,D,-5.662,-5.458,147,GP1
 147,W,E,-4.093,-3.21,147,GP1
-147,W,F,-1.63,-1.619,147,GP1
 147,W,G,-5.514,-4.045,147,GP1
 147,W,H,-5.37,-2.919,147,GP1
 147,W,I,-2.062,-1.443,147,GP1
@@ -4627,7 +4624,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 233,T,I,-5.293,-3.034,233,GP1
 233,T,K,-5.583,-5.748,233,GP1
 233,T,L,-4.899,-3.6,233,GP1
-233,T,M,-0.6736,-1.366,233,GP1
+233,T,M,,-1.366,233,GP1
 233,T,N,-5.617,-5.583,233,GP1
 233,T,P,-5.564,-5.338,233,GP1
 233,T,Q,-5.669,-5.481,233,GP1
@@ -5859,7 +5856,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 295,L,A,0.1717,0.03525,295,GP2
 295,L,C,-4.952,-4.393,295,GP2
 295,L,D,-0.2889,-0.1411,295,GP2
-295,L,E,-0.8779,-0.7485,295,GP2
+295,L,E,,-0.7485,295,GP2
 295,L,F,-0.6379,-0.6523,295,GP2
 295,L,G,-0.7344,-0.1085,295,GP2
 295,L,H,-0.1933,-0.119,295,GP2
@@ -6365,7 +6362,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 320,D,I,-0.1978,-0.01935,320,GP2
 320,D,K,-1.232,-0.6972,320,GP2
 320,D,L,-0.0385,-0.1482,320,GP2
-320,D,M,-1.602,-0.528,320,GP2
+320,D,M,,-0.528,320,GP2
 320,D,N,-0.1575,-0.0672,320,GP2
 320,D,P,-5.518,-5.575,320,GP2
 320,D,Q,-0.5135,-0.3777,320,GP2
@@ -7491,7 +7488,7 @@ site,wildtype,mutant,entry in C callosus TfR1 cells,entry in C musculinus TfR1 c
 376,R,T,-2.281,-1.812,376,GP2
 376,R,V,-2.034,-2,376,GP2
 376,R,W,-5.508,-5.519,376,GP2
-376,R,Y,-2.857,-2.369,376,GP2
+376,R,Y,-2.857,,376,GP2
 377,C,A,-5.697,-5.731,377,GP2
 377,C,C,0,0,377,GP2
 377,C,D,-5.439,-5.696,377,GP2
