@@ -17,11 +17,11 @@ features:
     link: /pH_stability
   - title: Experiments and Biosafety
     details: Explanation of pseudovirus deep mutational scanning
-    link: /pH_stability
+    link: /experiments_and_biosafety
 ---
 
 ## Overview
-This website contains interactive plots and numerical results from [pseudovirus deep mutational scanning]() experiments that measure the effects of mutations to the glycoprotein complex (GPC) of the Junin virus Romero strain on cell entry and low pH stability.
+This website contains interactive plots and numerical results from pseudovirus deep mutational scanning experiments that measure the effects of mutations to the glycoprotein complex (GPC) of the Junin virus Romero strain on cell entry and low pH stability.
 
 The paper describing this study is [Carr et al (2026)]().
 

@@ -37,11 +37,17 @@ show sticks, resi 406
 show sticks, resi 371
 show sticks, resi 282
 
+color americium, (resi 371 and name NE2) # blue
+color bohrium, (resi 371 and name OE1) # red
+color gold, (resi 406 and name SD) # yellow
+
 # position protein for side view
 rotate x, 90
 rotate y, -65
 
-zoom resi 406
+zoom chain C and resi 406+371
+
+rotate y, -10
 
 set surface_quality, 1
 set ambient, 0.5

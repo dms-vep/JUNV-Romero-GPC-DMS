@@ -13,7 +13,7 @@ Here is an explanation of the key plot elements:
   - The heatmap shows how each individual mutation affects stability. The `x`'s indicate the amino-acid identity in the parental GPC strain, light gray indicates mutations that were not measured, and dark gray indicates mutations that are filtered out by one of the interactive sliders at the bottom of the plot. If you mouseover points, you can also see the measurement in each individual library, which provides a sense of the reproducibility between experiments. 
   - The options at the bottom of the plot allow you to adjust what is displayed. For instance, the *times_seen* slider filters for only mutations seen in at least that many unique variants per-library; larger values will generally give more accurate measurements. Similarly, you can filter by how many different experimental selections the mutation was measured in.
 
-Click on the expansion box in the upper right of the plot to enlarge it for easier viewing, or [click here](/htmls/stability_mut_effect.html){target="_self"} to open the plot in a stand-alone window.
+Click on the expansion box in the upper right of the plot to enlarge it for easier viewing.
 
 <Figure caption="Interactive plot showing effects of mutations on low pH stability">
     <Altair :showShadow="true" :spec-url="'htmls/stability_mut_effect.html'"></Altair>

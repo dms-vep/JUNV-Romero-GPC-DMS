@@ -15,7 +15,7 @@ Here is an explanation of the key plot elements:
 
 ## Effects of mutations on entry in *C. musculinus* TfR1 expressing cells
 
-Click on the expansion box in the upper right of the plot to enlarge it for easier viewing, or [click here](/htmls/293T-TFRC-KO-C-musculinus-TfR1_func_effects.html){target="_self"} to open the plot in a stand-alone window.
+Click on the expansion box in the upper right of the plot to enlarge it for easier viewing.
 
 <Figure caption="Interactive plot showing effects of mutations on entry into Vesper mice TfR1 expressing 293T cells">
     <Altair :showShadow="true" :spec-url="'htmls/293T-TFRC-KO-C-musculinus-TfR1_func_effects.html'"></Altair>
@@ -23,7 +23,7 @@ Click on the expansion box in the upper right of the plot to enlarge it for easi
 
 ## Effects of mutations on entry in *C. callosus* TfR1 expressing cells
 
-Click on the expansion box in the upper right of the plot to enlarge it for easier viewing, or [click here](/htmls/293T-TFRC-KO-C-callosus-TfR1_func_effects.html){target="_self"} to open the plot in a stand-alone window.
+Click on the expansion box in the upper right of the plot to enlarge it for easier viewing.
 
 <Figure caption="Interactive plot showing effects of mutations on entry into Vesper mice TfR1 expressing 293T cells">
     <Altair :showShadow="true" :spec-url="'htmls/293T-TFRC-KO-C-callosus-TfR1_func_effects.html'"></Altair>

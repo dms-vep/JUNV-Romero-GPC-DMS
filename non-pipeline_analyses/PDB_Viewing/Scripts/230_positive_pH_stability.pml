@@ -36,10 +36,17 @@ cmd.show("cartoon", scores + " and chain C")
 show sticks, chain B and resi 230
 show sticks, chain B and resi 77
 show sticks, chain C and resi 304
+show sticks, chain C and resi 358
+
+color americium, (resi 230 and name ND1,NE2) # blue
+color bohrium, (resi 358 and name O) # red
+color gold, (resi 77 and name SD) # yellow
+color gold, (resi 304 and name SD) # yellow
 
 # position protein for side view
 rotate x, 90
 rotate y, 60
+rotate y, -10
 
 zoom chain B and resi 77+229+230+304
 
