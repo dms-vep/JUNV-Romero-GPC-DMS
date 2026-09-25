@@ -12,7 +12,7 @@ Here is an explanation of the key plot elements:
   - The heatmaps show how each individual mutation affects each phenotype. The `x`'s indicate the amino-acid identity in the parental GPC strain, light gray indicates mutations that were not measured, and dark gray indicates mutations that are filtered out by one of the interactive sliders at the bottom of the plot (eg, they have a very negative effect on cell entry). You can mouse over any of the points for details.
   - The options at the bottom of the plot allow you to interactively adjust what is displayed. For instance, the *minimum mutation entry in C musculinus TfR1 cells* only shows mutations with at least some minimal cell entry function (and grays out mutations that are more deleterious). You can also select to floor the escape at zero to show / not show "negative" escape values.
 
-Click on the expansion box in the upper right of the plot to enlarge it for easier viewing, or [click here](/htmls/cell_entry_and_pH_stability_overlaid.html){target="_self"} to open the plot in a stand-alone window.
+Click on the expansion box in the upper right of the plot to enlarge it for easier viewing.
 
 <Figure caption="Interactive plot showing effects of mutations on all phenotypes">
     <Altair :showShadow="true" :spec-url="'htmls/cell_entry_and_pH_stability_overlaid.html'"></Altair>
