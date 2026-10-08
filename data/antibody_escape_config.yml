@@ -180,7 +180,7 @@ stability_selections:
 # keyword arguments to `Polyclonal.mut_escape_plot`
 # same as escape_plot_kwargs_default but * needs to be double escaped because of aliase
 avg_escape_plot_kwargs_default: &avg_escape_plot_kwargs_default
-  alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C',"'*'"]
+  alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C']
   addtl_slider_stats:
     times_seen: 2
     escape_std: 0.85

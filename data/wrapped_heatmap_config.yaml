@@ -50,3 +50,79 @@ pH_stability: &pH_stability
   dark_gray_muts:
     col: entry in C musculinus TfR1 cells
     cutoff: -5
+
+pH_core: &pH_core
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv
+  title: effect of mutations on pH stability
+  effect_col: pH stability
+  data_query_str: "site in ['410','411','414','415','416','424']"  # ignore this site
+  sites_per_row: 110  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  site_label_start: 1
+  color_scheme:
+    - "#E7298A"
+    - "#f7f7f7"   # white
+    - "#4DAC26"
+  fixed_min: -3 # fix heatmap min at this
+  fixed_max: 3  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in C musculinus TfR1 cells
+    cutoff: -5
+
+pH_intersubunits: &pH_intersubunits
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv
+  title: effect of mutations on pH stability
+  effect_col: pH stability
+  data_query_str: "site in ['10','67','366','368']"  # ignore this site
+  sites_per_row: 110  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  site_label_start: 1
+  color_scheme:
+    - "#E7298A"
+    - "#f7f7f7"   # white
+    - "#4DAC26"
+  fixed_min: -3 # fix heatmap min at this
+  fixed_max: 3  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in C musculinus TfR1 cells
+    cutoff: -5
+
+pH_transmembrane_domain: &pH_transmembrane_domain
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv
+  title: effect of mutations on pH stability
+  effect_col: pH stability
+  data_query_str: "site in ['427','440','441','443']"  # ignore this site
+  sites_per_row: 110  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  site_label_start: 1
+  color_scheme:
+    - "#E7298A"
+    - "#f7f7f7"   # white
+    - "#4DAC26"
+  fixed_min: -3 # fix heatmap min at this
+  fixed_max: 3  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in C musculinus TfR1 cells
+    cutoff: -5
+
+pH_stabilizing_candidates: &pH_stabilizing_candidates
+  data_csv: results/summaries/cell_entry_and_pH_stability.csv
+  title: effect of mutations on pH stability
+  effect_col: pH stability
+  data_query_str: "site in ['37','230','282','329','406','431','434']"  # ignore this site
+  sites_per_row: 110  # how many sites in each row
+  site_label_freq: 1  # label sites at this frequency
+  site_label_start: 1
+  color_scheme:
+    - "#E7298A"
+    - "#f7f7f7"   # white
+    - "#4DAC26"
+  fixed_min: 0 # fix heatmap min at this
+  fixed_max: 3  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in C musculinus TfR1 cells
+    cutoff: -5

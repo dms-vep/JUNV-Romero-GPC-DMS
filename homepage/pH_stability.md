@@ -19,5 +19,13 @@ Click on the expansion box in the upper right of the plot to enlarge it for easi
     <Altair :showShadow="true" :spec-url="'htmls/stability_mut_effect.html'"></Altair>
 </Figure>
 
+## Interactive plot showing both cell entry and stability measurements
+
+Click on the expansion box in the upper right of the plot to enlarge it for easier viewing.
+
+<Figure caption="Interactive plot showing effects of mutations on all phenotypes">
+    <Altair :showShadow="true" :spec-url="'htmls/cell_entry_and_pH_stability_overlaid.html'"></Altair>
+</Figure>
+
 ## Numerical values of mutation effects on stability
 The pre-filtered numerical data plotted on this page can be found [here](https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/summaries/cell_entry_and_pH_stability.csv). Note that this file also includes the cell entry data, which can be useful for interpreting the stability measurements. 
