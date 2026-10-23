@@ -2,7 +2,7 @@
 
 Study by Caleb Carr and Jesse Bloom.
 
-This repo contains data for deep mutational scanning of Junin virus Romero strain glycoprotein with an emphasis on functional effects and pH stability. 
+This repo contains data for deep mutational scanning of Junin virus Romero strain glycoprotein with an emphasis on functional effects and pH stability. See [Carr et al (2026)](https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1) for the paper describing the study.  
 
 For documentation of the analysis, see [https://dms-vep.github.io/JUNV-Romero-GPC-DMS/](https://dms-vep.github.io/JUNV-Romero-GPC-DMS/)
 

@@ -23,7 +23,7 @@ features:
 ## Overview
 This website contains interactive plots and numerical results from pseudovirus deep mutational scanning experiments that measure the effects of mutations to the glycoprotein complex (GPC) of the Junin virus Romero strain on cell entry and low pH stability.
 
-The paper describing this study is [Carr et al (2026)]().
+The paper describing this study is [Carr et al (2026)](https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1).
 
 The links in the boxes above take you to interactive plots or descriptions of different aspects of the study.
 For a high-level overview, see the [summary](summary){target="_self"} of how mutations affect cell entry and low pH stability.
