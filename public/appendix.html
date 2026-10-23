@@ -1,0 +1,293 @@
+<h1 id="deep-mutational-scanning-of-junin-virus-romero-strain-glycoprotein-using-a-barcoded-lentiviral-platform">Deep mutational scanning of Junin virus Romero strain glycoprotein using a barcoded lentiviral platform</h1>
+<p>Analysis by Caleb Carr and Jesse Bloom (2026)</p>
+<p>See <a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS">https://github.com/dms-vep/JUNV-Romero-GPC-DMS</a> for full code.</p>
+<p>Documentation of results rendered as of Thu Oct  8 14:23:16 2026</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
+<li><a href="#stability">Stability</a></li>
+<li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#dms-viz-visualizations">dms-viz visualizations</a></li>
+<li><a href="#additional-analyses-and-data-files">Additional analyses and data files</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_pacbio_ccs.html">Analysis of PacBio CCSs</a></li>
+<li><a href="notebooks/build_pacbio_consensus.html">Building barcoded variant consensus sequences</a></li>
+<li><a href="notebooks/build_codon_variants.html">Building of codon-variant table</a></li>
+</ul>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260430-VSVG-1_counts.csv">LibA-260430-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260430-VSVG-1_counts.csv">LibB-260430-VSVG-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-4.9-1_counts.csv">LibA-260506-pH-4.9-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-5.1-1_counts.csv">LibA-260506-pH-5.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-5.3-1_counts.csv">LibA-260506-pH-5.3-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-5.7-1_counts.csv">LibA-260506-pH-5.7-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-6.1-1_counts.csv">LibA-260506-pH-6.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260506-pH-pbs-1_counts.csv">LibA-260506-pH-pbs-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-4.9-1_counts.csv">LibB-260506-pH-4.9-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-5.1-1_counts.csv">LibB-260506-pH-5.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-5.3-1_counts.csv">LibB-260506-pH-5.3-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-5.7-1_counts.csv">LibB-260506-pH-5.7-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-6.1-1_counts.csv">LibB-260506-pH-6.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260506-pH-pbs-1_counts.csv">LibB-260506-pH-pbs-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260516-293T-TFRC-KO-C_callosus-1_counts.csv">LibA-260516-293T-TFRC-KO-C_callosus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibA-260516-293T-TFRC-KO-C_musculinus_EU164541-1_counts.csv">LibA-260516-293T-TFRC-KO-C_musculinus_EU164541-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260516-293T-TFRC-KO-C_callosus-1_counts.csv">LibB-260516-293T-TFRC-KO-C_callosus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/barcode_counts/LibB-260516-293T-TFRC-KO-C_musculinus_EU164541-1_counts.csv">LibB-260516-293T-TFRC-KO-C_musculinus_EU164541-1</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293T-TFRC-KO-C-callosus-TfR1_func_effects.html">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="htmls/293T-TFRC-KO-C-musculinus-TfR1_func_effects.html">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation functional effects from single-mutant variants only (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293T-TFRC-KO-C-callosus-TfR1_func_effects_singlemut.html">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="htmls/293T-TFRC-KO-C-musculinus-TfR1_func_effects_singlemut.html">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of differences in functional effects between conditions (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/C_musculinus_vs_C_callosus_diffs.html">C_musculinus_vs_C_callosus</a></li>
+<li><a href="htmls/C_musculinus_vs_C_callosus_diffs_corr.html">C_musculinus_vs_C_callosus correlation chart</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average shifts in functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/TfR1_comparison_shifts.html">TfR1_comparison</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_LibA-260516-293T-TFRC-KO-C_musculinus-1.html">LibA-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-260516-293T-TFRC-KO-C_musculinus-1.html">LibB-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibA-260516-293T-TFRC-KO-C_callosus-1.html">LibA-260516-293T-TFRC-KO-C_callosus-1</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_LibB-260516-293T-TFRC-KO-C_callosus-1.html">LibB-260516-293T-TFRC-KO-C_callosus-1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_293T-TFRC-KO-C-callosus-TfR1.html">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="notebooks/avg_func_effects_293T-TFRC-KO-C-musculinus-TfR1.html">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks taking differences in functional effects between conditions (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effect_diffs_C_musculinus_vs_C_callosus.html">C_musculinus_vs_C_callosus</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks fitting shifts in functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effect_shifts_LibA.html">LibA</a></li>
+<li><a href="notebooks/func_effect_shifts_LibB.html">LibB</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging shifts in functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effect_shifts_TfR1_comparison.html">TfR1_comparison</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_scores/LibA-260516-293T-TFRC-KO-C_musculinus-1_func_scores.csv">LibA-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_scores/LibB-260516-293T-TFRC-KO-C_musculinus-1_func_scores.csv">LibB-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_scores/LibA-260516-293T-TFRC-KO-C_callosus-1_func_scores.csv">LibA-260516-293T-TFRC-KO-C_callosus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_scores/LibB-260516-293T-TFRC-KO-C_callosus-1_func_scores.csv">LibB-260516-293T-TFRC-KO-C_callosus-1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/by_selection/LibA-260516-293T-TFRC-KO-C_musculinus-1_func_effects.csv">LibA-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/by_selection/LibB-260516-293T-TFRC-KO-C_musculinus-1_func_effects.csv">LibB-260516-293T-TFRC-KO-C_musculinus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/by_selection/LibA-260516-293T-TFRC-KO-C_callosus-1_func_effects.csv">LibA-260516-293T-TFRC-KO-C_callosus-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/by_selection/LibB-260516-293T-TFRC-KO-C_callosus-1_func_effects.csv">LibB-260516-293T-TFRC-KO-C_callosus-1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-callosus-TfR1_func_effects.csv">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-musculinus-TfR1_func_effects.csv">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects from single-mutant variants only (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-callosus-TfR1_func_effects_singlemut.csv">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-musculinus-TfR1_func_effects_singlemut.csv">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-callosus-TfR1_func_effects.csv">293T-TFRC-KO-C-callosus-TfR1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effects/averages/293T-TFRC-KO-C-musculinus-TfR1_func_effects.csv">293T-TFRC-KO-C-musculinus-TfR1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Differences in functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effect_diffs/C_musculinus_vs_C_callosus_diffs.csv">C_musculinus_vs_C_callosus</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-condition functional effect shifts CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effect_shifts/by_comparison/LibA_shifts.csv">LibA</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effect_shifts/by_comparison/LibB_shifts.csv">LibB</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average shifts in functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/func_effect_shifts/averages/TfR1_comparison_shifts.csv">TfR1_comparison</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="stability">Stability</h2>
+<h4 id="final-summary-plots_1">Final summary plots</h4>
+<ul>
+<li><details><summary>stability mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/stability_mut_effect.html">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_3">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual stability selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_stability_LibA-260506-pH-1.html">LibA-260506-pH-1</a></li>
+<li><a href="notebooks/fit_escape_stability_LibB-260506-pH-1.html">LibB-260506-pH-1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for stability (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_stability_stability.html">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_3">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each stability selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibA-260506-pH-1/LibA-260506-pH-6.1-1_prob_escape.csv">LibA-260506-pH-1 LibA-260506-pH-6.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibA-260506-pH-1/LibA-260506-pH-5.7-1_prob_escape.csv">LibA-260506-pH-1 LibA-260506-pH-5.7-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibA-260506-pH-1/LibA-260506-pH-5.3-1_prob_escape.csv">LibA-260506-pH-1 LibA-260506-pH-5.3-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibA-260506-pH-1/LibA-260506-pH-5.1-1_prob_escape.csv">LibA-260506-pH-1 LibA-260506-pH-5.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibA-260506-pH-1/LibA-260506-pH-4.9-1_prob_escape.csv">LibA-260506-pH-1 LibA-260506-pH-4.9-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibB-260506-pH-1/LibB-260506-pH-6.1-1_prob_escape.csv">LibB-260506-pH-1 LibB-260506-pH-6.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibB-260506-pH-1/LibB-260506-pH-5.7-1_prob_escape.csv">LibB-260506-pH-1 LibB-260506-pH-5.7-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibB-260506-pH-1/LibB-260506-pH-5.3-1_prob_escape.csv">LibB-260506-pH-1 LibB-260506-pH-5.3-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibB-260506-pH-1/LibB-260506-pH-5.1-1_prob_escape.csv">LibB-260506-pH-1 LibB-260506-pH-5.1-1</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/by_selection/LibB-260506-pH-1/LibB-260506-pH-4.9-1_prob_escape.csv">LibB-260506-pH-1 LibB-260506-pH-4.9-1</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>stability CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/stability/averages/stability_mut_effect.csv">stability</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="integrated-summary-plots">Integrated summary plots</h2>
+<h4 id="entry-293t-various-tfr1s">entry 293T-various-TfR1s</h4>
+<ul>
+<li><a href="htmls/entry_293T-various-TfR1s_overlaid.html">Summary plot</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/summaries/entry_293T-various-TfR1s.csv">CSV summarizing results</a></li>
+</ul>
+<h4 id="cell-entry-and-ph-stability">cell entry and pH stability</h4>
+<ul>
+<li><a href="htmls/cell_entry_and_pH_stability_overlaid.html">Summary plot</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/summaries/cell_entry_and_pH_stability.csv">CSV summarizing results</a></li>
+</ul>
+<h2 id="dms-viz-visualizations">dms-viz visualizations</h2>
+<h4 id="dms-viz-json-files">dms-viz JSON files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/dms-viz/func_effects/func_effects.json">func_effects</a></li>
+<li><a href="https://github.com/dms-vep/JUNV-Romero-GPC-DMS/blob/main/results/dms-viz/pH_stability/pH_stability.json">pH_stability</a></li>
+</ul>
+<h4 id="notebooks-prepping-dms-viz-jsons">Notebooks prepping dms-viz JSONs</h4>
+<ul>
+<li><a href="notebooks/configure_dms_viz_func_effects.html">func_effects</a></li>
+<li><a href="notebooks/configure_dms_viz_pH_stability.html">pH_stability</a></li>
+</ul>
+<h2 id="additional-analyses-and-data-files">Additional analyses and data files</h2>
+<h4 id="variant-mutation-analysis">Variant mutation analysis</h4>
+<ul>
+<li><a href="notebooks/visualize_mutation_distributions.html">Notebook creating altair version of mutation distribution</a></li>
+</ul>
+<h4 id="compare-cell-entry">Compare cell entry</h4>
+<ul>
+<li><a href="htmls/compare_cell_entry_scatter.html">Scatter plots of mutation effects in different cells</a></li>
+<li><a href="htmls/compare_cell_entry_site_zoom.html">Zoomable site chart of differences</a></li>
+</ul>
+<h4 id="row-wrapped-heatmaps">Row-wrapped heatmaps</h4>
+<ul>
+<li><a href="htmls/entry_in_C_musculinus_TfR1_wrapped_heatmap.html">entry_in_C_musculinus_TfR1</a></li>
+<li><a href="htmls/entry_in_C_callosus_TfR1_wrapped_heatmap.html">entry_in_C_callosus_TfR1</a></li>
+<li><a href="htmls/pH_stability_wrapped_heatmap.html">pH_stability</a></li>
+<li><a href="htmls/pH_core_wrapped_heatmap.html">pH_core</a></li>
+<li><a href="htmls/pH_intersubunits_wrapped_heatmap.html">pH_intersubunits</a></li>
+<li><a href="htmls/pH_transmembrane_domain_wrapped_heatmap.html">pH_transmembrane_domain</a></li>
+<li><a href="htmls/pH_stabilizing_candidates_wrapped_heatmap.html">pH_stabilizing_candidates</a></li>
+</ul>
+<h4 id="map-dms-scores-onto-pdb-structure">Map DMS scores onto PDB structure</h4>
+<ul>
+<li><a href="notebooks/pdb_mapping.html">Notebook mapping scores onto pdb structure</a></li>
+</ul>
+<h4 id="analyze-dms-scores-for-specific-gpc-regions">Analyze DMS scores for specific GPC regions</h4>
+<ul>
+<li><a href="notebooks/GPC_region_analysis.html">Notebook analyzing specific GPC regions and DMS scores</a></li>
+</ul>
+<h4 id="compare-dms-scores-to-natural-gpc-sequences">Compare DMS scores to natural GPC sequences</h4>
+<ul>
+<li><a href="notebooks/compare_to_natural_seqs.html">Notebook analyzing DMS scores of natural GPC mutations</a></li>
+</ul>
