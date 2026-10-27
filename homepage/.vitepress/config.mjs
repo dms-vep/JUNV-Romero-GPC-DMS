@@ -16,7 +16,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/dms-vep/JUNV-Romero-GPC-DMS" }],
     footer: {
-      message: "Copyright © 2026-present Caleb Carr and Jesse Bloom",
+      message: 'See <a href="https://www.biorxiv.org/content/10.64898/2026.10.22.761119v1">Carr et al (2026)</a> for study details',
     },
   },
 });
